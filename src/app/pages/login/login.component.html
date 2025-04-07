@@ -1,0 +1,55 @@
+<div class="login-container">
+  <div class="form-wrapper">
+    <h1 class="title">Login</h1>
+    <form  [formGroup]="loginform" (ngSubmit)="onLogin()">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          class="form-control"
+          placeholder="Enter Username"
+          formControlName="username"
+        />
+      </div>
+      <div class ="error" *ngIf="loginform.get('username')?.touched && loginform.get('username')?.invalid">
+      <p *ngIf="loginform.get('username')?.errors?.['required']">username is required</p>
+      <p *ngIf="loginform.get('username')?.errors?.['minlength']">Atleast 6 characters</p>
+    </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          class="form-control"
+          placeholder="Enter Password"
+          formControlName="password"
+          
+        />
+      </div>
+      <div class ="error" *ngIf="loginform.get('password')?.touched && loginform.get('password')?.invalid">
+        <p *ngIf="loginform.get('password')?.errors?.['required']">password is required</p>
+        <p *ngIf="loginform.get('password')?.errors?.['minlength']">Atleast 6 characters</p>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label class="form-check">
+            <input type="checkbox" class="form-check-input" name="rememberMe" />
+            Remember Me
+          </label>
+        </div>
+        <div class="col text-right">
+          <a href="#" class="forget-password">Forgot Password?</a>
+        </div>
+      </div>
+
+      <button class="btn-submit">Login</button>
+
+      <div class="login-options">
+        <p>Don’t have an account? <a routerLink ='/register' >Sign Up</a></p>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,131 @@
+/* Light-theme navbar with shadow and smooth UI */
+.navbar {
+    background: #ffffff;
+    color: #1f2937;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    position: relative;
+    z-index: 10;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+   .logo {
+    font-size: 2rem;
+    font-weight: 900;
+    text-decoration: none;
+    background: linear-gradient(90deg, #6366f1, #8b5cf6, #ec4899); 
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 4s ease-in-out infinite;
+    transition: transform 0.4s ease;
+    letter-spacing: 1px;
+  }
+  
+  .logo:hover {
+    transform: scale(1.08);
+    text-shadow: 0px 4px 10px rgba(139, 92, 246, 0.3);
+  }
+  
+  
+  @keyframes shimmer {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li a {
+    color: #1f2937;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Social icons */
+  .social-icons {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+  }
+  
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons img:hover {
+    filter: none;
+    transform: scale(1.1);
+  }
+  
+  /* Hamburger toggle button */
+  .menu-toggle {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #1f2937;
+    cursor: pointer;
+  }
+  
+  /* Responsive for mobile */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    ul {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background: #ffffff;
+      flex-direction: column;
+      padding: 1rem 1.5rem;
+      display: none;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      width: 200px;
+      border-radius: 0.5rem;
+    }
+  
+    ul.open {
+      display: flex;
+    }
+  
+    ul li {
+      margin-bottom: 0.75rem;
+    }
+  
+    ul li:last-child {
+      margin-bottom: 0;
+    }
+  }
+  

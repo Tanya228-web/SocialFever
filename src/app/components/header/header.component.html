@@ -1,0 +1,24 @@
+<nav class="navbar">
+    <div class="container">
+      <a class="logo" routerLink=""> ♥ SocialFever ♥</a>
+  
+      <button class="menu-toggle" (click)="isMenu()">☰</button>
+    
+      <ul [class.open]="openMenu">
+        <li><a routerLink="">Home</a></li>
+        <li><a routerLink="/register">Register</a></li>
+       
+       
+            <li  *ngIf="service.isLogin$ | async"> <a (click)="logout()">Logout</a></li>
+        
+
+      
+        <li><a routerLink="/login">Login</a></li>
+        
+        
+
+      
+      </ul>
+    </div>
+  </nav>
+  
