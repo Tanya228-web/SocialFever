@@ -36,5 +36,12 @@ export class UserService {
     
     )
   }
+  postData(){
+    let url="http://localhost:3000/posts"
+    return this.http.get(url)
+
+  }
+
+
 
 }
