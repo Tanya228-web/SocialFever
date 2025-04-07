@@ -1,40 +1,46 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { UserService } from '../../services/user.service';
-import { NgIf } from '@angular/common';
 import { CommonModule } from '@angular/common';
+
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatListModule } from '@angular/material/list';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [RouterLink,NgIf,CommonModule],
+  imports: [RouterLink, CommonModule, MatToolbarModule, MatButtonModule, MatIconModule, MatSidenavModule, MatListModule],
+  // template: `
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
 })
 export class HeaderComponent {
   openMenu = false;
-  
-
-
-  
+  isLargeScreen = window.innerWidth > 768;
 
   constructor(public service: UserService, private router: Router) {}
-  
-  // ngOnInit(){
-  //   this.service.isLogin$.subscribe((data:any)=>{
-  //     this.isLogin$=data
-  //     console.log(this.isLogin$)
-  //   })
 
-  // }
+  @HostListener('window:resize')
+  onResize() {
+    this.isLargeScreen = window.innerWidth > 768;
+  }
 
-  isMenu() {
-    this.openMenu = !this.openMenu;
+  ngOnInit() {
+    this.onResize();
+  }
+
+  closeIfMobile(sidenav: any) {
+    if (!this.isLargeScreen) {
+      sidenav.close();
+    }
   }
 
   logout() {
-    this.service.userLogout().subscribe((data:any) => {
-      console.log(data)
+    this.service.userLogout().subscribe((data: any) => {
+      console.log(data);
       this.router.navigate(['login']);
     });
   }

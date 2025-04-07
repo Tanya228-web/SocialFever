@@ -1,185 +1,160 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "title": "Sunrise Serenity",
-        "subtitle": "Early light, calm mind",
-        "description": "Starting the day with peaceful vibes and warm sunlight.",
-        "image": "https://picsum.photos/id/1015/600/400",
-        "photos": [
-          "https://picsum.photos/id/1015/600/400",
-          "https://picsum.photos/id/1016/600/400",
-          "https://picsum.photos/id/1018/600/400"
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Urban Escape",
-        "subtitle": "Finding beauty in the chaos",
-        "description": "Exploring quiet corners of a buzzing city.",
-        "image": "https://picsum.photos/id/1011/600/400",
-        "photos": [
-          "https://picsum.photos/id/1011/600/400",
-          "https://picsum.photos/id/1012/600/400",
-          "https://picsum.photos/id/1013/600/400"
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Nature Hike",
-        "subtitle": "Steps into the wild",
-        "description": "A breathtaking hike through trails and towering trees.",
-        "image": "https://picsum.photos/id/1003/600/400",
-        "photos": [
-          "https://picsum.photos/id/1003/600/400",
-          "https://picsum.photos/id/1004/600/400",
-          "https://picsum.photos/id/1005/600/400"
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Evening Glow",
-        "subtitle": "Golden hour perfection",
-        "description": "Capturing the sky as the sun dips below the horizon.",
-        "image": "https://picsum.photos/id/1024/600/400",
-        "photos": [
-          "https://picsum.photos/id/1024/600/400",
-          "https://picsum.photos/id/1025/600/400",
-          "https://picsum.photos/id/1026/600/400"
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Cozy Workspace",
-        "subtitle": "Where ideas brew",
-        "description": "My favorite corner to sip coffee and build dreams.",
-        "image": "https://picsum.photos/id/1040/600/400",
-        "photos": [
-          "https://picsum.photos/id/1040/600/400",
-          "https://picsum.photos/id/1041/600/400",
-          "https://picsum.photos/id/1042/600/400"
-        ]
-      },
-      {
-        "id": 6,
-        "title": "Seaside Bliss",
-        "subtitle": "Waves and peace",
-        "description": "A calm day spent watching waves crash softly.",
-        "image": "https://picsum.photos/id/1056/600/400",
-        "photos": [
-          "https://picsum.photos/id/1056/600/400",
-          "https://picsum.photos/id/1057/600/400",
-          "https://picsum.photos/id/1058/600/400"
-        ]
-      },
-      {
-        "id": 7,
-        "title": "Mountaintop Views",
-        "subtitle": "On top of the world",
-        "description": "That rewarding feeling after a tough climb.",
-        "image": "https://picsum.photos/id/1065/600/400",
-        "photos": [
-          "https://picsum.photos/id/1065/600/400",
-          "https://picsum.photos/id/1066/600/400",
-          "https://picsum.photos/id/1067/600/400"
-        ]
-      },
-      {
-        "id": 8,
-        "title": "Street Food Diaries",
-        "subtitle": "Flavors of the world",
-        "description": "Trying out delicious bites on the go.",
-        "image": "https://picsum.photos/id/1080/600/400",
-        "photos": [
-          "https://picsum.photos/id/1080/600/400",
-          "https://picsum.photos/id/1081/600/400",
-          "https://picsum.photos/id/1082/600/400"
-        ]
-      },
-      {
-        "id": 9,
-        "title": "Park Chill Vibes",
-        "subtitle": "Green therapy 🌿",
-        "description": "Laid-back weekend afternoons with a good book.",
-        "image": "https://picsum.photos/id/1090/600/400",
-        "photos": [
-          "https://picsum.photos/id/1090/600/400",
-          "https://picsum.photos/id/1091/600/400",
-          "https://picsum.photos/id/1092/600/400"
-        ]
-      },
-      {
-        "id": 10,
-        "title": "City Lights",
-        "subtitle": "Neon dreams",
-        "description": "Wandering the streets after dark, camera in hand.",
-        "image": "https://picsum.photos/id/1100/600/400",
-        "photos": [
-          "https://picsum.photos/id/1100/600/400",
-          "https://picsum.photos/id/1101/600/400",
-          "https://picsum.photos/id/1102/600/400"
-        ]
-      },
-      {
-        "id": 11,
-        "title": "Art Studio Days",
-        "subtitle": "Splashes of creativity",
-        "description": "Getting messy with colors and letting the imagination flow.",
-        "image": "https://picsum.photos/id/1115/600/400",
-        "photos": [
-          "https://picsum.photos/id/1115/600/400",
-          "https://picsum.photos/id/1116/600/400",
-          "https://picsum.photos/id/1117/600/400"
-        ]
-      },
-      {
-        "id": 12,
-        "title": "Rainy Windows",
-        "subtitle": "Mood: cozy",
-        "description": "Raindrops tapping the window, tea in hand. Bliss.",
-        "image": "https://picsum.photos/id/1125/600/400",
-        "photos": [
-          "https://picsum.photos/id/1125/600/400",
-          "https://picsum.photos/id/1126/600/400",
-          "https://picsum.photos/id/1127/600/400"
-        ]
-      },
-      {
-        "id": 13,
-        "title": "Desert Dreams",
-        "subtitle": "Endless dunes",
-        "description": "A walk through golden sands under a fiery sky.",
-        "image": "https://picsum.photos/id/1135/600/400",
-        "photos": [
-          "https://picsum.photos/id/1135/600/400",
-          "https://picsum.photos/id/1136/600/400",
-          "https://picsum.photos/id/1137/600/400"
-        ]
-      },
-      {
-        "id": 14,
-        "title": "Bike Trails",
-        "subtitle": "Pedal-powered adventures",
-        "description": "Cruising through winding roads and forest paths.",
-        "image": "https://picsum.photos/id/1145/600/400",
-        "photos": [
-          "https://picsum.photos/id/1145/600/400",
-          "https://picsum.photos/id/1146/600/400",
-          "https://picsum.photos/id/1147/600/400"
-        ]
-      },
-      {
-        "id": 15,
-        "title": "Campfire Stories",
-        "subtitle": "Flames, friends, and laughter",
-        "description": "Unforgettable memories made around the fire.",
-        "image": "https://picsum.photos/id/1155/600/400",
-        "photos": [
-          "https://picsum.photos/id/1155/600/400",
-          "https://picsum.photos/id/1156/600/400",
-          "https://picsum.photos/id/1157/600/400"
-        ]
-      }
-    ]
-  }
-  
+  "posts": [
+    {
+      "id": 1,
+      "title": "Sunrise Serenity",
+      "subtitle": "Early light, calm mind",
+      "description": "Starting the day with peaceful vibes and warm sunlight.",
+      "image": "https://picsum.photos/id/10/600/400",
+      "photos": [
+        "https://picsum.photos/id/10/600/400",
+        "https://picsum.photos/id/20/600/400",
+        "https://picsum.photos/id/30/600/400"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Urban Escape",
+      "subtitle": "Finding beauty in the chaos",
+      "description": "Exploring quiet corners of a buzzing city.",
+      "image": "https://picsum.photos/id/40/600/400",
+      "photos": [
+        "https://picsum.photos/id/40/600/400",
+        "https://picsum.photos/id/50/600/400",
+        "https://picsum.photos/id/60/600/400"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Nature Hike",
+      "subtitle": "Steps into the wild",
+      "description": "A breathtaking hike through trails and towering trees.",
+      "image": "https://picsum.photos/id/70/600/400",
+      "photos": [
+        "https://picsum.photos/id/70/600/400",
+        "https://picsum.photos/id/100/600/400",
+        "https://picsum.photos/id/101/600/400"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Evening Glow",
+      "subtitle": "Golden hour perfection",
+      "description": "Capturing the sky as the sun dips below the horizon.",
+      "image": "https://picsum.photos/id/102/600/400",
+      "photos": [
+        "https://picsum.photos/id/102/600/400",
+        "https://picsum.photos/id/103/600/400",
+        "https://picsum.photos/id/104/600/400"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Seaside Bliss",
+      "subtitle": "Waves and peace",
+      "description": "A calm day spent watching waves crash softly.",
+      "image": "https://picsum.photos/id/202/600/400",
+      "photos": [
+        "https://picsum.photos/id/202/600/400",
+        "https://picsum.photos/id/203/600/400",
+        "https://picsum.photos/id/30/600/400"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Mountaintop Views",
+      "subtitle": "On top of the world",
+      "description": "That rewarding feeling after a tough climb.",
+      "image": "https://picsum.photos/id/20/600/400",
+      "photos": [
+        "https://picsum.photos/id/20/600/400",
+        "https://picsum.photos/id/104/600/400",
+        "https://picsum.photos/id/200/600/400"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Street Food Diaries",
+      "subtitle": "Flavors of the world",
+      "description": "Trying out delicious bites on the go.",
+      "image": "https://picsum.photos/id/50/600/400",
+      "photos": [
+        "https://picsum.photos/id/50/600/400",
+        "https://picsum.photos/id/105/600/400",
+        "https://picsum.photos/id/60/600/400"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Park Chill Vibes",
+      "subtitle": "Green therapy 🌿",
+      "description": "Laid-back weekend afternoons with a good book.",
+      "image": "https://picsum.photos/id/70/600/400",
+      "photos": [
+        "https://picsum.photos/id/70/600/400",
+        "https://picsum.photos/id/101/600/400",
+        "https://picsum.photos/id/203/600/400"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "City Lights",
+      "subtitle": "Neon dreams",
+      "description": "Wandering the streets after dark, camera in hand.",
+      "image": "https://picsum.photos/id/102/600/400",
+      "photos": [
+        "https://picsum.photos/id/102/600/400",
+        "https://picsum.photos/id/103/600/400",
+        "https://picsum.photos/id/104/600/400"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Rainy Windows",
+      "subtitle": "Mood: cozy",
+      "description": "Raindrops tapping the window, tea in hand. Bliss.",
+      "image": "https://picsum.photos/id/202/600/400",
+      "photos": [
+        "https://picsum.photos/id/202/600/400",
+        "https://picsum.photos/id/203/600/400",
+        "https://picsum.photos/id/104/600/400"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Desert Dreams",
+      "subtitle": "Endless dunes",
+      "description": "A walk through golden sands under a fiery sky.",
+      "image": "https://picsum.photos/id/20/600/400",
+      "photos": [
+        "https://picsum.photos/id/20/600/400",
+        "https://picsum.photos/id/30/600/400",
+        "https://picsum.photos/id/50/600/400"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bike Trails",
+      "subtitle": "Pedal-powered adventures",
+      "description": "Cruising through winding roads and forest paths.",
+      "image": "https://picsum.photos/id/60/600/400",
+      "photos": [
+        "https://picsum.photos/id/60/600/400",
+        "https://picsum.photos/id/70/600/400",
+        "https://picsum.photos/id/100/600/400"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Campfire Stories",
+      "subtitle": "Flames, friends, and laughter",
+      "description": "Unforgettable memories made around the fire.",
+      "image": "https://picsum.photos/id/101/600/400",
+      "photos": [
+        "https://picsum.photos/id/101/600/400",
+        "https://picsum.photos/id/102/600/400",
+        "https://picsum.photos/id/103/600/400"
+      ]
+    }
+  ]
+}
