@@ -1,15 +1,14 @@
+.post {
+  background-color: rgb(234, 219, 222);
+  padding: 20px 0;
+}
 #post-button {
-    position: fixed;
-    bottom: 2em;
-    right: 2em;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
 }
 
 #post-feed {
-    max-width: 500px;
-    margin-top: 5em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom:20px;
-    
+  max-width: 500px;
+  margin: 0 auto;
 }
-

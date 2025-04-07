@@ -1,9 +1,5 @@
 <mat-card *ngFor="let post of postData" class="post-card">
-    <mat-card-header>
-      <mat-card-title>{{ post.title }}</mat-card-title>
-      <mat-card-subtitle>{{ post.subtitle }}</mat-card-subtitle>
-    </mat-card-header>
-  
+   
     <!-- Carousel Section -->
     <div class="carousel-container" *ngIf="post.photos?.length">
       <img [src]="post.photos[post.currentIndex || 0]" class="carousel-image" />
@@ -11,6 +7,11 @@
       <button class="carousel-btn left" (click)="prevImage(post)">&#8249;</button>
       <button class="carousel-btn right" (click)="nextImage(post)">&#8250;</button>
     </div>
+    <mat-card-header>
+        <mat-card-title>{{ post.title }}</mat-card-title>
+        <mat-card-subtitle>{{ post.subtitle }}</mat-card-subtitle>
+      </mat-card-header>
+    
   
     <mat-card-content>
       {{ post.description }}
