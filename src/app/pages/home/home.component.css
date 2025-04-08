@@ -1,14 +1,27 @@
 .post {
-  background-color: rgb(234, 219, 222); 
+  background-color: rgb(234, 219, 222);
   padding: 20px 0;
+  position: relative;
+  min-height: 100vh;
 }
-#post-button {
-  position: fixed;
-  bottom: 2em;
-  right: 2em;
-}
+
 
 #post-feed {
   max-width: 500px;
   margin: 0 auto;
 }
+
+#post-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+#post-button:hover {
+  transform: scale(1.1);
+}
+
+

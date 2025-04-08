@@ -1,372 +1,319 @@
 {
   "users": [
     {
+      "id": "u1",
+      "name": "Tanya Singh",
+      "username": "tanya.codes",
+      "email": "tanya@example.com",
+      "avatar": "https://example.com/avatars/u1.jpg",
+      "bio": "Builder of cool things ✨",
+      "location": "Gwalior, India"
+    },
+    {
       "id": "u2",
       "name": "Rohan Kapoor",
       "username": "rohan_k",
       "email": "rohan.kapoor@example.com",
       "avatar": "https://example.com/avatars/u2.jpg",
       "bio": "Tech geek 💻 | Gamer 🎮",
-      "location": "Bangalore, India",
-      "website": "https://rohanverse.dev",
-      "createdAt": "2025-04-08T10:05:00Z",
-      "updatedAt": "2025-04-08T10:05:00Z"
+      "location": "Bangalore, India"
     },
     {
       "id": "u3",
-      "name": "Simran Kaur",
-      "username": "simran_kaur",
-      "email": "simran.kaur@example.com",
+      "name": "Priya Sharma",
+      "username": "priya.s",
+      "email": "priya.sharma@example.com",
       "avatar": "https://example.com/avatars/u3.jpg",
-      "bio": "Poet ✍️ | Dreamer ☁️",
-      "location": "Chandigarh, India",
-      "website": "https://simranwrites.me",
-      "createdAt": "2025-04-08T10:10:00Z",
-      "updatedAt": "2025-04-08T10:10:00Z"
+      "bio": "Nature lover 🌿 | Photographer 📸",
+      "location": "Dehradun, India"
     },
     {
       "id": "u4",
-      "name": "Aditya Sharma",
-      "username": "aditya_s",
-      "email": "aditya.sharma@example.com",
+      "name": "Amit Verma",
+      "username": "amitv",
+      "email": "amit.verma@example.com",
       "avatar": "https://example.com/avatars/u4.jpg",
-      "bio": "Coder by day, chef by night 🍜",
-      "location": "Delhi, India",
-      "website": "https://adityacodes.com",
-      "createdAt": "2025-04-08T10:15:00Z",
-      "updatedAt": "2025-04-08T10:15:00Z"
+      "bio": "Coffee ☕ and code 💻",
+      "location": "Delhi, India"
     },
     {
       "id": "u5",
-      "name": "Meera Iyer",
-      "username": "meera_iyer",
-      "email": "meera.iyer@example.com",
+      "name": "Neha Rao",
+      "username": "neha_rao",
+      "email": "neha.rao@example.com",
       "avatar": "https://example.com/avatars/u5.jpg",
-      "bio": "Traveler ✈️ | Foodie 🍲",
-      "location": "Pune, India",
-      "website": "https://meeraexplores.in",
-      "createdAt": "2025-04-08T10:20:00Z",
-      "updatedAt": "2025-04-08T10:20:00Z"
+      "bio": "Traveler 🌍 | Blogger ✍️",
+      "location": "Mumbai, India"
     },
     {
       "id": "u6",
-      "name": "Arjun Verma",
-      "username": "arjun_v",
-      "email": "arjun.verma@example.com",
+      "name": "Ishaan Joshi",
+      "username": "ishaanj",
+      "email": "ishaan.joshi@example.com",
       "avatar": "https://example.com/avatars/u6.jpg",
-      "bio": "Design thinker 🎨 | Minimalist",
-      "location": "Hyderabad, India",
-      "website": "https://vermacreative.com",
-      "createdAt": "2025-04-08T10:25:00Z",
-      "updatedAt": "2025-04-08T10:25:00Z"
+      "bio": "Full Stack Dev 🛠️ | Cat dad 🐈",
+      "location": "Hyderabad, India"
     },
     {
       "id": "u7",
-      "name": "Tanya Singh",
-      "username": "tanya_singh",
-      "email": "tanya.singh@example.com",
+      "name": "Sara Ali",
+      "username": "sara.a",
+      "email": "sara.ali@example.com",
       "avatar": "https://example.com/avatars/u7.jpg",
-      "bio": "Fitness junkie 🏋️‍♀️ | Bookworm 📚",
-      "location": "Lucknow, India",
-      "website": "https://tanyafitread.com",
-      "createdAt": "2025-04-08T10:30:00Z",
-      "updatedAt": "2025-04-08T10:30:00Z"
+      "bio": "Fitness 🏋️ & Coding 💻",
+      "location": "Pune, India"
     },
     {
       "id": "u8",
-      "name": "Kabir Nanda",
-      "username": "kabir_nanda",
-      "email": "kabir.nanda@example.com",
+      "name": "Aditya Mehta",
+      "username": "adimehta",
+      "email": "aditya.mehta@example.com",
       "avatar": "https://example.com/avatars/u8.jpg",
-      "bio": "Music is life 🎵 | Pianist 🎹",
-      "location": "Jaipur, India",
-      "website": "https://kabirmusic.io",
-      "createdAt": "2025-04-08T10:35:00Z",
-      "updatedAt": "2025-04-08T10:35:00Z"
+      "bio": "Books 📚 and Backend 🔧",
+      "location": "Kolkata, India"
     },
     {
       "id": "u9",
-      "name": "Ananya Joshi",
-      "username": "ananya_joshi",
-      "email": "ananya.joshi@example.com",
+      "name": "Meera Das",
+      "username": "meerad",
+      "email": "meera.das@example.com",
       "avatar": "https://example.com/avatars/u9.jpg",
-      "bio": "Cat mom 🐱 | Art lover 🎭",
-      "location": "Kolkata, India",
-      "website": "https://ananyaspace.art",
-      "createdAt": "2025-04-08T10:40:00Z",
-      "updatedAt": "2025-04-08T10:40:00Z"
+      "bio": "Designer 🎨 | Minimalist ✨",
+      "location": "Ahmedabad, India"
     },
     {
       "id": "u10",
-      "name": "Dev Patel",
-      "username": "dev_pat",
-      "email": "dev.patel@example.com",
+      "name": "Ankit Singh",
+      "username": "ankits",
+      "email": "ankit.singh@example.com",
       "avatar": "https://example.com/avatars/u10.jpg",
-      "bio": "Entrepreneur 🚀 | Reader 📘",
-      "location": "Ahmedabad, India",
-      "website": "https://devventures.com",
-      "createdAt": "2025-04-08T10:45:00Z",
-      "updatedAt": "2025-04-08T10:45:00Z"
+      "bio": "Cyclist 🚴‍♂️ | Dev by day 🌞",
+      "location": "Lucknow, India"
+    },
+    {
+      "id": "u11",
+      "name": "Nidhi Yadav",
+      "username": "nidhi_y",
+      "email": "nidhi.yadav@example.com",
+      "avatar": "https://example.com/avatars/u11.jpg",
+      "bio": "Web3 explorer 🔗 | Speaker 🎤",
+      "location": "Indore, India"
+    },
+    {
+      "id": "u12",
+      "name": "Manav Jha",
+      "username": "manavj",
+      "email": "manav.jha@example.com",
+      "avatar": "https://example.com/avatars/u12.jpg",
+      "bio": "Poetry ✍️ and Pixels 💾",
+      "location": "Chandigarh, India"
+    },
+    {
+      "id": "u13",
+      "name": "Sneha Kulkarni",
+      "username": "sneha.codes",
+      "email": "sneha.k@example.com",
+      "avatar": "https://example.com/avatars/u13.jpg",
+      "bio": "DevOps Ninja 🛡️ | Open Source 💡",
+      "location": "Nagpur, India"
+    },
+    {
+      "id": "u14",
+      "name": "Varun Bhatt",
+      "username": "varun.b",
+      "email": "varun.bhatt@example.com",
+      "avatar": "https://example.com/avatars/u14.jpg",
+      "bio": "Freelancer ⚡ | Startup dreamer 🚀",
+      "location": "Jaipur, India"
+    },
+    {
+      "id": "u15",
+      "name": "Kriti Sen",
+      "username": "kriti.s",
+      "email": "kriti.sen@example.com",
+      "avatar": "https://example.com/avatars/u15.jpg",
+      "bio": "Frontend fanatic 💅 | Anime lover 🎌",
+      "location": "Surat, India"
     }
   ],
+
   "posts": [
-  {
-    "id": "p2",
-    "userId": "u3",
-    "description": "Clouds whispered secrets to the mountains.",
-    "photos": [
-      "https://picsum.photos/seed/p2a/640/480",
-      "https://picsum.photos/seed/p2b/640/480"
-    ],
-    "likes": ["l16", "l17", "l18"],
-    "comments": ["c4", "c5"]
-  },
-  {
-    "id": "p3",
-    "userId": "u6",
-    "description": "Minimalism is not lack of something. It’s simply the perfect amount.",
-    "photos": [
-      "https://picsum.photos/seed/p3a/640/480",
-      "https://picsum.photos/seed/p3b/640/480"
-    ],
-    "likes": ["l19", "l20"],
-    "comments": ["c6"]
-  },
-  {
-    "id": "p4",
-    "userId": "u4",
-    "description": "Chef mode activated 👨‍🍳🍝",
-    "photos": [
-      "https://picsum.photos/seed/p4a/640/480",
-      "https://picsum.photos/seed/p4b/640/480"
-    ],
-    "likes": ["l21", "l22", "l23", "l24"],
-    "comments": ["c7", "c8"]
-  },
-  {
-    "id": "p5",
-    "userId": "u9",
-    "description": "My cat rules this house 🐾",
-    "photos": [
-      "https://picsum.photos/seed/p5a/640/480",
-      "https://picsum.photos/seed/p5b/640/480"
-    ],
-    "likes": ["l25", "l26", "l27", "l28"],
-    "comments": ["c9"]
-  },
-  {
-    "id": "p6",
-    "userId": "u2",
-    "description": "Gaming all night 🎮🔥 #NoRegrets",
-    "photos": [
-      "https://picsum.photos/seed/p6a/640/480",
-      "https://picsum.photos/seed/p6b/640/480"
-    ],
-    "likes": ["l29", "l30", "l31"],
-    "comments": ["c10", "c11"]
-  },
-  {
-    "id": "p7",
-    "userId": "u8",
-    "description": "Practice makes perfect 🎹🎶",
-    "photos": [
-      "https://picsum.photos/seed/p7a/640/480",
-      "https://picsum.photos/seed/p7b/640/480"
-    ],
-    "likes": ["l32", "l33", "l34", "l35"],
-    "comments": ["c12"]
-  },
-  {
-    "id": "p8",
-    "userId": "u7",
-    "description": "Post-workout glow 💪✨",
-    "photos": [
-      "https://picsum.photos/seed/p8a/640/480",
-      "https://picsum.photos/seed/p8b/640/480"
-    ],
-    "likes": ["l36", "l37", "l38"],
-    "comments": ["c13", "c14"]
-  },
-  {
-    "id": "p9",
-    "userId": "u1",
-    "description": "Sunsets and city lights 🧡",
-    "photos": [
-      "https://picsum.photos/seed/p9a/640/480",
-      "https://picsum.photos/seed/p9b/640/480"
-    ],
-    "likes": ["l39", "l40"],
-    "comments": ["c15"]
-  },
-  {
-    "id": "p10",
-    "userId": "u10",
-    "description": "Startup grind never stops 🚀📈",
-    "photos": [
-      "https://picsum.photos/seed/p10a/640/480",
-      "https://picsum.photos/seed/p10b/640/480"
-    ],
-    "likes": ["l41", "l42", "l43"],
-    "comments": ["c16", "c17"]
-  },
-  {
-    "id": "p11",
-    "userId": "u6",
-    "description": "Mood board for the next project 🎨🧠",
-    "photos": [
-      "https://picsum.photos/seed/p11a/640/480",
-      "https://picsum.photos/seed/p11b/640/480"
-    ],
-    "likes": ["l44", "l45"],
-    "comments": ["c18"]
-  },
-  {
-    "id": "p12",
-    "userId": "u5",
-    "description": "Wanderlust in full swing 🏞️",
-    "photos": [
-      "https://picsum.photos/seed/p12a/640/480",
-      "https://picsum.photos/seed/p12b/640/480"
-    ],
-    "likes": ["l46", "l47", "l48", "l49"],
-    "comments": ["c19", "c20"]
-  },
-  {
-    "id": "p13",
-    "userId": "u4",
-    "description": "Code, coffee, repeat ☕💻",
-    "photos": [
-      "https://picsum.photos/seed/p13a/640/480",
-      "https://picsum.photos/seed/p13b/640/480"
-    ],
-    "likes": ["l50", "l51"],
-    "comments": ["c21", "c22"]
-  },
-  {
-    "id": "p14",
-    "userId": "u7",
-    "description": "A good book and some chai 📚☕",
-    "photos": [
-      "https://picsum.photos/seed/p14a/640/480",
-      "https://picsum.photos/seed/p14b/640/480"
-    ],
-    "likes": ["l52", "l53", "l54"],
-    "comments": ["c23"]
-  },
-  {
-    "id": "p15",
-    "userId": "u8",
-    "description": "Sunday jam sessions 🎸",
-    "photos": [
-      "https://picsum.photos/seed/p15a/640/480",
-      "https://picsum.photos/seed/p15b/640/480"
-    ],
-    "likes": ["l55", "l56", "l57"],
-    "comments": ["c24", "c25"]
-  },
-  {
-    "id": "p16",
-    "userId": "u9",
-    "description": "Art speaks where words are unable to explain 🎭🖌️",
-    "photos": [
-      "https://picsum.photos/seed/p16a/640/480",
-      "https://picsum.photos/seed/p16b/640/480"
-    ],
-    "likes": ["l58", "l59"],
-    "comments": ["c26"]
-  }
-],
+    {
+      "id": "p1",
+      "userId": "u1",
+      "description": "Just launched my new portfolio 🚀",
+      "photos": [
+        "https://picsum.photos/seed/p1a/640/480",
+        "https://picsum.photos/seed/p1b/640/480"
+      ]
+    },
+    {
+      "id": "p2",
+      "userId": "u3",
+      "description": "Clouds whispered secrets to the mountains.",
+      "photos": [
+        "https://picsum.photos/seed/p2a/640/480",
+        "https://picsum.photos/seed/p2b/640/480"
+      ]
+    },
+    {
+      "id": "p3",
+      "userId": "u2",
+      "description": "Debugging life, one bug at a time 🐞",
+      "photos": ["https://picsum.photos/seed/p3/640/480"]
+    },
+    {
+      "id": "p4",
+      "userId": "u1",
+      "description": "Sunsets & sandcastles 🌅🏖️",
+      "photos": ["https://picsum.photos/seed/p4/640/480"]
+    },
+    {
+      "id": "p5",
+      "userId": "u4",
+      "description": "Late night coding with lo-fi beats 🎧",
+      "photos": ["https://picsum.photos/seed/p5/640/480"]
+    },
+    {
+      "id": "p6",
+      "userId": "u5",
+      "description": "Wandered into a hidden waterfall today! 💦",
+      "photos": [
+        "https://picsum.photos/seed/p6a/640/480",
+        "https://picsum.photos/seed/p6b/640/480"
+      ]
+    },
+    {
+      "id": "p7",
+      "userId": "u6",
+      "description": "My cat just wrote better code than me 🐈‍⬛",
+      "photos": ["https://picsum.photos/seed/p7/640/480"]
+    },
+    {
+      "id": "p8",
+      "userId": "u7",
+      "description": "Pushed a new PR and maxed out deadlifts today 💪",
+      "photos": ["https://picsum.photos/seed/p8/640/480"]
+    },
+    {
+      "id": "p9",
+      "userId": "u8",
+      "description": "Weekend reading with coffee and Python ☕🐍",
+      "photos": ["https://picsum.photos/seed/p9/640/480"]
+    },
+    {
+      "id": "p10",
+      "userId": "u9",
+      "description": "New UI kit drop! 🎨",
+      "photos": ["https://picsum.photos/seed/p10/640/480"]
+    },
+    {
+      "id": "p11",
+      "userId": "u10",
+      "description": "Cycling through old city lanes 🚴‍♂️",
+      "photos": ["https://picsum.photos/seed/p11/640/480"]
+    },
+    {
+      "id": "p12",
+      "userId": "u11",
+      "description": "Web3 community meetup highlights 🔗",
+      "photos": ["https://picsum.photos/seed/p12/640/480"]
+    },
+    {
+      "id": "p13",
+      "userId": "u12",
+      "description": "Code & couplets for a calm evening 📝",
+      "photos": ["https://picsum.photos/seed/p13/640/480"]
+    },
+    {
+      "id": "p14",
+      "userId": "u13",
+      "description": "Deployed to production. Now I wait... 😅",
+      "photos": ["https://picsum.photos/seed/p14/640/480"]
+    },
+    {
+      "id": "p15",
+      "userId": "u14",
+      "description": "Startup vibes & sprints 🚀💼",
+      "photos": ["https://picsum.photos/seed/p15/640/480"]
+    }
+  ],
 
   "likes": [
     {
-      "id": "l16",
-      "userId": "u1",
-      "postId": "p2",
-      "createdAt": "2025-02-19T09:15:00Z"
-    },
-    {
-      "id": "l17",
+      "id": "l1",
       "userId": "u2",
-      "postId": "p2",
-      "createdAt": "2025-02-19T09:20:00Z"
+      "postId": "p1"
     },
     {
-      "id": "l18",
+      "id": "l2",
+      "userId": "u1",
+      "postId": "p2"
+    },
+    {
+      "id": "l3",
       "userId": "u3",
-      "postId": "p2",
-      "createdAt": "2025-02-19T09:25:00Z"
+      "postId": "p3"
     },
     {
-      "id": "l19",
+      "id": "l4",
+      "userId": "u3",
+      "postId": "p4"
+    },
+    {
+      "id": "l5",
       "userId": "u4",
-      "postId": "p3",
-      "createdAt": "2025-02-20T08:50:00Z"
+      "postId": "p5"
     },
     {
-      "id": "l20",
+      "id": "l6",
       "userId": "u5",
-      "postId": "p3",
-      "createdAt": "2025-02-20T08:55:00Z"
+      "postId": "p6"
     },
     {
-      "id": "l21",
+      "id": "l7",
       "userId": "u6",
-      "postId": "p4",
-      "createdAt": "2025-02-21T12:05:00Z"
+      "postId": "p7"
     },
     {
-      "id": "l22",
+      "id": "l8",
       "userId": "u7",
-      "postId": "p4",
-      "createdAt": "2025-02-21T12:10:00Z"
+      "postId": "p8"
     },
     {
-      "id": "l23",
+      "id": "l9",
       "userId": "u8",
-      "postId": "p4",
-      "createdAt": "2025-02-21T12:15:00Z"
+      "postId": "p9"
     },
     {
-      "id": "l24",
-      "userId": "",
-      "postId": "p4",
-      "createdAt": "2025-02-21T12:20:00Z"
-    },
-    {
-      "id": "l25",
+      "id": "l10",
       "userId": "u9",
-      "postId": "p5",
-      "createdAt": "2025-02-22T14:20:00Z"
+      "postId": "p10"
     },
     {
-      "id": "l26",
+      "id": "l11",
       "userId": "u10",
-      "postId": "p5",
-      "createdAt": "2025-02-22T14:25:00Z"
+      "postId": "p11"
     },
     {
-      "id": "l27",
-      "userId": "",
-      "postId": "p5",
-      "createdAt": "2025-02-22T14:30:00Z"
+      "id": "l12",
+      "userId": "u11",
+      "postId": "p12"
     },
     {
-      "id": "l28",
-      "userId": "",
-      "postId": "p5",
-      "createdAt": "2025-02-22T14:35:00Z"
+      "id": "l13",
+      "userId": "u12",
+      "postId": "p13"
     },
     {
-      "id": "l29",
-      "userId": "",
-      "postId": "",
-      "createdAt": ""
+      "id": "l14",
+      "userId": "u13",
+      "postId": "p14"
     },
     {
-      "id": "",
-      "userId": "",
-      "postId": "",
-      "createdAt": ""
+      "id": "l15",
+      "userId": "u14",
+      "postId": "p15"
     }
   ],
   "comments": [
@@ -374,22 +321,91 @@
       "id": "c1",
       "userId": "u2",
       "postId": "p1",
-      "content": "This photo gives such chill vibes 🔥",
-      "createdAt": "2025-02-18T11:20:00Z"
+      "text": "Awesome work Tanya! 🔥"
     },
     {
       "id": "c2",
-      "userId": "u3",
-      "postId": "p1",
-      "content": "I love the lighting in this one!",
-      "createdAt": "2025-02-18T11:21:00Z"
+      "userId": "u1",
+      "postId": "p2",
+      "text": "This photo feels magical!"
     },
     {
       "id": "c3",
+      "userId": "u2",
+      "postId": "p3",
+      "text": "Haha, story of my life 😂"
+    },
+    {
+      "id": "c4",
+      "userId": "u3",
+      "postId": "p4",
+      "text": "Gorgeous shot 😍"
+    },
+    {
+      "id": "c5",
       "userId": "u4",
-      "postId": "p1",
-      "content": "That caption is deep 😮‍💨",
-      "createdAt": "2025-02-18T11:22:00Z"
+      "postId": "p5",
+      "text": "So proud of your progress!"
+    },
+    {
+      "id": "c6",
+      "userId": "u5",
+      "postId": "p6",
+      "text": "How did you take that photo? Incredible!"
+    },
+    {
+      "id": "c7",
+      "userId": "u6",
+      "postId": "p7",
+      "text": "Your feed is always inspiring ✨"
+    },
+    {
+      "id": "c8",
+      "userId": "u7",
+      "postId": "p8",
+      "text": "This just made my day ❤️"
+    },
+    {
+      "id": "c9",
+      "userId": "u8",
+      "postId": "p9",
+      "text": "Need a wallpaper version 😍"
+    },
+    {
+      "id": "c10",
+      "userId": "u9",
+      "postId": "p10",
+      "text": "That vibe though 🔥🔥🔥"
+    },
+    {
+      "id": "c11",
+      "userId": "u10",
+      "postId": "p11",
+      "text": "Gave me chills. Wow!"
+    },
+    {
+      "id": "c12",
+      "userId": "u11",
+      "postId": "p12",
+      "text": "One of your best posts yet 🙌"
+    },
+    {
+      "id": "c13",
+      "userId": "u12",
+      "postId": "p13",
+      "text": "Dreamy aesthetic 🌈"
+    },
+    {
+      "id": "c14",
+      "userId": "u13",
+      "postId": "p14",
+      "text": "Why is this so relatable? 😂"
+    },
+    {
+      "id": "c15",
+      "userId": "u14",
+      "postId": "p15",
+      "text": "Bro this is gold 🪙"
     }
   ]
 }

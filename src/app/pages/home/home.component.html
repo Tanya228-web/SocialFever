@@ -1,11 +1,18 @@
-<div class = "post">
+<div class="post">
   <div id="post-feed">
     <app-post [postData]="postList"></app-post>
   </div>
-  <div>
-    <app-post-form></app-post-form>
-  </div>
-  <button mat-fab color="warn" id="post-button">
-    <mat-icon (click)="openDialog()">add</mat-icon>
-  </button>
+
+
+  <button
+  mat-fab
+  color="primary"
+  id="post-button"
+  (click)="openDialog()"
+  matTooltip="Create a new post"
+  aria-label="Add Post"
+>
+  <mat-icon>add</mat-icon>
+</button>
+
 </div>

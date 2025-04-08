@@ -1,26 +1,20 @@
 <mat-card *ngFor="let post of postData" class="post-card">
+  <div class="carousel-container" *ngIf="post.photos?.length">
+    <img [src]="post.photos[post.currentIndex || 0]" class="carousel-image" />
+    <button class="carousel-btn left" (click)="prevImage(post)">&#8249;</button>
+    <button class="carousel-btn right" (click)="nextImage(post)">&#8250;</button>
+  </div>
 
-    <div class="carousel-container" *ngIf="post.photos?.length">
-      <img [src]="post.photos[post.currentIndex || 0]" class="carousel-image" />
-  
-      <button class="carousel-btn left" (click)="prevImage(post)">&#8249;</button>
-      <button class="carousel-btn right" (click)="nextImage(post)">&#8250;</button>
-    </div>
-      
-    <mat-card-actions>
-      <mat-icon class="action-item" color="warn">chat_bubble_outline</mat-icon>
-      <mat-icon class="action-item" color="warn">favorite_border</mat-icon>
-      <mat-icon class="action-item" color="warn">save</mat-icon>
-    </mat-card-actions>
-    
+  <mat-card-actions class="post-actions">
+    <mat-icon class="action-item" color="warn">chat_bubble_outline</mat-icon>
+    <mat-icon class="action-item" color="warn">favorite_border</mat-icon>
+    <mat-icon class="action-item" color="warn">save</mat-icon>
+  </mat-card-actions>
     <mat-card-header>
-        <mat-card-title>Tanya</mat-card-title>
-      </mat-card-header>
-    
-  
-    <mat-card-content class="post-content">
-      {{ post.description }}
-    </mat-card-content>
+    <mat-card-title class="post-author">Tanya</mat-card-title>
+  </mat-card-header>
 
-  </mat-card>
-  
+  <mat-card-content class="post-content">
+    {{ post.description }}
+  </mat-card-content>
+</mat-card>

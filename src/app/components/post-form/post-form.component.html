@@ -1,38 +1,35 @@
 <h1 mat-dialog-title class="flex justify-between items-center">
-    Upload Image and Caption
-    <button mat-icon-button aria-label="Close">
-      <mat-icon>close</mat-icon>
-    </button>
-  </h1>
-  
-  <form [formGroup]="postForm" (ngSubmit)="onSubmit()">
-    <div mat-dialog-content>
-  
-      <!-- Caption input -->
-      <mat-form-field appearance="fill" class="w-full">
-        <mat-label>Caption</mat-label>
-        <input matInput formControlName="caption" placeholder="Enter caption" />
-      </mat-form-field>
-  
-      <!-- Image URL input -->
-      <mat-form-field appearance="fill" class="w-full">
-        <mat-label>Image URL</mat-label>
-        <input matInput formControlName="imageUrl" placeholder="Enter image link" />
-      </mat-form-field>
-  
-      <!-- Live Preview -->
-      <!-- <img
-        *ngIf="postForm.value.imageUrl"
-        [src]="postForm.value.imageUrl"
-        alt="Preview"
-        style="max-width: 100%; margin-top: 10px;"
-      /> -->
-  
-    </div>
-  
-    <div mat-dialog-actions>
-      
-      <button mat-button color="primary" type="submit">Upload</button>
-    </div>
-  </form>
-  
+  Create Post
+  <button mat-icon-button aria-label="Close" (click)="onClose()">
+    <mat-icon>close</mat-icon>
+  </button>
+</h1>
+
+<form [formGroup]="postForm" (ngSubmit)="onSubmit()">
+  <div mat-dialog-content>
+    <mat-form-field appearance="fill" class="w-full">
+      <mat-label>Image URL</mat-label>
+      <input
+        matInput
+        formControlName="imageUrl"
+        placeholder="Enter image link"
+      />
+    </mat-form-field>
+    <br />
+    <mat-form-field appearance="fill" class="w-full">
+      <mat-label>Caption</mat-label>
+      <input matInput formControlName="caption" placeholder="Enter caption" />
+    </mat-form-field>
+  </div>
+
+  <img
+    *ngIf="postForm.value.imageUrl"
+    [src]="postForm.value.imageUrl"
+    alt="Preview"
+    class="preview"
+  />
+
+  <div mat-dialog-actions>
+    <button mat-button color="primary" type="submit">Add Post</button>
+  </div>
+</form>

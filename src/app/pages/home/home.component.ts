@@ -1,35 +1,55 @@
+import { Component, OnInit } from '@angular/core';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon';
+import { CommonModule } from '@angular/common';
 
-import { Component } from '@angular/core';
 import { PostComponent } from '../../components/post/post.component';
-import { MatIcon } from '@angular/material/icon';
-import { UserService } from '../../services/user.service';
 import { PostFormComponent } from '../../components/post-form/post-form.component';
-import { MatDialog } from '@angular/material/dialog';
+import { UserService } from '../../services/user.service';
 
 @Component({
   selector: 'app-home',
-  imports: [PostComponent,MatIcon,PostFormComponent],
+  standalone: true,
+  imports: [
+    CommonModule,
+    MatDialogModule,
+    MatIconModule,
+    PostComponent
+  ],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css',
 })
-export class HomeComponent {
-  constructor(private service:UserService,private dialogRef:MatDialog){}
-  openDialog(){
-    this.dialogRef.open(PostFormComponent)
-  }
-  postList:any=[];
-  ngOnInit(){
-    this.service.postData().subscribe((data:any)=>{
-      this.postList=data
-      console.log(this.postList)
-    })
-  }
-  createPost(){
-    
+export class HomeComponent implements OnInit {
+  postList: any[] = [];
 
+  constructor(
+    private userService: UserService,
+    private dialog: MatDialog
+  ) {}
 
+  ngOnInit(): void {
+    this.fetchPosts();
   }
 
+  fetchPosts(): void {
+    this.userService.postData().subscribe((data: any) => {
+      this.postList = data;
+      console.log('Fetched Posts:', this.postList);
+    });
+  }
 
+  openDialog(): void {
+    const dialogRef = this.dialog.open(PostFormComponent, {
+      width: '650px',
+      maxWidth: '95vw',
+      panelClass: 'custom-dialog-container',
+      autoFocus: false
+    });
 
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result) {
+        this.fetchPosts();
+      }
+    });
+  }
 }
