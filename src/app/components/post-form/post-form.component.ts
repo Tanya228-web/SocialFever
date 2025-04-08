@@ -27,31 +27,25 @@ import {
   styleUrl: './post-form.component.css',
 })
 export class PostFormComponent {
-  images: any = [];
+  
   postForm = new FormGroup({
     caption: new FormControl(''),
+    imageUrl: new FormControl('')
   });
 
-  imageHandler(event: any) {
-    if (event.target.files) {
-      this.images = Array.from(event.target.files);
-      console.log(this.images);
-    }
-  }
+  
   onSubmit() {
-    const caption = this.postForm.value.caption;
-     // <== this should not be undefined
-  
-    const formData = new FormData();
-    formData.append('caption', caption || '');
-  
-    this.images.forEach((image: File) => {
-      formData.append('images', image);
-    });
-  
-    for (let pair of formData.entries()) {
-      console.log(pair[0] + ':', pair[1]);
-    }
-  }
+    console.log(this.postForm.value)
+
+
+
+   
   
 }
+}
+// imageHandler(event: any) {
+//   if (event.target.files) {
+//     this.images = Array.from(event.target.files);
+//     console.log(this.images);
+//   }
+// }

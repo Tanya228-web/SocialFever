@@ -110,217 +110,173 @@
     }
   ],
   "posts": [
-    {
-      "id": "p2",
-      "userId": "u3",
-      "description": "Clouds whispered secrets to the mountains.",
-      "photos": [
-        "https://picsum.photos/seed/p2a/640/480",
-        "https://picsum.photos/seed/p2b/640/480"
-      ],
-      "tags": ["nature", "peace"],
-      "likes": ["l16", "l17", "l18"],
-      "comments": ["c4", "c5"],
-      "createdAt": "2025-02-19T09:12:00Z",
-      "updatedAt": "2025-02-19T09:12:00Z"
-    },
-    {
-      "id": "p3",
-      "userId": "u6",
-      "description": "Minimalism is not lack of something. It’s simply the perfect amount.",
-      "photos": [
-        "https://picsum.photos/seed/p3a/640/480",
-        "https://picsum.photos/seed/p3b/640/480"
-      ],
-      "tags": ["design", "minimalism"],
-      "likes": ["l19", "l20"],
-      "comments": ["c6"],
-      "createdAt": "2025-02-20T08:45:30Z",
-      "updatedAt": "2025-02-20T08:45:30Z"
-    },
-    {
-      "id": "p4",
-      "userId": "u4",
-      "description": "Chef mode activated 👨‍🍳🍝",
-      "photos": [
-        "https://picsum.photos/seed/p4a/640/480",
-        "https://picsum.photos/seed/p4b/640/480"
-      ],
-      "tags": ["food", "homemade"],
-      "likes": ["l21", "l22", "l23", "l24"],
-      "comments": ["c7", "c8"],
-      "createdAt": "2025-02-21T12:00:00Z",
-      "updatedAt": "2025-02-21T12:00:00Z"
-    },
-    {
-      "id": "p5",
-      "userId": "u9",
-      "description": "My cat rules this house 🐾",
-      "photos": [
-        "https://picsum.photos/seed/p5a/640/480",
-        "https://picsum.photos/seed/p5b/640/480"
-      ],
-      "tags": ["cat", "cute"],
-      "likes": ["l25", "l26", "l27", "l28"],
-      "comments": ["c9"],
-      "createdAt": "2025-02-22T14:15:45Z",
-      "updatedAt": "2025-02-22T14:15:45Z"
-    },
-    {
-      "id": "p6",
-      "userId": "u2",
-      "description": "Gaming all night 🎮🔥 #NoRegrets",
-      "photos": [
-        "https://picsum.photos/seed/p6a/640/480",
-        "https://picsum.photos/seed/p6b/640/480"
-      ],
-      "tags": ["gaming", "nightlife"],
-      "likes": ["l29", "l30", "l31"],
-      "comments": ["c10", "c11"],
-      "createdAt": "2025-02-23T18:10:30Z",
-      "updatedAt": "2025-02-23T18:10:30Z"
-    },
-    {
-      "id": "p7",
-      "userId": "u8",
-      "description": "Practice makes perfect 🎹🎶",
-      "photos": [
-        "https://picsum.photos/seed/p7a/640/480",
-        "https://picsum.photos/seed/p7b/640/480"
-      ],
-      "tags": ["music", "piano"],
-      "likes": ["l32", "l33", "l34", "l35"],
-      "comments": ["c12"],
-      "createdAt": "2025-02-24T11:05:00Z",
-      "updatedAt": "2025-02-24T11:05:00Z"
-    },
-    {
-      "id": "p8",
-      "userId": "u7",
-      "description": "Post-workout glow 💪✨",
-      "photos": [
-        "https://picsum.photos/seed/p8a/640/480",
-        "https://picsum.photos/seed/p8b/640/480"
-      ],
-      "tags": ["fitness", "motivation"],
-      "likes": ["l36", "l37", "l38"],
-      "comments": ["c13", "c14"],
-      "createdAt": "2025-02-25T07:40:00Z",
-      "updatedAt": "2025-02-25T07:40:00Z"
-    },
-    {
-      "id": "p9",
-      "userId": "u1",
-      "description": "Sunsets and city lights 🧡",
-      "photos": [
-        "https://picsum.photos/seed/p9a/640/480",
-        "https://picsum.photos/seed/p9b/640/480"
-      ],
-      "tags": ["sunset", "urban"],
-      "likes": ["l39", "l40"],
-      "comments": ["c15"],
-      "createdAt": "2025-02-26T18:25:00Z",
-      "updatedAt": "2025-02-26T18:25:00Z"
-    },
-    {
-      "id": "p10",
-      "userId": "u10",
-      "description": "Startup grind never stops 🚀📈",
-      "photos": [
-        "https://picsum.photos/seed/p10a/640/480",
-        "https://picsum.photos/seed/p10b/640/480"
-      ],
-      "tags": ["entrepreneur", "hustle"],
-      "likes": ["l41", "l42", "l43"],
-      "comments": ["c16", "c17"],
-      "createdAt": "2025-02-27T10:00:00Z",
-      "updatedAt": "2025-02-27T10:00:00Z"
-    },
-    {
-      "id": "p11",
-      "userId": "u6",
-      "description": "Mood board for the next project 🎨🧠",
-      "photos": [
-        "https://picsum.photos/seed/p11a/640/480",
-        "https://picsum.photos/seed/p11b/640/480"
-      ],
-      "tags": ["design", "creative"],
-      "likes": ["l44", "l45"],
-      "comments": ["c18"],
-      "createdAt": "2025-02-28T16:30:00Z",
-      "updatedAt": "2025-02-28T16:30:00Z"
-    },
-    {
-      "id": "p12",
-      "userId": "u5",
-      "description": "Wanderlust in full swing 🏞️",
-      "photos": [
-        "https://picsum.photos/seed/p12a/640/480",
-        "https://picsum.photos/seed/p12b/640/480"
-      ],
-      "tags": ["travel", "adventure"],
-      "likes": ["l46", "l47", "l48", "l49"],
-      "comments": ["c19", "c20"],
-      "createdAt": "2025-03-01T13:00:00Z",
-      "updatedAt": "2025-03-01T13:00:00Z"
-    },
-    {
-      "id": "p13",
-      "userId": "u4",
-      "description": "Code, coffee, repeat ☕💻",
-      "photos": [
-        "https://picsum.photos/seed/p13a/640/480",
-        "https://picsum.photos/seed/p13b/640/480"
-      ],
-      "tags": ["coding", "life"],
-      "likes": ["l50", "l51"],
-      "comments": ["c21", "c22"],
-      "createdAt": "2025-03-02T09:30:00Z",
-      "updatedAt": "2025-03-02T09:30:00Z"
-    },
-    {
-      "id": "p14",
-      "userId": "u7",
-      "description": "A good book and some chai 📚☕",
-      "photos": [
-        "https://picsum.photos/seed/p14a/640/480",
-        "https://picsum.photos/seed/p14b/640/480"
-      ],
-      "tags": ["reading", "chai"],
-      "likes": ["l52", "l53", "l54"],
-      "comments": ["c23"],
-      "createdAt": "2025-03-03T17:20:00Z",
-      "updatedAt": "2025-03-03T17:20:00Z"
-    },
-    {
-      "id": "p15",
-      "userId": "u8",
-      "description": "Sunday jam sessions 🎸",
-      "photos": [
-        "https://picsum.photos/seed/p15a/640/480",
-        "https://picsum.photos/seed/p15b/640/480"
-      ],
-      "tags": ["music", "weekend"],
-      "likes": ["l55", "l56", "l57"],
-      "comments": ["c24", "c25"],
-      "createdAt": "2025-03-04T12:45:00Z",
-      "updatedAt": "2025-03-04T12:45:00Z"
-    },
-    {
-      "id": "p16",
-      "userId": "u9",
-      "description": "Art speaks where words are unable to explain 🎭🖌️",
-      "photos": [
-        "https://picsum.photos/seed/p16a/640/480",
-        "https://picsum.photos/seed/p16b/640/480"
-      ],
-      "tags": ["art", "expression"],
-      "likes": ["l58", "l59"],
-      "comments": ["c26"],
-      "createdAt": "2025-03-05T10:10:00Z",
-      "updatedAt": "2025-03-05T10:10:00Z"
-    }
-  ],
+  {
+    "id": "p2",
+    "userId": "u3",
+    "description": "Clouds whispered secrets to the mountains.",
+    "photos": [
+      "https://picsum.photos/seed/p2a/640/480",
+      "https://picsum.photos/seed/p2b/640/480"
+    ],
+    "likes": ["l16", "l17", "l18"],
+    "comments": ["c4", "c5"]
+  },
+  {
+    "id": "p3",
+    "userId": "u6",
+    "description": "Minimalism is not lack of something. It’s simply the perfect amount.",
+    "photos": [
+      "https://picsum.photos/seed/p3a/640/480",
+      "https://picsum.photos/seed/p3b/640/480"
+    ],
+    "likes": ["l19", "l20"],
+    "comments": ["c6"]
+  },
+  {
+    "id": "p4",
+    "userId": "u4",
+    "description": "Chef mode activated 👨‍🍳🍝",
+    "photos": [
+      "https://picsum.photos/seed/p4a/640/480",
+      "https://picsum.photos/seed/p4b/640/480"
+    ],
+    "likes": ["l21", "l22", "l23", "l24"],
+    "comments": ["c7", "c8"]
+  },
+  {
+    "id": "p5",
+    "userId": "u9",
+    "description": "My cat rules this house 🐾",
+    "photos": [
+      "https://picsum.photos/seed/p5a/640/480",
+      "https://picsum.photos/seed/p5b/640/480"
+    ],
+    "likes": ["l25", "l26", "l27", "l28"],
+    "comments": ["c9"]
+  },
+  {
+    "id": "p6",
+    "userId": "u2",
+    "description": "Gaming all night 🎮🔥 #NoRegrets",
+    "photos": [
+      "https://picsum.photos/seed/p6a/640/480",
+      "https://picsum.photos/seed/p6b/640/480"
+    ],
+    "likes": ["l29", "l30", "l31"],
+    "comments": ["c10", "c11"]
+  },
+  {
+    "id": "p7",
+    "userId": "u8",
+    "description": "Practice makes perfect 🎹🎶",
+    "photos": [
+      "https://picsum.photos/seed/p7a/640/480",
+      "https://picsum.photos/seed/p7b/640/480"
+    ],
+    "likes": ["l32", "l33", "l34", "l35"],
+    "comments": ["c12"]
+  },
+  {
+    "id": "p8",
+    "userId": "u7",
+    "description": "Post-workout glow 💪✨",
+    "photos": [
+      "https://picsum.photos/seed/p8a/640/480",
+      "https://picsum.photos/seed/p8b/640/480"
+    ],
+    "likes": ["l36", "l37", "l38"],
+    "comments": ["c13", "c14"]
+  },
+  {
+    "id": "p9",
+    "userId": "u1",
+    "description": "Sunsets and city lights 🧡",
+    "photos": [
+      "https://picsum.photos/seed/p9a/640/480",
+      "https://picsum.photos/seed/p9b/640/480"
+    ],
+    "likes": ["l39", "l40"],
+    "comments": ["c15"]
+  },
+  {
+    "id": "p10",
+    "userId": "u10",
+    "description": "Startup grind never stops 🚀📈",
+    "photos": [
+      "https://picsum.photos/seed/p10a/640/480",
+      "https://picsum.photos/seed/p10b/640/480"
+    ],
+    "likes": ["l41", "l42", "l43"],
+    "comments": ["c16", "c17"]
+  },
+  {
+    "id": "p11",
+    "userId": "u6",
+    "description": "Mood board for the next project 🎨🧠",
+    "photos": [
+      "https://picsum.photos/seed/p11a/640/480",
+      "https://picsum.photos/seed/p11b/640/480"
+    ],
+    "likes": ["l44", "l45"],
+    "comments": ["c18"]
+  },
+  {
+    "id": "p12",
+    "userId": "u5",
+    "description": "Wanderlust in full swing 🏞️",
+    "photos": [
+      "https://picsum.photos/seed/p12a/640/480",
+      "https://picsum.photos/seed/p12b/640/480"
+    ],
+    "likes": ["l46", "l47", "l48", "l49"],
+    "comments": ["c19", "c20"]
+  },
+  {
+    "id": "p13",
+    "userId": "u4",
+    "description": "Code, coffee, repeat ☕💻",
+    "photos": [
+      "https://picsum.photos/seed/p13a/640/480",
+      "https://picsum.photos/seed/p13b/640/480"
+    ],
+    "likes": ["l50", "l51"],
+    "comments": ["c21", "c22"]
+  },
+  {
+    "id": "p14",
+    "userId": "u7",
+    "description": "A good book and some chai 📚☕",
+    "photos": [
+      "https://picsum.photos/seed/p14a/640/480",
+      "https://picsum.photos/seed/p14b/640/480"
+    ],
+    "likes": ["l52", "l53", "l54"],
+    "comments": ["c23"]
+  },
+  {
+    "id": "p15",
+    "userId": "u8",
+    "description": "Sunday jam sessions 🎸",
+    "photos": [
+      "https://picsum.photos/seed/p15a/640/480",
+      "https://picsum.photos/seed/p15b/640/480"
+    ],
+    "likes": ["l55", "l56", "l57"],
+    "comments": ["c24", "c25"]
+  },
+  {
+    "id": "p16",
+    "userId": "u9",
+    "description": "Art speaks where words are unable to explain 🎭🖌️",
+    "photos": [
+      "https://picsum.photos/seed/p16a/640/480",
+      "https://picsum.photos/seed/p16b/640/480"
+    ],
+    "likes": ["l58", "l59"],
+    "comments": ["c26"]
+  }
+],
+
   "likes": [
     {
       "id": "l16",

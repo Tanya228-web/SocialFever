@@ -2,6 +2,9 @@
   <div id="post-feed">
     <app-post [postData]="postList"></app-post>
   </div>
+  <div>
+    <app-post-form></app-post-form>
+  </div>
   <button mat-fab color="warn" id="post-button">
     <mat-icon (click)="createPost()">add</mat-icon>
   </button>

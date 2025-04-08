@@ -22,9 +22,5 @@ export const routes: Routes = [
   {
     path: 'login',
     component: LoginComponent,
-  },
-  {
-    path:'postform',
-    component:PostFormComponent,
   }
 ];
