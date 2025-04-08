@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { PostComponent } from '../../components/post/post.component';
 import { MatIcon } from '@angular/material/icon';
 import { UserService } from '../../services/user.service';
+
 @Component({
   selector: 'app-home',
   imports: [PostComponent,MatIcon],
@@ -16,6 +17,11 @@ export class HomeComponent {
       this.postList=data
       console.log(this.postList)
     })
+  }
+  createPost(){
+    
+
+
   }
 
 

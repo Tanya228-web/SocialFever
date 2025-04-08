@@ -3,6 +3,6 @@
     <app-post [postData]="postList"></app-post>
   </div>
   <button mat-fab color="warn" id="post-button">
-    <mat-icon>add</mat-icon>
+    <mat-icon (click)="createPost()">add</mat-icon>
   </button>
 </div>

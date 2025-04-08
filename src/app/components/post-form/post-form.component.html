@@ -1,0 +1,33 @@
+<h1 mat-dialog-title class="flex justify-between items-center">
+    Upload Images and Caption
+    <button mat-icon-button aria-label="Close">
+      <mat-icon>close</mat-icon>
+    </button>
+  </h1>
+  
+  <form [formGroup]="postForm" (ngSubmit)="onSubmit()">
+    <div mat-dialog-content>
+  
+      <mat-form-field appearance="fill" class="w-full">
+        <mat-label>Caption</mat-label>
+        <input matInput formControlName="caption" placeholder="Enter caption" />
+      </mat-form-field>
+  
+      <br />
+  
+      <label for="imageInput">Select Images:</label>
+      <input
+        type="file"
+        id="imageInput"
+        (change)="imageHandler($event)"
+        multiple
+        accept="image/*"
+      />
+    </div>
+  
+    <div mat-dialog-actions>
+      
+      <button mat-button color="primary" type="submit">Upload</button>
+    </div>
+  </form>
+  
