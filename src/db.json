@@ -1,160 +1,439 @@
 {
+  "users": [
+    {
+      "id": "u2",
+      "name": "Rohan Kapoor",
+      "username": "rohan_k",
+      "email": "rohan.kapoor@example.com",
+      "avatar": "https://example.com/avatars/u2.jpg",
+      "bio": "Tech geek 💻 | Gamer 🎮",
+      "location": "Bangalore, India",
+      "website": "https://rohanverse.dev",
+      "createdAt": "2025-04-08T10:05:00Z",
+      "updatedAt": "2025-04-08T10:05:00Z"
+    },
+    {
+      "id": "u3",
+      "name": "Simran Kaur",
+      "username": "simran_kaur",
+      "email": "simran.kaur@example.com",
+      "avatar": "https://example.com/avatars/u3.jpg",
+      "bio": "Poet ✍️ | Dreamer ☁️",
+      "location": "Chandigarh, India",
+      "website": "https://simranwrites.me",
+      "createdAt": "2025-04-08T10:10:00Z",
+      "updatedAt": "2025-04-08T10:10:00Z"
+    },
+    {
+      "id": "u4",
+      "name": "Aditya Sharma",
+      "username": "aditya_s",
+      "email": "aditya.sharma@example.com",
+      "avatar": "https://example.com/avatars/u4.jpg",
+      "bio": "Coder by day, chef by night 🍜",
+      "location": "Delhi, India",
+      "website": "https://adityacodes.com",
+      "createdAt": "2025-04-08T10:15:00Z",
+      "updatedAt": "2025-04-08T10:15:00Z"
+    },
+    {
+      "id": "u5",
+      "name": "Meera Iyer",
+      "username": "meera_iyer",
+      "email": "meera.iyer@example.com",
+      "avatar": "https://example.com/avatars/u5.jpg",
+      "bio": "Traveler ✈️ | Foodie 🍲",
+      "location": "Pune, India",
+      "website": "https://meeraexplores.in",
+      "createdAt": "2025-04-08T10:20:00Z",
+      "updatedAt": "2025-04-08T10:20:00Z"
+    },
+    {
+      "id": "u6",
+      "name": "Arjun Verma",
+      "username": "arjun_v",
+      "email": "arjun.verma@example.com",
+      "avatar": "https://example.com/avatars/u6.jpg",
+      "bio": "Design thinker 🎨 | Minimalist",
+      "location": "Hyderabad, India",
+      "website": "https://vermacreative.com",
+      "createdAt": "2025-04-08T10:25:00Z",
+      "updatedAt": "2025-04-08T10:25:00Z"
+    },
+    {
+      "id": "u7",
+      "name": "Tanya Singh",
+      "username": "tanya_singh",
+      "email": "tanya.singh@example.com",
+      "avatar": "https://example.com/avatars/u7.jpg",
+      "bio": "Fitness junkie 🏋️‍♀️ | Bookworm 📚",
+      "location": "Lucknow, India",
+      "website": "https://tanyafitread.com",
+      "createdAt": "2025-04-08T10:30:00Z",
+      "updatedAt": "2025-04-08T10:30:00Z"
+    },
+    {
+      "id": "u8",
+      "name": "Kabir Nanda",
+      "username": "kabir_nanda",
+      "email": "kabir.nanda@example.com",
+      "avatar": "https://example.com/avatars/u8.jpg",
+      "bio": "Music is life 🎵 | Pianist 🎹",
+      "location": "Jaipur, India",
+      "website": "https://kabirmusic.io",
+      "createdAt": "2025-04-08T10:35:00Z",
+      "updatedAt": "2025-04-08T10:35:00Z"
+    },
+    {
+      "id": "u9",
+      "name": "Ananya Joshi",
+      "username": "ananya_joshi",
+      "email": "ananya.joshi@example.com",
+      "avatar": "https://example.com/avatars/u9.jpg",
+      "bio": "Cat mom 🐱 | Art lover 🎭",
+      "location": "Kolkata, India",
+      "website": "https://ananyaspace.art",
+      "createdAt": "2025-04-08T10:40:00Z",
+      "updatedAt": "2025-04-08T10:40:00Z"
+    },
+    {
+      "id": "u10",
+      "name": "Dev Patel",
+      "username": "dev_pat",
+      "email": "dev.patel@example.com",
+      "avatar": "https://example.com/avatars/u10.jpg",
+      "bio": "Entrepreneur 🚀 | Reader 📘",
+      "location": "Ahmedabad, India",
+      "website": "https://devventures.com",
+      "createdAt": "2025-04-08T10:45:00Z",
+      "updatedAt": "2025-04-08T10:45:00Z"
+    }
+  ],
   "posts": [
     {
-      "id": 1,
-      "title": "Sunrise Serenity",
-      "subtitle": "Early light, calm mind",
-      "description": "Starting the day with peaceful vibes and warm sunlight.",
-      "image": "https://picsum.photos/id/10/600/400",
+      "id": "p2",
+      "userId": "u3",
+      "description": "Clouds whispered secrets to the mountains.",
       "photos": [
-        "https://picsum.photos/id/10/600/400",
-        "https://picsum.photos/id/20/600/400",
-        "https://picsum.photos/id/30/600/400"
-      ]
+        "https://picsum.photos/seed/p2a/640/480",
+        "https://picsum.photos/seed/p2b/640/480"
+      ],
+      "tags": ["nature", "peace"],
+      "likes": ["l16", "l17", "l18"],
+      "comments": ["c4", "c5"],
+      "createdAt": "2025-02-19T09:12:00Z",
+      "updatedAt": "2025-02-19T09:12:00Z"
     },
     {
-      "id": 2,
-      "title": "Urban Escape",
-      "subtitle": "Finding beauty in the chaos",
-      "description": "Exploring quiet corners of a buzzing city.",
-      "image": "https://picsum.photos/id/40/600/400",
+      "id": "p3",
+      "userId": "u6",
+      "description": "Minimalism is not lack of something. It’s simply the perfect amount.",
       "photos": [
-        "https://picsum.photos/id/40/600/400",
-        "https://picsum.photos/id/50/600/400",
-        "https://picsum.photos/id/60/600/400"
-      ]
+        "https://picsum.photos/seed/p3a/640/480",
+        "https://picsum.photos/seed/p3b/640/480"
+      ],
+      "tags": ["design", "minimalism"],
+      "likes": ["l19", "l20"],
+      "comments": ["c6"],
+      "createdAt": "2025-02-20T08:45:30Z",
+      "updatedAt": "2025-02-20T08:45:30Z"
     },
     {
-      "id": 3,
-      "title": "Nature Hike",
-      "subtitle": "Steps into the wild",
-      "description": "A breathtaking hike through trails and towering trees.",
-      "image": "https://picsum.photos/id/70/600/400",
+      "id": "p4",
+      "userId": "u4",
+      "description": "Chef mode activated 👨‍🍳🍝",
       "photos": [
-        "https://picsum.photos/id/70/600/400",
-        "https://picsum.photos/id/100/600/400",
-        "https://picsum.photos/id/101/600/400"
-      ]
+        "https://picsum.photos/seed/p4a/640/480",
+        "https://picsum.photos/seed/p4b/640/480"
+      ],
+      "tags": ["food", "homemade"],
+      "likes": ["l21", "l22", "l23", "l24"],
+      "comments": ["c7", "c8"],
+      "createdAt": "2025-02-21T12:00:00Z",
+      "updatedAt": "2025-02-21T12:00:00Z"
     },
     {
-      "id": 4,
-      "title": "Evening Glow",
-      "subtitle": "Golden hour perfection",
-      "description": "Capturing the sky as the sun dips below the horizon.",
-      "image": "https://picsum.photos/id/102/600/400",
+      "id": "p5",
+      "userId": "u9",
+      "description": "My cat rules this house 🐾",
       "photos": [
-        "https://picsum.photos/id/102/600/400",
-        "https://picsum.photos/id/103/600/400",
-        "https://picsum.photos/id/104/600/400"
-      ]
+        "https://picsum.photos/seed/p5a/640/480",
+        "https://picsum.photos/seed/p5b/640/480"
+      ],
+      "tags": ["cat", "cute"],
+      "likes": ["l25", "l26", "l27", "l28"],
+      "comments": ["c9"],
+      "createdAt": "2025-02-22T14:15:45Z",
+      "updatedAt": "2025-02-22T14:15:45Z"
     },
     {
-      "id": 6,
-      "title": "Seaside Bliss",
-      "subtitle": "Waves and peace",
-      "description": "A calm day spent watching waves crash softly.",
-      "image": "https://picsum.photos/id/202/600/400",
+      "id": "p6",
+      "userId": "u2",
+      "description": "Gaming all night 🎮🔥 #NoRegrets",
       "photos": [
-        "https://picsum.photos/id/202/600/400",
-        "https://picsum.photos/id/203/600/400",
-        "https://picsum.photos/id/30/600/400"
-      ]
+        "https://picsum.photos/seed/p6a/640/480",
+        "https://picsum.photos/seed/p6b/640/480"
+      ],
+      "tags": ["gaming", "nightlife"],
+      "likes": ["l29", "l30", "l31"],
+      "comments": ["c10", "c11"],
+      "createdAt": "2025-02-23T18:10:30Z",
+      "updatedAt": "2025-02-23T18:10:30Z"
     },
     {
-      "id": 7,
-      "title": "Mountaintop Views",
-      "subtitle": "On top of the world",
-      "description": "That rewarding feeling after a tough climb.",
-      "image": "https://picsum.photos/id/20/600/400",
+      "id": "p7",
+      "userId": "u8",
+      "description": "Practice makes perfect 🎹🎶",
       "photos": [
-        "https://picsum.photos/id/20/600/400",
-        "https://picsum.photos/id/104/600/400",
-        "https://picsum.photos/id/200/600/400"
-      ]
+        "https://picsum.photos/seed/p7a/640/480",
+        "https://picsum.photos/seed/p7b/640/480"
+      ],
+      "tags": ["music", "piano"],
+      "likes": ["l32", "l33", "l34", "l35"],
+      "comments": ["c12"],
+      "createdAt": "2025-02-24T11:05:00Z",
+      "updatedAt": "2025-02-24T11:05:00Z"
     },
     {
-      "id": 8,
-      "title": "Street Food Diaries",
-      "subtitle": "Flavors of the world",
-      "description": "Trying out delicious bites on the go.",
-      "image": "https://picsum.photos/id/50/600/400",
+      "id": "p8",
+      "userId": "u7",
+      "description": "Post-workout glow 💪✨",
       "photos": [
-        "https://picsum.photos/id/50/600/400",
-        "https://picsum.photos/id/105/600/400",
-        "https://picsum.photos/id/60/600/400"
-      ]
+        "https://picsum.photos/seed/p8a/640/480",
+        "https://picsum.photos/seed/p8b/640/480"
+      ],
+      "tags": ["fitness", "motivation"],
+      "likes": ["l36", "l37", "l38"],
+      "comments": ["c13", "c14"],
+      "createdAt": "2025-02-25T07:40:00Z",
+      "updatedAt": "2025-02-25T07:40:00Z"
     },
     {
-      "id": 9,
-      "title": "Park Chill Vibes",
-      "subtitle": "Green therapy 🌿",
-      "description": "Laid-back weekend afternoons with a good book.",
-      "image": "https://picsum.photos/id/70/600/400",
+      "id": "p9",
+      "userId": "u1",
+      "description": "Sunsets and city lights 🧡",
       "photos": [
-        "https://picsum.photos/id/70/600/400",
-        "https://picsum.photos/id/101/600/400",
-        "https://picsum.photos/id/203/600/400"
-      ]
+        "https://picsum.photos/seed/p9a/640/480",
+        "https://picsum.photos/seed/p9b/640/480"
+      ],
+      "tags": ["sunset", "urban"],
+      "likes": ["l39", "l40"],
+      "comments": ["c15"],
+      "createdAt": "2025-02-26T18:25:00Z",
+      "updatedAt": "2025-02-26T18:25:00Z"
     },
     {
-      "id": 10,
-      "title": "City Lights",
-      "subtitle": "Neon dreams",
-      "description": "Wandering the streets after dark, camera in hand.",
-      "image": "https://picsum.photos/id/102/600/400",
+      "id": "p10",
+      "userId": "u10",
+      "description": "Startup grind never stops 🚀📈",
       "photos": [
-        "https://picsum.photos/id/102/600/400",
-        "https://picsum.photos/id/103/600/400",
-        "https://picsum.photos/id/104/600/400"
-      ]
+        "https://picsum.photos/seed/p10a/640/480",
+        "https://picsum.photos/seed/p10b/640/480"
+      ],
+      "tags": ["entrepreneur", "hustle"],
+      "likes": ["l41", "l42", "l43"],
+      "comments": ["c16", "c17"],
+      "createdAt": "2025-02-27T10:00:00Z",
+      "updatedAt": "2025-02-27T10:00:00Z"
     },
     {
-      "id": 12,
-      "title": "Rainy Windows",
-      "subtitle": "Mood: cozy",
-      "description": "Raindrops tapping the window, tea in hand. Bliss.",
-      "image": "https://picsum.photos/id/202/600/400",
+      "id": "p11",
+      "userId": "u6",
+      "description": "Mood board for the next project 🎨🧠",
       "photos": [
-        "https://picsum.photos/id/202/600/400",
-        "https://picsum.photos/id/203/600/400",
-        "https://picsum.photos/id/104/600/400"
-      ]
+        "https://picsum.photos/seed/p11a/640/480",
+        "https://picsum.photos/seed/p11b/640/480"
+      ],
+      "tags": ["design", "creative"],
+      "likes": ["l44", "l45"],
+      "comments": ["c18"],
+      "createdAt": "2025-02-28T16:30:00Z",
+      "updatedAt": "2025-02-28T16:30:00Z"
     },
     {
-      "id": 13,
-      "title": "Desert Dreams",
-      "subtitle": "Endless dunes",
-      "description": "A walk through golden sands under a fiery sky.",
-      "image": "https://picsum.photos/id/20/600/400",
+      "id": "p12",
+      "userId": "u5",
+      "description": "Wanderlust in full swing 🏞️",
       "photos": [
-        "https://picsum.photos/id/20/600/400",
-        "https://picsum.photos/id/30/600/400",
-        "https://picsum.photos/id/50/600/400"
-      ]
+        "https://picsum.photos/seed/p12a/640/480",
+        "https://picsum.photos/seed/p12b/640/480"
+      ],
+      "tags": ["travel", "adventure"],
+      "likes": ["l46", "l47", "l48", "l49"],
+      "comments": ["c19", "c20"],
+      "createdAt": "2025-03-01T13:00:00Z",
+      "updatedAt": "2025-03-01T13:00:00Z"
     },
     {
-      "id": 14,
-      "title": "Bike Trails",
-      "subtitle": "Pedal-powered adventures",
-      "description": "Cruising through winding roads and forest paths.",
-      "image": "https://picsum.photos/id/60/600/400",
+      "id": "p13",
+      "userId": "u4",
+      "description": "Code, coffee, repeat ☕💻",
       "photos": [
-        "https://picsum.photos/id/60/600/400",
-        "https://picsum.photos/id/70/600/400",
-        "https://picsum.photos/id/100/600/400"
-      ]
+        "https://picsum.photos/seed/p13a/640/480",
+        "https://picsum.photos/seed/p13b/640/480"
+      ],
+      "tags": ["coding", "life"],
+      "likes": ["l50", "l51"],
+      "comments": ["c21", "c22"],
+      "createdAt": "2025-03-02T09:30:00Z",
+      "updatedAt": "2025-03-02T09:30:00Z"
     },
     {
-      "id": 15,
-      "title": "Campfire Stories",
-      "subtitle": "Flames, friends, and laughter",
-      "description": "Unforgettable memories made around the fire.",
-      "image": "https://picsum.photos/id/101/600/400",
+      "id": "p14",
+      "userId": "u7",
+      "description": "A good book and some chai 📚☕",
       "photos": [
-        "https://picsum.photos/id/101/600/400",
-        "https://picsum.photos/id/102/600/400",
-        "https://picsum.photos/id/103/600/400"
-      ]
+        "https://picsum.photos/seed/p14a/640/480",
+        "https://picsum.photos/seed/p14b/640/480"
+      ],
+      "tags": ["reading", "chai"],
+      "likes": ["l52", "l53", "l54"],
+      "comments": ["c23"],
+      "createdAt": "2025-03-03T17:20:00Z",
+      "updatedAt": "2025-03-03T17:20:00Z"
+    },
+    {
+      "id": "p15",
+      "userId": "u8",
+      "description": "Sunday jam sessions 🎸",
+      "photos": [
+        "https://picsum.photos/seed/p15a/640/480",
+        "https://picsum.photos/seed/p15b/640/480"
+      ],
+      "tags": ["music", "weekend"],
+      "likes": ["l55", "l56", "l57"],
+      "comments": ["c24", "c25"],
+      "createdAt": "2025-03-04T12:45:00Z",
+      "updatedAt": "2025-03-04T12:45:00Z"
+    },
+    {
+      "id": "p16",
+      "userId": "u9",
+      "description": "Art speaks where words are unable to explain 🎭🖌️",
+      "photos": [
+        "https://picsum.photos/seed/p16a/640/480",
+        "https://picsum.photos/seed/p16b/640/480"
+      ],
+      "tags": ["art", "expression"],
+      "likes": ["l58", "l59"],
+      "comments": ["c26"],
+      "createdAt": "2025-03-05T10:10:00Z",
+      "updatedAt": "2025-03-05T10:10:00Z"
+    }
+  ],
+  "likes": [
+    {
+      "id": "l16",
+      "userId": "u1",
+      "postId": "p2",
+      "createdAt": "2025-02-19T09:15:00Z"
+    },
+    {
+      "id": "l17",
+      "userId": "u2",
+      "postId": "p2",
+      "createdAt": "2025-02-19T09:20:00Z"
+    },
+    {
+      "id": "l18",
+      "userId": "u3",
+      "postId": "p2",
+      "createdAt": "2025-02-19T09:25:00Z"
+    },
+    {
+      "id": "l19",
+      "userId": "u4",
+      "postId": "p3",
+      "createdAt": "2025-02-20T08:50:00Z"
+    },
+    {
+      "id": "l20",
+      "userId": "u5",
+      "postId": "p3",
+      "createdAt": "2025-02-20T08:55:00Z"
+    },
+    {
+      "id": "l21",
+      "userId": "u6",
+      "postId": "p4",
+      "createdAt": "2025-02-21T12:05:00Z"
+    },
+    {
+      "id": "l22",
+      "userId": "u7",
+      "postId": "p4",
+      "createdAt": "2025-02-21T12:10:00Z"
+    },
+    {
+      "id": "l23",
+      "userId": "u8",
+      "postId": "p4",
+      "createdAt": "2025-02-21T12:15:00Z"
+    },
+    {
+      "id": "l24",
+      "userId": "",
+      "postId": "p4",
+      "createdAt": "2025-02-21T12:20:00Z"
+    },
+    {
+      "id": "l25",
+      "userId": "u9",
+      "postId": "p5",
+      "createdAt": "2025-02-22T14:20:00Z"
+    },
+    {
+      "id": "l26",
+      "userId": "u10",
+      "postId": "p5",
+      "createdAt": "2025-02-22T14:25:00Z"
+    },
+    {
+      "id": "l27",
+      "userId": "",
+      "postId": "p5",
+      "createdAt": "2025-02-22T14:30:00Z"
+    },
+    {
+      "id": "l28",
+      "userId": "",
+      "postId": "p5",
+      "createdAt": "2025-02-22T14:35:00Z"
+    },
+    {
+      "id": "l29",
+      "userId": "",
+      "postId": "",
+      "createdAt": ""
+    },
+    {
+      "id": "",
+      "userId": "",
+      "postId": "",
+      "createdAt": ""
+    }
+  ],
+  "comments": [
+    {
+      "id": "c1",
+      "userId": "u2",
+      "postId": "p1",
+      "content": "This photo gives such chill vibes 🔥",
+      "createdAt": "2025-02-18T11:20:00Z"
+    },
+    {
+      "id": "c2",
+      "userId": "u3",
+      "postId": "p1",
+      "content": "I love the lighting in this one!",
+      "createdAt": "2025-02-18T11:21:00Z"
+    },
+    {
+      "id": "c3",
+      "userId": "u4",
+      "postId": "p1",
+      "content": "That caption is deep 😮‍💨",
+      "createdAt": "2025-02-18T11:22:00Z"
     }
   ]
 }
