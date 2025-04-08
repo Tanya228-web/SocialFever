@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MatIcon } from '@angular/material/icon';
+import { MatDialogRef } from '@angular/material/dialog';
 
 import { CommonModule } from '@angular/common';
 
@@ -27,11 +28,14 @@ import {
   styleUrl: './post-form.component.css',
 })
 export class PostFormComponent {
+  // constructor(private dialogRef: MatDialogRef<PostFormComponent>){}
+
   
   postForm = new FormGroup({
     caption: new FormControl(''),
     imageUrl: new FormControl('')
   });
+ 
 
   
   onSubmit() {
