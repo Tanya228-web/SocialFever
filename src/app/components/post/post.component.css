@@ -5,6 +5,7 @@
 .post-card {
   margin-bottom: 24px;
   background-color: rgb(255, 248, 248);
+  
   box-shadow: none;
   border-radius: 2px solid #ccc;
 }
