@@ -35,11 +35,10 @@ export class UserService {
     }
   }
   getLocalStorage(key: any) {
+    console.log(key)
     let jsondata = localStorage.getItem(key);
+    console.log('jsondata', jsondata);
     return jsondata && JSON.parse(jsondata);
   }
-  postData() {
-    let url = 'http://localhost:3000/posts';
-    return this.http.get(url);
-  }
+
 }

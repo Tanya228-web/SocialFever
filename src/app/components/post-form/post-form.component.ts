@@ -33,7 +33,7 @@ export class PostFormComponent {
 
   onSubmit(): void {
     if (this.postForm.valid) {
-      let userId = this.userService.getLocalStorage('userId');
+      let userId = this.userService.getLocalStorage('user')[0].id;
       console.log(userId);
       let obj = {
         "description": this.postForm.value.caption,
@@ -50,13 +50,10 @@ export class PostFormComponent {
     else {
       console.log('Form is invalid');
     }
-    
   }
 
   onClose(): void {
     this.postForm.reset();
     this.dialogRef.close();
   }
-  
-
 }
