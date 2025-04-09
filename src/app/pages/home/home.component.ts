@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 
 import { PostComponent } from '../../components/post/post.component';
 import { PostFormComponent } from '../../components/post-form/post-form.component';
-import { UserService } from '../../services/user.service';
+import { PostService } from '../../services/post.service';
 
 @Component({
   selector: 'app-home',
@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
   postList: any[] = [];
 
   constructor(
-    private userService: UserService,
+    private postService: PostService,
     private dialog: MatDialog
   ) {}
 
@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
   }
 
   fetchPosts(): void {
-    this.userService.postData().subscribe((data: any) => {
+    this.postService.getData().subscribe((data: any) => {
       this.postList = data;
       console.log('Fetched Posts:', this.postList);
     });

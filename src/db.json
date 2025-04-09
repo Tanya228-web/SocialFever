@@ -159,6 +159,16 @@
       "avatar": "",
       "bio": "",
       "location": ""
+    },
+    {
+      "id": "2964",
+      "email": "test@test.com",
+      "password": "abc123",
+      "username": "abc123",
+      "name": "",
+      "avatar": "",
+      "bio": "",
+      "location": ""
     }
   ],
   "posts": [
