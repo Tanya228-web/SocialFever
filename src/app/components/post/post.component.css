@@ -91,3 +91,10 @@
 .carousel-image:hover {
   transform: scale(1.02);
 }
+
+.like-counter {
+  font-weight: 500;
+  margin: 0 16px 8px;
+  color: #e91e63;
+}
+
