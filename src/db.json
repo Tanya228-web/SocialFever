@@ -7,7 +7,8 @@
       "email": "tanya@example.com",
       "avatar": "https://example.com/avatars/u1.jpg",
       "bio": "Builder of cool things ✨",
-      "location": "Gwalior, India"
+      "location": "Gwalior, India",
+      "password": "password123"
     },
     {
       "id": "u2",
@@ -16,7 +17,8 @@
       "email": "rohan.kapoor@example.com",
       "avatar": "https://example.com/avatars/u2.jpg",
       "bio": "Tech geek 💻 | Gamer 🎮",
-      "location": "Bangalore, India"
+      "location": "Bangalore, India",
+      "password": "password123"
     },
     {
       "id": "u3",
@@ -25,7 +27,8 @@
       "email": "priya.sharma@example.com",
       "avatar": "https://example.com/avatars/u3.jpg",
       "bio": "Nature lover 🌿 | Photographer 📸",
-      "location": "Dehradun, India"
+      "location": "Dehradun, India",
+      "password": "password123"
     },
     {
       "id": "u4",
@@ -34,7 +37,8 @@
       "email": "amit.verma@example.com",
       "avatar": "https://example.com/avatars/u4.jpg",
       "bio": "Coffee ☕ and code 💻",
-      "location": "Delhi, India"
+      "location": "Delhi, India",
+      "password": "password123"
     },
     {
       "id": "u5",
@@ -43,7 +47,8 @@
       "email": "neha.rao@example.com",
       "avatar": "https://example.com/avatars/u5.jpg",
       "bio": "Traveler 🌍 | Blogger ✍️",
-      "location": "Mumbai, India"
+      "location": "Mumbai, India",
+      "password": "password123"
     },
     {
       "id": "u6",
@@ -52,7 +57,8 @@
       "email": "ishaan.joshi@example.com",
       "avatar": "https://example.com/avatars/u6.jpg",
       "bio": "Full Stack Dev 🛠️ | Cat dad 🐈",
-      "location": "Hyderabad, India"
+      "location": "Hyderabad, India",
+      "password": "password123"
     },
     {
       "id": "u7",
@@ -61,7 +67,8 @@
       "email": "sara.ali@example.com",
       "avatar": "https://example.com/avatars/u7.jpg",
       "bio": "Fitness 🏋️ & Coding 💻",
-      "location": "Pune, India"
+      "location": "Pune, India",
+      "password": "password123"
     },
     {
       "id": "u8",
@@ -70,7 +77,8 @@
       "email": "aditya.mehta@example.com",
       "avatar": "https://example.com/avatars/u8.jpg",
       "bio": "Books 📚 and Backend 🔧",
-      "location": "Kolkata, India"
+      "location": "Kolkata, India",
+      "password": "password123"
     },
     {
       "id": "u9",
@@ -79,7 +87,8 @@
       "email": "meera.das@example.com",
       "avatar": "https://example.com/avatars/u9.jpg",
       "bio": "Designer 🎨 | Minimalist ✨",
-      "location": "Ahmedabad, India"
+      "location": "Ahmedabad, India",
+      "password": "password123"
     },
     {
       "id": "u10",
@@ -88,7 +97,8 @@
       "email": "ankit.singh@example.com",
       "avatar": "https://example.com/avatars/u10.jpg",
       "bio": "Cyclist 🚴‍♂️ | Dev by day 🌞",
-      "location": "Lucknow, India"
+      "location": "Lucknow, India",
+      "password": "password123"
     },
     {
       "id": "u11",
@@ -97,7 +107,8 @@
       "email": "nidhi.yadav@example.com",
       "avatar": "https://example.com/avatars/u11.jpg",
       "bio": "Web3 explorer 🔗 | Speaker 🎤",
-      "location": "Indore, India"
+      "location": "Indore, India",
+      "password": "password123"
     },
     {
       "id": "u12",
@@ -106,7 +117,8 @@
       "email": "manav.jha@example.com",
       "avatar": "https://example.com/avatars/u12.jpg",
       "bio": "Poetry ✍️ and Pixels 💾",
-      "location": "Chandigarh, India"
+      "location": "Chandigarh, India",
+      "password": "password123"
     },
     {
       "id": "u13",
@@ -115,7 +127,8 @@
       "email": "sneha.k@example.com",
       "avatar": "https://example.com/avatars/u13.jpg",
       "bio": "DevOps Ninja 🛡️ | Open Source 💡",
-      "location": "Nagpur, India"
+      "location": "Nagpur, India",
+      "password": "password123"
     },
     {
       "id": "u14",
@@ -124,7 +137,8 @@
       "email": "varun.bhatt@example.com",
       "avatar": "https://example.com/avatars/u14.jpg",
       "bio": "Freelancer ⚡ | Startup dreamer 🚀",
-      "location": "Jaipur, India"
+      "location": "Jaipur, India",
+      "password": "password123"
     },
     {
       "id": "u15",
@@ -133,10 +147,20 @@
       "email": "kriti.sen@example.com",
       "avatar": "https://example.com/avatars/u15.jpg",
       "bio": "Frontend fanatic 💅 | Anime lover 🎌",
-      "location": "Surat, India"
+      "location": "Surat, India",
+      "password": "password123"
+    },
+    {
+      "id": "6783",
+      "email": "pupu1@g.com",
+      "password": "123456",
+      "username": "pupukipupi",
+      "name": "",
+      "avatar": "",
+      "bio": "",
+      "location": ""
     }
   ],
-
   "posts": [
     {
       "id": "p1",
@@ -160,19 +184,25 @@
       "id": "p3",
       "userId": "u2",
       "description": "Debugging life, one bug at a time 🐞",
-      "photos": ["https://picsum.photos/seed/p3/640/480"]
+      "photos": [
+        "https://picsum.photos/seed/p3/640/480"
+      ]
     },
     {
       "id": "p4",
       "userId": "u1",
       "description": "Sunsets & sandcastles 🌅🏖️",
-      "photos": ["https://picsum.photos/seed/p4/640/480"]
+      "photos": [
+        "https://picsum.photos/seed/p4/640/480"
+      ]
     },
     {
       "id": "p5",
       "userId": "u4",
       "description": "Late night coding with lo-fi beats 🎧",
-      "photos": ["https://picsum.photos/seed/p5/640/480"]
+      "photos": [
+        "https://picsum.photos/seed/p5/640/480"
+      ]
     },
     {
       "id": "p6",
@@ -187,58 +217,75 @@
       "id": "p7",
       "userId": "u6",
       "description": "My cat just wrote better code than me 🐈‍⬛",
-      "photos": ["https://picsum.photos/seed/p7/640/480"]
+      "photos": [
+        "https://picsum.photos/seed/p7/640/480"
+      ]
     },
     {
       "id": "p8",
       "userId": "u7",
       "description": "Pushed a new PR and maxed out deadlifts today 💪",
-      "photos": ["https://picsum.photos/seed/p8/640/480"]
+      "photos": [
+        "https://picsum.photos/seed/p8/640/480"
+      ]
     },
     {
       "id": "p9",
       "userId": "u8",
       "description": "Weekend reading with coffee and Python ☕🐍",
-      "photos": ["https://picsum.photos/seed/p9/640/480"]
+      "photos": [
+        "https://picsum.photos/seed/p9/640/480"
+      ]
     },
     {
       "id": "p10",
       "userId": "u9",
       "description": "New UI kit drop! 🎨",
-      "photos": ["https://picsum.photos/seed/p10/640/480"]
+      "photos": [
+        "https://picsum.photos/seed/p10/640/480"
+      ]
     },
     {
       "id": "p11",
       "userId": "u10",
       "description": "Cycling through old city lanes 🚴‍♂️",
-      "photos": ["https://picsum.photos/seed/p11/640/480"]
+      "photos": [
+        "https://picsum.photos/seed/p11/640/480"
+      ]
     },
     {
       "id": "p12",
       "userId": "u11",
       "description": "Web3 community meetup highlights 🔗",
-      "photos": ["https://picsum.photos/seed/p12/640/480"]
+      "photos": [
+        "https://picsum.photos/seed/p12/640/480"
+      ]
     },
     {
       "id": "p13",
       "userId": "u12",
       "description": "Code & couplets for a calm evening 📝",
-      "photos": ["https://picsum.photos/seed/p13/640/480"]
+      "photos": [
+        "https://picsum.photos/seed/p13/640/480"
+      ]
     },
     {
       "id": "p14",
       "userId": "u13",
       "description": "Deployed to production. Now I wait... 😅",
-      "photos": ["https://picsum.photos/seed/p14/640/480"]
+      "photos": [
+        "https://picsum.photos/seed/p14/640/480"
+      ]
     },
     {
       "id": "p15",
       "userId": "u14",
       "description": "Startup vibes & sprints 🚀💼",
-      "photos": ["https://picsum.photos/seed/p15/640/480"]
+      "photos": [
+        "https://picsum.photos/seed/p15/640/480"
+      ]
     }
   ],
-
   "likes": [
     {
       "id": "l1",

@@ -12,17 +12,14 @@ export class UserService {
 
   constructor(private http: HttpClient) {}
   userRegister(data: any) {
-    const obj = { ...data, role: 'USER' };
-    let url = 'https://api.freeapi.app/api/v1/users/register';
+    const obj = { ...data, name: '', avatar: '', bio: '', location: '' };
+
+    let url = 'http://localhost:3000/users';
     return this.http.post(url, obj);
   }
   userLogin(data: any) {
-    let url = 'https://api.freeapi.app/api/v1/users/login';
-    return this.http.post(url, data).pipe(
-      tap(() => {
-        this.loginStatus.next(true);
-      })
-    );
+    let url = `http://localhost:3000/users?username=${data.username}`;
+    return this.http.get(url);
   }
   userLogout() {
     let url = 'https://api.freeapi.app/api/v1/users/logout';
@@ -31,6 +28,15 @@ export class UserService {
         this.loginStatus.next(false);
       })
     );
+  }
+  setLocalStorage(key: any, data: any) {
+    if (data) {
+      localStorage.setItem(key, JSON.stringify(data));
+    }
+  }
+  getLocalStorage(key: any) {
+    let jsondata = localStorage.getItem(key);
+    return jsondata && JSON.parse(jsondata);
   }
   postData() {
     let url = 'http://localhost:3000/posts';
