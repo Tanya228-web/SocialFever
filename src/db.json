@@ -180,7 +180,8 @@
       "photos": [
         "https://picsum.photos/seed/p1a/640/480",
         "https://picsum.photos/seed/p1b/640/480"
-      ]
+      ],
+      "likes": ["u2"]
     },
     {
       "id": "p2",
@@ -190,28 +191,32 @@
       "photos": [
         "https://picsum.photos/seed/p2a/640/480",
         "https://picsum.photos/seed/p2b/640/480"
-      ]
+      ],
+      "likes": ["u1"]
     },
     {
       "id": "p3",
       "userId": "u2",
       "username": "rohan_k",
       "description": "Debugging life, one bug at a time 🐞",
-      "photos": ["https://picsum.photos/seed/p3/640/480"]
+      "photos": ["https://picsum.photos/seed/p3/640/480"],
+      "likes": ["u3"]
     },
     {
       "id": "p4",
       "userId": "u1",
       "username": "tanya.codes",
       "description": "Sunsets & sandcastles 🌅🏖️",
-      "photos": ["https://picsum.photos/seed/p4/640/480"]
+      "photos": ["https://picsum.photos/seed/p4/640/480"],
+      "likes": ["u3"]
     },
     {
       "id": "p5",
       "userId": "u4",
       "username": "amitv",
       "description": "Late night coding with lo-fi beats 🎧",
-      "photos": ["https://picsum.photos/seed/p5/640/480"]
+      "photos": ["https://picsum.photos/seed/p5/640/480"],
+      "likes": ["u4"]
     },
     {
       "id": "p6",
@@ -221,155 +226,88 @@
       "photos": [
         "https://picsum.photos/seed/p6a/640/480",
         "https://picsum.photos/seed/p6b/640/480"
-      ]
+      ],
+      "likes": ["u5"]
     },
     {
       "id": "p7",
       "userId": "u6",
       "username": "ishaanj",
       "description": "My cat just wrote better code than me 🐈‍⬛",
-      "photos": ["https://picsum.photos/seed/p7/640/480"]
+      "photos": ["https://picsum.photos/seed/p7/640/480"],
+      "likes": ["u6"]
     },
     {
       "id": "p8",
       "userId": "u7",
       "username": "sara.a",
       "description": "Pushed a new PR and maxed out deadlifts today 💪",
-      "photos": ["https://picsum.photos/seed/p8/640/480"]
+      "photos": ["https://picsum.photos/seed/p8/640/480"],
+      "likes": ["u7"]
     },
     {
       "id": "p9",
       "userId": "u8",
       "username": "adimehta",
       "description": "Weekend reading with coffee and Python ☕🐍",
-      "photos": ["https://picsum.photos/seed/p9/640/480"]
+      "photos": ["https://picsum.photos/seed/p9/640/480"],
+      "likes": ["u8"]
     },
     {
       "id": "p10",
       "userId": "u9",
       "username": "meerad",
       "description": "New UI kit drop! 🎨",
-      "photos": ["https://picsum.photos/seed/p10/640/480"]
+      "photos": ["https://picsum.photos/seed/p10/640/480"],
+      "likes": ["u9"]
     },
     {
       "id": "p11",
       "userId": "u10",
       "username": "ankits",
       "description": "Cycling through old city lanes 🚴‍♂️",
-      "photos": ["https://picsum.photos/seed/p11/640/480"]
+      "photos": ["https://picsum.photos/seed/p11/640/480"],
+      "likes": ["u10"]
     },
     {
       "id": "p12",
       "userId": "u11",
       "username": "nidhi_y",
       "description": "Web3 community meetup highlights 🔗",
-      "photos": ["https://picsum.photos/seed/p12/640/480"]
+      "photos": ["https://picsum.photos/seed/p12/640/480"],
+      "likes": ["u11"]
     },
     {
       "id": "p13",
       "userId": "u12",
       "username": "manavj",
       "description": "Code & couplets for a calm evening 📝",
-      "photos": ["https://picsum.photos/seed/p13/640/480"]
+      "photos": ["https://picsum.photos/seed/p13/640/480"],
+      "likes": ["u12"]
     },
     {
       "id": "p14",
       "userId": "u13",
       "username": "sneha.codes",
       "description": "Deployed to production. Now I wait... 😅",
-      "photos": ["https://picsum.photos/seed/p14/640/480"]
+      "photos": ["https://picsum.photos/seed/p14/640/480"],
+      "likes": ["u13"]
     },
     {
       "id": "p15",
       "userId": "u14",
       "username": "varun.b",
       "description": "Startup vibes & sprints 🚀💼",
-      "photos": ["https://picsum.photos/seed/p15/640/480"]
+      "photos": ["https://picsum.photos/seed/p15/640/480"],
+      "likes": ["u14"]
     },
     {
       "id": "87e7",
       "userId": "2964",
       "username": "abc123",
       "description": "abc",
-      "photos": ["https://picsum.photos/seed/p10/640/480"]
-    }
-  ],
-
-  "likes": [
-    {
-      "id": "l1",
-      "userId": "u2",
-      "postId": "p1"
-    },
-    {
-      "id": "l2",
-      "userId": "u1",
-      "postId": "p2"
-    },
-    {
-      "id": "l3",
-      "userId": "u3",
-      "postId": "p3"
-    },
-    {
-      "id": "l4",
-      "userId": "u3",
-      "postId": "p4"
-    },
-    {
-      "id": "l5",
-      "userId": "u4",
-      "postId": "p5"
-    },
-    {
-      "id": "l6",
-      "userId": "u5",
-      "postId": "p6"
-    },
-    {
-      "id": "l7",
-      "userId": "u6",
-      "postId": "p7"
-    },
-    {
-      "id": "l8",
-      "userId": "u7",
-      "postId": "p8"
-    },
-    {
-      "id": "l9",
-      "userId": "u8",
-      "postId": "p9"
-    },
-    {
-      "id": "l10",
-      "userId": "u9",
-      "postId": "p10"
-    },
-    {
-      "id": "l11",
-      "userId": "u10",
-      "postId": "p11"
-    },
-    {
-      "id": "l12",
-      "userId": "u11",
-      "postId": "p12"
-    },
-    {
-      "id": "l13",
-      "userId": "u12",
-      "postId": "p13"
-    },
-    {
-      "id": "l14",
-      "userId": "u13",
-      "postId": "p14"
-    },
-    {
-      "id": "l15",
-      "userId": "u14",
-      "postId": "p15"
+      "photos": ["https://picsum.photos/seed/p10/640/480"],
+      "likes": []
     }
   ],
   "comments": [
