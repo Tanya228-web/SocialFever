@@ -39,6 +39,7 @@ export class PostFormComponent {
         "photos": [this.postForm.value.imageUrl],
         "userId": user.id,
         "userName": user.name,
+        "likes": [],
     }
       this.postService.createPost(obj).subscribe((data: any) => {
         console.log(data);
