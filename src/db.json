@@ -175,6 +175,7 @@
     {
       "id": "p1",
       "userId": "u1",
+      "username": "tanya.codes",
       "description": "Just launched my new portfolio 🚀",
       "photos": [
         "https://picsum.photos/seed/p1a/640/480",
@@ -184,6 +185,7 @@
     {
       "id": "p2",
       "userId": "u3",
+      "username": "priya.s",
       "description": "Clouds whispered secrets to the mountains.",
       "photos": [
         "https://picsum.photos/seed/p2a/640/480",
@@ -193,30 +195,28 @@
     {
       "id": "p3",
       "userId": "u2",
+      "username": "rohan_k",
       "description": "Debugging life, one bug at a time 🐞",
-      "photos": [
-        "https://picsum.photos/seed/p3/640/480"
-      ]
+      "photos": ["https://picsum.photos/seed/p3/640/480"]
     },
     {
       "id": "p4",
       "userId": "u1",
+      "username": "tanya.codes",
       "description": "Sunsets & sandcastles 🌅🏖️",
-      "photos": [
-        "https://picsum.photos/seed/p4/640/480"
-      ]
+      "photos": ["https://picsum.photos/seed/p4/640/480"]
     },
     {
       "id": "p5",
       "userId": "u4",
+      "username": "amitv",
       "description": "Late night coding with lo-fi beats 🎧",
-      "photos": [
-        "https://picsum.photos/seed/p5/640/480"
-      ]
+      "photos": ["https://picsum.photos/seed/p5/640/480"]
     },
     {
       "id": "p6",
       "userId": "u5",
+      "username": "neha_rao",
       "description": "Wandered into a hidden waterfall today! 💦",
       "photos": [
         "https://picsum.photos/seed/p6a/640/480",
@@ -226,84 +226,75 @@
     {
       "id": "p7",
       "userId": "u6",
+      "username": "ishaanj",
       "description": "My cat just wrote better code than me 🐈‍⬛",
-      "photos": [
-        "https://picsum.photos/seed/p7/640/480"
-      ]
+      "photos": ["https://picsum.photos/seed/p7/640/480"]
     },
     {
       "id": "p8",
       "userId": "u7",
+      "username": "sara.a",
       "description": "Pushed a new PR and maxed out deadlifts today 💪",
-      "photos": [
-        "https://picsum.photos/seed/p8/640/480"
-      ]
+      "photos": ["https://picsum.photos/seed/p8/640/480"]
     },
     {
       "id": "p9",
       "userId": "u8",
+      "username": "adimehta",
       "description": "Weekend reading with coffee and Python ☕🐍",
-      "photos": [
-        "https://picsum.photos/seed/p9/640/480"
-      ]
+      "photos": ["https://picsum.photos/seed/p9/640/480"]
     },
     {
       "id": "p10",
       "userId": "u9",
+      "username": "meerad",
       "description": "New UI kit drop! 🎨",
-      "photos": [
-        "https://picsum.photos/seed/p10/640/480"
-      ]
+      "photos": ["https://picsum.photos/seed/p10/640/480"]
     },
     {
       "id": "p11",
       "userId": "u10",
+      "username": "ankits",
       "description": "Cycling through old city lanes 🚴‍♂️",
-      "photos": [
-        "https://picsum.photos/seed/p11/640/480"
-      ]
+      "photos": ["https://picsum.photos/seed/p11/640/480"]
     },
     {
       "id": "p12",
       "userId": "u11",
+      "username": "nidhi_y",
       "description": "Web3 community meetup highlights 🔗",
-      "photos": [
-        "https://picsum.photos/seed/p12/640/480"
-      ]
+      "photos": ["https://picsum.photos/seed/p12/640/480"]
     },
     {
       "id": "p13",
       "userId": "u12",
+      "username": "manavj",
       "description": "Code & couplets for a calm evening 📝",
-      "photos": [
-        "https://picsum.photos/seed/p13/640/480"
-      ]
+      "photos": ["https://picsum.photos/seed/p13/640/480"]
     },
     {
       "id": "p14",
       "userId": "u13",
+      "username": "sneha.codes",
       "description": "Deployed to production. Now I wait... 😅",
-      "photos": [
-        "https://picsum.photos/seed/p14/640/480"
-      ]
+      "photos": ["https://picsum.photos/seed/p14/640/480"]
     },
     {
       "id": "p15",
       "userId": "u14",
+      "username": "varun.b",
       "description": "Startup vibes & sprints 🚀💼",
-      "photos": [
-        "https://picsum.photos/seed/p15/640/480"
-      ]
+      "photos": ["https://picsum.photos/seed/p15/640/480"]
     },
     {
       "id": "87e7",
+      "userId": "2964",
+      "username": "abc123",
       "description": "abc",
-      "photos": [
-        "https://picsum.photos/seed/p10/640/480"
-      ],
-      "userId": "2964"
+      "photos": ["https://picsum.photos/seed/p10/640/480"]
     }
   ],
+
   "likes": [
     {
       "id": "l1",

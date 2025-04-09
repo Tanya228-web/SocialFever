@@ -33,12 +33,12 @@ export class PostFormComponent {
 
   onSubmit(): void {
     if (this.postForm.valid) {
-      let userId = this.userService.getLocalStorage('user')[0].id;
-      console.log(userId);
+      let user = this.userService.getLocalStorage('user')[0];
       let obj = {
         "description": this.postForm.value.caption,
         "photos": [this.postForm.value.imageUrl],
-        "userId": userId,
+        "userId": user.id,
+        "userName": user.name,
     }
       this.postService.createPost(obj).subscribe((data: any) => {
         console.log(data);
