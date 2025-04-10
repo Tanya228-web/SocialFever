@@ -11,8 +11,12 @@
       <h3 class="caption">This is a stylish caption 💫</h3>
   
       <div class="comments-section">
-        <p>💬 Awesome click!</p>
-        <p>🔥 Love the vibes!</p>
+        @for(comment of postData.comments ; track comment){
+        <p>
+            {{comment.text}}
+        </p>
+        }
+       
       </div>
   
       <form [formGroup]="comment" (ngSubmit)="postComment()">

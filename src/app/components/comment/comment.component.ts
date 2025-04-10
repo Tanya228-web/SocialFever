@@ -6,6 +6,10 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogRef } from '@angular/material/dialog';
+import { MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { Inject } from '@angular/core';
+import { PostService } from '../../services/post.service';
+import { UserService } from '../../services/user.service';
 
 @Component({
   selector: 'app-comment',
@@ -16,26 +20,53 @@ import { MatDialogRef } from '@angular/material/dialog';
     MatFormFieldModule,
     MatInputModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
   ],
   templateUrl: './comment.component.html',
-  styleUrls: ['./comment.component.css']
+  styleUrls: ['./comment.component.css'],
 })
 export class CommentComponent {
-  constructor(private dialogRef: MatDialogRef<CommentComponent>){}
+  postData: any = {};
+
+  constructor(
+    private service: PostService,
+    private userservice: UserService,
+    private dialogRef: MatDialogRef<CommentComponent>,
+    @Inject(MAT_DIALOG_DATA) public data: { postId: any }
+  ) {
+    console.log(this.data.postId);
+  }
   comment = new FormGroup({
     usercomment: new FormControl<string>(''),
   });
+  ngOnInit() {
+    this.service.getSinglePost(this.data.postId).subscribe((data: any) => {
+      this.postData = data;
+      console.log(this.postData.comments);
+    });
+  }
 
   postComment() {
     if (this.comment.valid) {
-      const usercomments = this.comment.value;
-      console.log(usercomments);
+      const usercomments = this.comment.value.usercomment;
+
+      let userId = this.userservice.getLocalStorage('user')[0].id;
+
+      let obj: any = {
+        userId,
+        text: usercomments,
+      };
+      this.postData.comments.push(obj);
+
+      this.service
+        .updateComments(this.data.postId, this.postData)
+        .subscribe((data: any) => {
+          this.comment.reset();
+        });
     }
   }
   onClose(): void {
     this.comment.reset();
     this.dialogRef.close();
   }
-
 }

@@ -62,13 +62,15 @@ export class PostComponent {
       .updateLikes(id, arr[0])
       .subscribe((data: any) => console.log(data));
   }
- openDialog(): void {
-     const dialogRef = this.dialog.open(CommentComponent, {
-       width: '650px',
-       maxWidth: '95vw',
-       panelClass: 'custom-dialog-container',
-       autoFocus: false
-     });
+ openDialog(postId:any): void {
+  const dialogRef = this.dialog.open(CommentComponent, {
+    data: { postId },
+    width: '650px',
+    maxWidth: '95vw',
+    panelClass: 'custom-dialog-container',
+    autoFocus: false
+  });
+  
       dialogRef.afterClosed().subscribe((result) => {
       if (result) {
         console.log(result)

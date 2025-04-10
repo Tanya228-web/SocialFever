@@ -15,5 +15,17 @@ export class PostService {
     let url = 'http://localhost:3000/posts';
     return this.http.post(url, data);
   }
+  getSinglePost(id:string){
+    let url = `http://localhost:3000/posts/${id}`;
+    return this.http.get(url)
+
+
+
+  }
+  updateComments(postId:any,data:any){
+    let url=`http://localhost:3000/posts/${postId}`
+    return this.http.put(url,data)
+    
+  }
 
 }
