@@ -69,4 +69,15 @@ export class CommentComponent {
     this.comment.reset();
     this.dialogRef.close();
   }
+  deleteComment(userid:string){
+    let arr=this.postData.comments.filter((data:any)=>userid!=data.userId)
+    this.postData.comments=arr;
+    console.log(this.postData)
+    this.service.updateComments(this.data.postId,this.postData).subscribe((data:any)=>console.log(data))
+
+    
+    
+
+
+  }
 }

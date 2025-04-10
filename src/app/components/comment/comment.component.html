@@ -1,32 +1,42 @@
 <div class="dialog-container">
-    <div class="image-section">
-      <img src="https://picsum.photos/seed/p1b/640/480" alt="Post Image" />
-    </div>
-  
-    <div class="info-section">
-      <button mat-icon-button class="close-button" aria-label="Close" (click)="onClose()">
-        <mat-icon >close</mat-icon>
-      </button>
-  
-      <h3 class="caption">This is a stylish caption 💫</h3>
-  
-      <div class="comments-section">
-        @for(comment of postData.comments ; track comment){
-        <p>
-            {{comment.text}}
-        </p>
-        }
-       
-      </div>
-  
-      <form [formGroup]="comment" (ngSubmit)="postComment()">
-        <div class="comment-action-row">
-          <mat-form-field class="comment-input" appearance="outline">
-            <input matInput placeholder="Add a comment..." formControlName="usercomment" />
-          </mat-form-field>
-          <button mat-raised-button color="primary" type="submit">Post</button>
-        </div>
-      </form>
-    </div>
+  <div class="image-section">
+    <img src="https://picsum.photos/seed/p1b/640/480" alt="Post Image" />
   </div>
-  
+
+  <div class="info-section">
+    <button
+      mat-icon-button
+      class="close-button"
+      aria-label="Close"
+      (click)="onClose()"
+    >
+      <mat-icon>close</mat-icon>
+    </button>
+
+    <h3 class="caption">This is a stylish caption 💫</h3>
+
+    <div class="comments-section">
+      @for(comment of postData.comments ; track comment){
+        <div class ="comments-remove">
+
+      <p>{{ comment.text }}</p>
+
+      <button class="remove-btn" (click)="deleteComment(comment.userId)">-</button>
+    </div>
+}
+    </div>
+
+    <form [formGroup]="comment" (ngSubmit)="postComment()">
+      <div class="comment-action-row">
+        <mat-form-field class="comment-input" appearance="outline">
+          <input
+            matInput
+            placeholder="Add a comment..."
+            formControlName="usercomment"
+          />
+        </mat-form-field>
+        <button mat-raised-button color="primary" type="submit">Post</button>
+      </div>
+    </form>
+  </div>
+</div>

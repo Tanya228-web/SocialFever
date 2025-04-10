@@ -71,9 +71,19 @@
   flex-grow: 1;
   overflow-y: auto;
   margin-top: 1rem;
-  max-height: 200px;
-}
+  /* max-height: 200px; */
 
+  
+}
+.remove-btn{
+    height:35px;
+
+}
+.comments-remove{
+    display: flex;
+    justify-content: space-between;
+
+}
 .comments-section p {
   margin-bottom: 0.5rem;
   padding: 0.5rem;
@@ -81,6 +91,7 @@
   border-radius: 8px;
   font-size: 0.95rem;
 }
+
 
 .comment-action-row {
   display: flex;
