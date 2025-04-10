@@ -181,10 +181,13 @@
         "https://picsum.photos/seed/p1a/640/480",
         "https://picsum.photos/seed/p1b/640/480"
       ],
-      "likes": [
-        "u2",
-        "u3",
-        "6783"
+      "likes": ["u2", "u3", "6783"],
+      "comments": [
+        {
+          "userId": "u2",
+          "postId": "p1",
+          "text": "Awesome work Tanya! 🔥"
+        }
       ]
     },
     {
@@ -196,10 +199,13 @@
         "https://picsum.photos/seed/p2a/640/480",
         "https://picsum.photos/seed/p2b/640/480"
       ],
-      "likes": [
-        "u1",
-        "u4",
-        "u14"
+      "likes": ["u1", "u4", "u14"],
+      "comments": [
+        {
+          "userId": "u1",
+          "postId": "p2",
+          "text": "This photo feels magical!"
+        }
       ]
     },
     {
@@ -207,12 +213,14 @@
       "userId": "u2",
       "username": "rohan_k",
       "description": "Debugging life, one bug at a time 🐞",
-      "photos": [
-        "https://picsum.photos/seed/p3/640/480"
-      ],
-      "likes": [
-        "u3",
-        "6783"
+      "photos": ["https://picsum.photos/seed/p3/640/480"],
+      "likes": ["u3", "6783"],
+      "comments": [
+        {
+          "userId": "u2",
+          "postId": "p3",
+          "text": "Haha, story of my life 😂"
+        }
       ]
     },
     {
@@ -220,11 +228,14 @@
       "userId": "u1",
       "username": "tanya.codes",
       "description": "Sunsets & sandcastles 🌅🏖️",
-      "photos": [
-        "https://picsum.photos/seed/p4/640/480"
-      ],
-      "likes": [
-        "u3"
+      "photos": ["https://picsum.photos/seed/p4/640/480"],
+      "likes": ["u3"],
+      "comments": [
+        {
+          "userId": "u3",
+          "postId": "p4",
+          "text": "Gorgeous shot 😍"
+        }
       ]
     },
     {
@@ -232,11 +243,14 @@
       "userId": "u4",
       "username": "amitv",
       "description": "Late night coding with lo-fi beats 🎧",
-      "photos": [
-        "https://picsum.photos/seed/p5/640/480"
-      ],
-      "likes": [
-        "u4"
+      "photos": ["https://picsum.photos/seed/p5/640/480"],
+      "likes": ["u4"],
+      "comments": [
+        {
+          "userId": "u4",
+          "postId": "p5",
+          "text": "So proud of your progress!"
+        }
       ]
     },
     {
@@ -248,8 +262,13 @@
         "https://picsum.photos/seed/p6a/640/480",
         "https://picsum.photos/seed/p6b/640/480"
       ],
-      "likes": [
-        "u5"
+      "likes": ["u5"],
+      "comments": [
+        {
+          "userId": "u5",
+          "postId": "p6",
+          "text": "How did you take that photo? Incredible!"
+        }
       ]
     },
     {
@@ -257,12 +276,14 @@
       "userId": "u6",
       "username": "ishaanj",
       "description": "My cat just wrote better code than me 🐈‍⬛",
-      "photos": [
-        "https://picsum.photos/seed/p7/640/480"
-      ],
-      "likes": [
-        "u6",
-        "6783"
+      "photos": ["https://picsum.photos/seed/p7/640/480"],
+      "likes": ["u6", "6783"],
+      "comments": [
+        {
+          "userId": "u6",
+          "postId": "p7",
+          "text": "Your feed is always inspiring ✨"
+        }
       ]
     },
     {
@@ -270,11 +291,14 @@
       "userId": "u7",
       "username": "sara.a",
       "description": "Pushed a new PR and maxed out deadlifts today 💪",
-      "photos": [
-        "https://picsum.photos/seed/p8/640/480"
-      ],
-      "likes": [
-        "u7"
+      "photos": ["https://picsum.photos/seed/p8/640/480"],
+      "likes": ["u7"],
+      "comments": [
+        {
+          "userId": "u7",
+          "postId": "p8",
+          "text": "This just made my day ❤️"
+        }
       ]
     },
     {
@@ -282,12 +306,14 @@
       "userId": "u8",
       "username": "adimehta",
       "description": "Weekend reading with coffee and Python ☕🐍",
-      "photos": [
-        "https://picsum.photos/seed/p9/640/480"
-      ],
-      "likes": [
-        "u8",
-        "6783"
+      "photos": ["https://picsum.photos/seed/p9/640/480"],
+      "likes": ["u8", "6783"],
+      "comments": [
+        {
+          "userId": "u8",
+          "postId": "p9",
+          "text": "Need a wallpaper version 😍"
+        }
       ]
     },
     {
@@ -295,11 +321,14 @@
       "userId": "u9",
       "username": "meerad",
       "description": "New UI kit drop! 🎨",
-      "photos": [
-        "https://picsum.photos/seed/p10/640/480"
-      ],
-      "likes": [
-        "u9"
+      "photos": ["https://picsum.photos/seed/p10/640/480"],
+      "likes": ["u9"],
+      "comments": [
+        {
+          "userId": "u9",
+          "postId": "p10",
+          "text": "That vibe though 🔥🔥🔥"
+        }
       ]
     },
     {
@@ -307,11 +336,14 @@
       "userId": "u10",
       "username": "ankits",
       "description": "Cycling through old city lanes 🚴‍♂️",
-      "photos": [
-        "https://picsum.photos/seed/p11/640/480"
-      ],
-      "likes": [
-        "u10"
+      "photos": ["https://picsum.photos/seed/p11/640/480"],
+      "likes": ["u10"],
+      "comments": [
+        {
+          "userId": "u10",
+          "postId": "p11",
+          "text": "Gave me chills. Wow!"
+        }
       ]
     },
     {
@@ -319,11 +351,14 @@
       "userId": "u11",
       "username": "nidhi_y",
       "description": "Web3 community meetup highlights 🔗",
-      "photos": [
-        "https://picsum.photos/seed/p12/640/480"
-      ],
-      "likes": [
-        "u11"
+      "photos": ["https://picsum.photos/seed/p12/640/480"],
+      "likes": ["u11"],
+      "comments": [
+        {
+          "userId": "u11",
+          "postId": "p12",
+          "text": "One of your best posts yet 🙌"
+        }
       ]
     },
     {
@@ -331,11 +366,14 @@
       "userId": "u12",
       "username": "manavj",
       "description": "Code & couplets for a calm evening 📝",
-      "photos": [
-        "https://picsum.photos/seed/p13/640/480"
-      ],
-      "likes": [
-        "u12"
+      "photos": ["https://picsum.photos/seed/p13/640/480"],
+      "likes": ["u12"],
+      "comments": [
+        {
+          "userId": "u12",
+          "postId": "p13",
+          "text": "Dreamy aesthetic 🌈"
+        }
       ]
     },
     {
@@ -343,11 +381,14 @@
       "userId": "u13",
       "username": "sneha.codes",
       "description": "Deployed to production. Now I wait... 😅",
-      "photos": [
-        "https://picsum.photos/seed/p14/640/480"
-      ],
-      "likes": [
-        "u13"
+      "photos": ["https://picsum.photos/seed/p14/640/480"],
+      "likes": ["u13"],
+      "comments": [
+        {
+          "userId": "u13",
+          "postId": "p14",
+          "text": "Why is this so relatable? 😂"
+        }
       ]
     },
     {
@@ -355,11 +396,19 @@
       "userId": "u14",
       "username": "varun.b",
       "description": "Startup vibes & sprints 🚀💼",
-      "photos": [
-        "https://picsum.photos/seed/p15/640/480"
-      ],
-      "likes": [
-        "u14"
+      "photos": ["https://picsum.photos/seed/p15/640/480"],
+      "likes": ["u14"],
+      "comments": [
+        {
+          "userId": "u14",
+          "postId": "p15",
+          "text": "Bro this is gold 🪙"
+        },
+        {
+          "userId": "u13",
+          "postId": "p14",
+          "text": "Why is this so relatable? 😂"
+        }
       ]
     },
     {
@@ -367,104 +416,9 @@
       "userId": "2964",
       "username": "abc123",
       "description": "abc",
-      "photos": [
-        "https://picsum.photos/seed/p10/640/480"
-      ],
-      "likes": [
-        "6783"
-      ]
-    }
-  ],
-  "comments": [
-    {
-      "id": "c1",
-      "userId": "u2",
-      "postId": "p1",
-      "text": "Awesome work Tanya! 🔥"
-    },
-    {
-      "id": "c2",
-      "userId": "u1",
-      "postId": "p2",
-      "text": "This photo feels magical!"
-    },
-    {
-      "id": "c3",
-      "userId": "u2",
-      "postId": "p3",
-      "text": "Haha, story of my life 😂"
-    },
-    {
-      "id": "c4",
-      "userId": "u3",
-      "postId": "p4",
-      "text": "Gorgeous shot 😍"
-    },
-    {
-      "id": "c5",
-      "userId": "u4",
-      "postId": "p5",
-      "text": "So proud of your progress!"
-    },
-    {
-      "id": "c6",
-      "userId": "u5",
-      "postId": "p6",
-      "text": "How did you take that photo? Incredible!"
-    },
-    {
-      "id": "c7",
-      "userId": "u6",
-      "postId": "p7",
-      "text": "Your feed is always inspiring ✨"
-    },
-    {
-      "id": "c8",
-      "userId": "u7",
-      "postId": "p8",
-      "text": "This just made my day ❤️"
-    },
-    {
-      "id": "c9",
-      "userId": "u8",
-      "postId": "p9",
-      "text": "Need a wallpaper version 😍"
-    },
-    {
-      "id": "c10",
-      "userId": "u9",
-      "postId": "p10",
-      "text": "That vibe though 🔥🔥🔥"
-    },
-    {
-      "id": "c11",
-      "userId": "u10",
-      "postId": "p11",
-      "text": "Gave me chills. Wow!"
-    },
-    {
-      "id": "c12",
-      "userId": "u11",
-      "postId": "p12",
-      "text": "One of your best posts yet 🙌"
-    },
-    {
-      "id": "c13",
-      "userId": "u12",
-      "postId": "p13",
-      "text": "Dreamy aesthetic 🌈"
-    },
-    {
-      "id": "c14",
-      "userId": "u13",
-      "postId": "p14",
-      "text": "Why is this so relatable? 😂"
-    },
-    {
-      "id": "c15",
-      "userId": "u14",
-      "postId": "p15",
-      "text": "Bro this is gold 🪙"
+      "photos": ["https://picsum.photos/seed/p10/640/480"],
+      "likes": ["6783"],
+      "comments": []
     }
   ]
 }
