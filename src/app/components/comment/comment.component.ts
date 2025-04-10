@@ -1,13 +1,41 @@
 import { Component } from '@angular/core';
-import { NgFor } from '@angular/common';
-import { MatFormField } from '@angular/material/form-field';
-import { MatIcon } from '@angular/material/icon';
+import { CommonModule } from '@angular/common';
+import { ReactiveFormsModule, FormGroup, FormControl } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDialogRef } from '@angular/material/dialog';
+
 @Component({
   selector: 'app-comment',
-  imports: [MatFormField,MatIcon],
+  standalone: true,
+  imports: [
+    CommonModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule,
+    MatButtonModule
+  ],
   templateUrl: './comment.component.html',
-  styleUrl: './comment.component.css'
+  styleUrls: ['./comment.component.css']
 })
 export class CommentComponent {
+  constructor(private dialogRef: MatDialogRef<CommentComponent>){}
+  comment = new FormGroup({
+    usercomment: new FormControl<string>(''),
+  });
+
+  postComment() {
+    if (this.comment.valid) {
+      const usercomments = this.comment.value;
+      console.log(usercomments);
+    }
+  }
+  onClose(): void {
+    this.comment.reset();
+    this.dialogRef.close();
+  }
 
 }

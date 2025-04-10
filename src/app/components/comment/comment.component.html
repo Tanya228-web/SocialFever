@@ -1,27 +1,28 @@
 <div class="dialog-container">
-  <div class="image-section">
-    <img src="https://picsum.photos/seed/p1b/640/480" alt="Post Image" />
-  </div>
-
-  <div class="info-section">
-    <button mat-icon-button class="close-button" aria-label="Close">
-      <mat-icon>close</mat-icon>
-    </button>
-
-    <h3 class="caption">This is a stylish caption 💫</h3>
-
-    <div class="comments-section">
-      <p>💬 Awesome click!</p>
-      <p>🔥 Love the vibes!</p>
+    <div class="image-section">
+      <img src="https://picsum.photos/seed/p1b/640/480" alt="Post Image" />
     </div>
-
- <div class="comment-action-row">
-  <mat-form-field class="comment-input" appearance="outline">
-    <input matInput placeholder="Add a comment..." />
-  </mat-form-field>
-
-  <button mat-raised-button color="primary">Post</button>
-</div>
-
+  
+    <div class="info-section">
+      <button mat-icon-button class="close-button" aria-label="Close" (click)="onClose()">
+        <mat-icon >close</mat-icon>
+      </button>
+  
+      <h3 class="caption">This is a stylish caption 💫</h3>
+  
+      <div class="comments-section">
+        <p>💬 Awesome click!</p>
+        <p>🔥 Love the vibes!</p>
+      </div>
+  
+      <form [formGroup]="comment" (ngSubmit)="postComment()">
+        <div class="comment-action-row">
+          <mat-form-field class="comment-input" appearance="outline">
+            <input matInput placeholder="Add a comment..." formControlName="usercomment" />
+          </mat-form-field>
+          <button mat-raised-button color="primary" type="submit">Post</button>
+        </div>
+      </form>
+    </div>
   </div>
-</div>
+  

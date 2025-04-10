@@ -5,14 +5,16 @@ import { MatButtonModule } from '@angular/material/button';
 import { Input } from '@angular/core';
 import { NgFor, NgIf } from '@angular/common';
 import { UserService } from '../../services/user.service';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { CommentComponent } from '../comment/comment.component';
 @Component({
   selector: 'app-post',
-  imports: [MatCardModule, MatIconModule, MatButtonModule, NgFor, NgIf],
+  imports: [MatCardModule, MatIconModule, MatButtonModule, NgFor, NgIf,MatDialogModule],
   templateUrl: './post.component.html',
   styleUrl: './post.component.css',
 })
 export class PostComponent {
-  constructor(private service: UserService) {}
+  constructor(private service: UserService, private dialog:MatDialog) {}
   userId: string = '';
  
   @Input() postData: any = [];
@@ -38,6 +40,7 @@ export class PostComponent {
       post.currentIndex = length - 1;
     }
   }
+
   like(id: any) {
     let arr = this.postData.filter((data: any) => data.id === id);
     console.log(arr);
@@ -59,4 +62,20 @@ export class PostComponent {
       .updateLikes(id, arr[0])
       .subscribe((data: any) => console.log(data));
   }
+ openDialog(): void {
+     const dialogRef = this.dialog.open(CommentComponent, {
+       width: '650px',
+       maxWidth: '95vw',
+       panelClass: 'custom-dialog-container',
+       autoFocus: false
+     });
+      dialogRef.afterClosed().subscribe((result) => {
+      if (result) {
+        console.log(result)
+      }
+    });
+  }
+
 }
+
+
