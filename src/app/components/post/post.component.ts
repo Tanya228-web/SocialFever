@@ -14,11 +14,7 @@ import { UserService } from '../../services/user.service';
 export class PostComponent {
   constructor(private service: UserService) {}
   userId: string = '';
-  ngOnInit() {
-    let userdata = this.service.getLocalStorage('user');
-    this.userId = userdata[0].id;
-    
-  }
+ 
   @Input() postData: any = [];
   particularPost: any = [];
   nextImage(post: any): void {
@@ -28,6 +24,12 @@ export class PostComponent {
       post.currentIndex = 0;
     }
   }
+  ngOnInit() {
+    let userdata = this.service.getLocalStorage('user');
+    this.userId = userdata[0].id;
+    
+  }
+   
 
   prevImage(post: any): void {
     const length = post.photos.length;
