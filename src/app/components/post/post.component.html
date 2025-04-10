@@ -9,13 +9,21 @@
 
   <mat-card-actions class="post-actions">
     <mat-icon class="action-item" color="warn">chat_bubble_outline</mat-icon>
-    <mat-icon class="action-item" color="warn">favorite_border</mat-icon>
+    <ng-container *ngIf="post.likes.includes(userId); else notLiked">
+      <mat-icon class="action-item" color="warn" (click)="unlike(post.id)">favorite</mat-icon>
+    </ng-container>
+    <ng-template #notLiked>
+      <mat-icon class="action-item" color="warn" (click)="like(post.id)">favorite_border</mat-icon>
+    </ng-template>
     <mat-icon class="action-item" color="warn">save</mat-icon>
   </mat-card-actions>
-
+  
   <div class="like-counter">
-   0 likes
-  </div>
+    {{  post.likes.length}}
+    {{post.likes.length>1? 'likes' : 'like'}}
+   </div>
+
+  
 
   <mat-card-header>
     <mat-card-title class="post-author">{{ post.username }}</mat-card-title>

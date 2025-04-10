@@ -23,11 +23,7 @@ export class UserService {
   }
   userLogout() {
     let url = 'https://api.freeapi.app/api/v1/users/logout';
-    return this.http.post(url, {}, { withCredentials: true }).pipe(
-      tap(() => {
-        this.loginStatus.next(false);
-      })
-    );
+    return this.http.post(url, {})
   }
   setLocalStorage(key: any, data: any) {
     if (data) {
@@ -35,10 +31,15 @@ export class UserService {
     }
   }
   getLocalStorage(key: any) {
-    console.log(key)
+    
     let jsondata = localStorage.getItem(key);
-    console.log('jsondata', jsondata);
+    
     return jsondata && JSON.parse(jsondata);
+  }
+  updateLikes(postId:any,data:any){
+    let url=`http://localhost:3000/posts/${postId}`
+    return this.http.put(url,data)
+    
   }
 
 }
