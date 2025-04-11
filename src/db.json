@@ -212,19 +212,20 @@
       "userId": "u1",
       "username": "tanya.codes",
       "description": "Just launched my new portfolio 🚀",
-      "photos": [
-        "https://picsum.photos/seed/p1a/640/480",
-        "https://picsum.photos/seed/p1b/640/480"
-      ],
-      "likes": [
-        "u2",
-        "u3",
-        "6783"
-      ],
+      "photos": ["https://picsum.photos/seed/p1a/640/480", "https://picsum.photos/seed/p1b/640/480"],
+      "likes": ["u2", "u3", "6783"],
       "comments": [
         {
-          "userId": "u1",
-          "text": "amazing view "
+          "userId": "u2",
+          "username": "rohan_k",
+          "name": "Rohan Kapoor",
+          "comment": "Clean UI, love it!"
+        },
+        {
+          "userId": "u3",
+          "username": "priya.s",
+          "name": "Priya Sharma",
+          "comment": "Looks amazing Tanya! 🔥"
         }
       ]
     },
@@ -233,19 +234,14 @@
       "userId": "u3",
       "username": "priya.s",
       "description": "Clouds whispered secrets to the mountains.",
-      "photos": [
-        "https://picsum.photos/seed/p2a/640/480",
-        "https://picsum.photos/seed/p2b/640/480"
-      ],
-      "likes": [
-        "u1",
-        "u4",
-        "u14"
-      ],
+      "photos": ["https://picsum.photos/seed/p2a/640/480", "https://picsum.photos/seed/p2b/640/480"],
+      "likes": ["u1", "u4", "u14"],
       "comments": [
         {
           "userId": "u1",
-          "text": "This photo feels magical!"
+          "username": "tanya.codes",
+          "name": "Tanya Singh",
+          "comment": "This photo feels magical!"
         }
       ]
     },
@@ -254,17 +250,14 @@
       "userId": "u2",
       "username": "rohan_k",
       "description": "Debugging life, one bug at a time 🐞",
-      "photos": [
-        "https://picsum.photos/seed/p3/640/480"
-      ],
-      "likes": [
-        "u3",
-        "6783"
-      ],
+      "photos": ["https://picsum.photos/seed/p3/640/480"],
+      "likes": ["u3", "6783"],
       "comments": [
         {
-          "userId": "u2",
-          "text": "Haha, story of my life 😂"
+          "userId": "u4",
+          "username": "amitv",
+          "name": "Amit Verma",
+          "comment": "Relatable much 😅"
         }
       ]
     },
@@ -273,16 +266,14 @@
       "userId": "u1",
       "username": "tanya.codes",
       "description": "Sunsets & sandcastles 🌅🏖️",
-      "photos": [
-        "https://picsum.photos/seed/p4/640/480"
-      ],
-      "likes": [
-        "u3"
-      ],
+      "photos": ["https://picsum.photos/seed/p4/640/480"],
+      "likes": ["u3"],
       "comments": [
         {
           "userId": "u3",
-          "text": "Gorgeous shot 😍"
+          "username": "priya.s",
+          "name": "Priya Sharma",
+          "comment": "Gorgeous shot 😍"
         }
       ]
     },
@@ -291,16 +282,14 @@
       "userId": "u4",
       "username": "amitv",
       "description": "Late night coding with lo-fi beats 🎧",
-      "photos": [
-        "https://picsum.photos/seed/p5/640/480"
-      ],
-      "likes": [
-        "u4"
-      ],
+      "photos": ["https://picsum.photos/seed/p5/640/480"],
+      "likes": ["u4"],
       "comments": [
         {
-          "userId": "u4",
-          "text": "So proud of your progress!"
+          "userId": "u5",
+          "username": "neha_rao",
+          "name": "Neha Rao",
+          "comment": "This gives me life 💻🎶"
         }
       ]
     },
@@ -309,17 +298,14 @@
       "userId": "u5",
       "username": "neha_rao",
       "description": "Wandered into a hidden waterfall today! 💦",
-      "photos": [
-        "https://picsum.photos/seed/p6a/640/480",
-        "https://picsum.photos/seed/p6b/640/480"
-      ],
-      "likes": [
-        "u5"
-      ],
+      "photos": ["https://picsum.photos/seed/p6a/640/480", "https://picsum.photos/seed/p6b/640/480"],
+      "likes": ["u5"],
       "comments": [
         {
-          "userId": "u5",
-          "text": "How did you take that photo? Incredible!"
+          "userId": "u1",
+          "username": "tanya.codes",
+          "name": "Tanya Singh",
+          "comment": "Absolutely stunning!"
         }
       ]
     },
@@ -328,17 +314,14 @@
       "userId": "u6",
       "username": "ishaanj",
       "description": "My cat just wrote better code than me 🐈‍⬛",
-      "photos": [
-        "https://picsum.photos/seed/p7/640/480"
-      ],
-      "likes": [
-        "u6",
-        "6783"
-      ],
+      "photos": ["https://picsum.photos/seed/p7/640/480"],
+      "likes": ["u6", "6783"],
       "comments": [
         {
-          "userId": "u6",
-          "text": "Your feed is always inspiring ✨"
+          "userId": "u2",
+          "username": "rohan_k",
+          "name": "Rohan Kapoor",
+          "comment": "Laughed way too hard 😂"
         }
       ]
     },
@@ -347,16 +330,14 @@
       "userId": "u7",
       "username": "sara.a",
       "description": "Pushed a new PR and maxed out deadlifts today 💪",
-      "photos": [
-        "https://picsum.photos/seed/p8/640/480"
-      ],
-      "likes": [
-        "u7"
-      ],
+      "photos": ["https://picsum.photos/seed/p8/640/480"],
+      "likes": ["u7"],
       "comments": [
         {
-          "userId": "u7",
-          "text": "This just made my day ❤️"
+          "userId": "u8",
+          "username": "adimehta",
+          "name": "Adi Mehta",
+          "comment": "Dev and gains! 💯"
         }
       ]
     },
@@ -365,17 +346,14 @@
       "userId": "u8",
       "username": "adimehta",
       "description": "Weekend reading with coffee and Python ☕🐍",
-      "photos": [
-        "https://picsum.photos/seed/p9/640/480"
-      ],
-      "likes": [
-        "u8",
-        "6783"
-      ],
+      "photos": ["https://picsum.photos/seed/p9/640/480"],
+      "likes": ["u8", "6783"],
       "comments": [
         {
-          "userId": "u8",
-          "text": "Need a wallpaper version 😍"
+          "userId": "u9",
+          "username": "meerad",
+          "name": "Meera Desai",
+          "comment": "Cozy coder vibes 🧣"
         }
       ]
     },
@@ -384,16 +362,14 @@
       "userId": "u9",
       "username": "meerad",
       "description": "New UI kit drop! 🎨",
-      "photos": [
-        "https://picsum.photos/seed/p10/640/480"
-      ],
-      "likes": [
-        "u9"
-      ],
+      "photos": ["https://picsum.photos/seed/p10/640/480"],
+      "likes": ["u9"],
       "comments": [
         {
-          "userId": "u9",
-          "text": "That vibe though 🔥🔥🔥"
+          "userId": "u10",
+          "username": "ankits",
+          "name": "Ankit Sharma",
+          "comment": "This is fire 🔥🔥"
         }
       ]
     },
@@ -402,16 +378,14 @@
       "userId": "u10",
       "username": "ankits",
       "description": "Cycling through old city lanes 🚴‍♂️",
-      "photos": [
-        "https://picsum.photos/seed/p11/640/480"
-      ],
-      "likes": [
-        "u10"
-      ],
+      "photos": ["https://picsum.photos/seed/p11/640/480"],
+      "likes": ["u10"],
       "comments": [
         {
-          "userId": "u10",
-          "text": "Gave me chills. Wow!"
+          "userId": "u11",
+          "username": "nidhi_y",
+          "name": "Nidhi Yadav",
+          "comment": "So nostalgic 🛤️"
         }
       ]
     },
@@ -420,24 +394,20 @@
       "userId": "u11",
       "username": "nidhi_y",
       "description": "Web3 community meetup highlights 🔗",
-      "photos": [
-        "https://picsum.photos/seed/p12/640/480"
-      ],
-      "likes": [
-        "u11"
-      ],
+      "photos": ["https://picsum.photos/seed/p12/640/480"],
+      "likes": ["u11"],
       "comments": [
         {
-          "userId": "u11",
-          "text": "One of your best posts yet 🙌"
+          "userId": "u12",
+          "username": "manavj",
+          "name": "Manav Joshi",
+          "comment": "Awesome turnout!"
         },
         {
-          "userId": "u11",
-          "text": "nice post"
-        },
-        {
-          "userId": "u11",
-          "text": "amazing🙌"
+          "userId": "u13",
+          "username": "sneha.codes",
+          "name": "Sneha Singh",
+          "comment": "Wish I was there!"
         }
       ]
     },
@@ -446,20 +416,14 @@
       "userId": "u12",
       "username": "manavj",
       "description": "Code & couplets for a calm evening 📝",
-      "photos": [
-        "https://picsum.photos/seed/p13/640/480"
-      ],
-      "likes": [
-        "u12"
-      ],
+      "photos": ["https://picsum.photos/seed/p13/640/480"],
+      "likes": ["u12"],
       "comments": [
         {
-          "userId": "u12",
-          "text": "Dreamy aesthetic 🌈"
-        },
-        {
           "userId": "u14",
-          "text": "nice view"
+          "username": "varun.b",
+          "name": "Varun Batra",
+          "comment": "Beautifully written 💬"
         }
       ]
     },
@@ -468,16 +432,14 @@
       "userId": "u13",
       "username": "sneha.codes",
       "description": "Deployed to production. Now I wait... 😅",
-      "photos": [
-        "https://picsum.photos/seed/p14/640/480"
-      ],
-      "likes": [
-        "u13"
-      ],
+      "photos": ["https://picsum.photos/seed/p14/640/480"],
+      "likes": ["u13"],
       "comments": [
         {
-          "userId": "u13",
-          "text": "Why is this so relatable? 😂"
+          "userId": "u1",
+          "username": "tanya.codes",
+          "name": "Tanya Singh",
+          "comment": "Praying for zero bugs 🙏"
         }
       ]
     },
@@ -486,20 +448,14 @@
       "userId": "u14",
       "username": "varun.b",
       "description": "Startup vibes & sprints 🚀💼",
-      "photos": [
-        "https://picsum.photos/seed/p15/640/480"
-      ],
-      "likes": [
-        "u14"
-      ],
+      "photos": ["https://picsum.photos/seed/p15/640/480"],
+      "likes": ["u14"],
       "comments": [
         {
-          "userId": "u14",
-          "text": "Bro this is gold 🪙"
-        },
-        {
-          "userId": "u13",
-          "text": "Why is this so relatable? 😂"
+          "userId": "u5",
+          "username": "neha_rao",
+          "name": "Neha Rao",
+          "comment": "Let’s gooo! 💪"
         }
       ]
     },
@@ -508,13 +464,17 @@
       "userId": "2964",
       "username": "abc123",
       "description": "abc",
-      "photos": [
-        "https://picsum.photos/seed/p10/640/480"
-      ],
-      "likes": [
-        "6783"
-      ],
-      "comments": []
+      "photos": ["https://picsum.photos/seed/p10/640/480"],
+      "likes": ["6783"],
+      "comments": [
+        {
+          "userId": "u7",
+          "username": "sara.a",
+          "name": "Sara Ali",
+          "comment": "Interesting!"
+        }
+      ]
     }
   ]
+
 }

@@ -71,13 +71,11 @@ export class PostComponent {
     autoFocus: false
   });
   
-      dialogRef.afterClosed().subscribe((result) => {
-      if (result) {
-        console.log(result)
-      }
-    });
-  }
+  dialogRef.afterClosed().subscribe((result) => {
+    if (result) {
+      console.log(result)
+    }
+    });
+  }
 
 }
-
-

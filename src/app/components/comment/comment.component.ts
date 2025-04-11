@@ -29,7 +29,7 @@ export class CommentComponent {
   postData: any = {};
 
   constructor(
-    private service: PostService,
+    private postService: PostService,
     private userservice: UserService,
     private dialogRef: MatDialogRef<CommentComponent>,
     @Inject(MAT_DIALOG_DATA) public data: { postId: any }
@@ -40,7 +40,7 @@ export class CommentComponent {
     usercomment: new FormControl<string>(''),
   });
   ngOnInit() {
-    this.service.getSinglePost(this.data.postId).subscribe((data: any) => {
+    this.postService.getSinglePost(this.data.postId).subscribe((data: any) => {
       this.postData = data;
       console.log(this.postData.comments);
     });
@@ -50,15 +50,18 @@ export class CommentComponent {
     if (this.comment.valid) {
       const usercomments = this.comment.value.usercomment;
 
-      let userId = this.userservice.getLocalStorage('user')[0].id;
+      let userData = this.userservice.getLocalStorage('user')[0];
 
-      let obj: any = {
-        userId,
-        text: usercomments,
+      let userComment: any = {
+        userId:userData.id,
+        userName: userData.name,
+        name: userData.name,
+        comment: usercomments,
+
       };
-      this.postData.comments.push(obj);
+      this.postData.comments.push(userComment);
 
-      this.service
+      this.postService
         .updateComments(this.data.postId, this.postData)
         .subscribe((data: any) => {
           this.comment.reset();
@@ -69,15 +72,13 @@ export class CommentComponent {
     this.comment.reset();
     this.dialogRef.close();
   }
-  deleteComment(userid:string){
-    let arr=this.postData.comments.filter((data:any)=>userid!=data.userId)
-    this.postData.comments=arr;
-    console.log(this.postData)
-    this.service.updateComments(this.data.postId,this.postData).subscribe((data:any)=>console.log(data))
-
-    
-    
-
-
+  deleteComment(userid: string) {
+    let arr = this.postData.comments.filter(
+      (data: any) => userid != data.userId
+    );
+    this.postData.comments = arr;
+    this.postService
+      .updateComments(this.data.postId, this.postData)
+      .subscribe((data: any) => console.log(data));
   }
 }
