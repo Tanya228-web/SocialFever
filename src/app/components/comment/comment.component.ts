@@ -51,10 +51,11 @@ export class CommentComponent {
       const usercomments = this.comment.value.usercomment;
 
       let userData = this.userservice.getLocalStorage('user')[0];
+      console.log("userdata",userData)
 
       let userComment: any = {
         userId:userData.id,
-        userName: userData.name,
+        username: userData.username,
         name: userData.name,
         comment: usercomments,
 

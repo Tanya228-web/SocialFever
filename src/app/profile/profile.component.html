@@ -49,7 +49,9 @@
         *ngFor="let post of postData"
         class="aspect-square rounded-xl overflow-hidden shadow hover:scale-105 transition"
       >
-        <!-- <img [src]="postData.photos" alt="Post" class="w-full h-full object-cover" /> -->
+      <div   *ngFor="let photo of post.photos">
+        <img [src]="photo" alt="Post" class="w-full h-full object-cover" /> 
+    </div>
       </div>
     </div>
   </div>

@@ -313,16 +313,16 @@
       ],
       "comments": [
         {
-          "userId": "u2",
-          "username": "rohan_k",
-          "name": "Rohan Kapoor",
-          "comment": "Clean UI, love it!"
-        },
-        {
           "userId": "u3",
           "username": "priya.s",
           "name": "Priya Sharma",
           "comment": "Looks amazing Tanya! 🔥"
+        },
+        {
+          "userId": "6783",
+          "username": "pupukipupi",
+          "name": "",
+          "comment": "nice"
         }
       ]
     },
@@ -407,6 +407,12 @@
           "username": "neha_rao",
           "name": "Neha Rao",
           "comment": "This gives me life 💻🎶"
+        },
+        {
+          "userId": "6783",
+          "userName": "amitv",
+          "name": "amit",
+          "comment": "nice view"
         }
       ]
     },
@@ -644,6 +650,16 @@
       "description": "nice view",
       "photos": [
         "https://picsum.photos/seed/p1b/640/480"
+      ],
+      "userId": "6783",
+      "userName": "",
+      "likes": []
+    },
+    {
+      "id": "a572",
+      "description": "nice",
+      "photos": [
+        "https://picsum.photos/seed/p14/640/480"
       ],
       "userId": "6783",
       "userName": "",

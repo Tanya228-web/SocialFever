@@ -31,7 +31,7 @@ export class ProfileComponent implements OnInit {
 
         this.postservice.getUserPosts(userId).subscribe((posts: any) => {
           this.postData = posts;
-          console.log(this.postData[0])
+          console.log(this.postData)
         });
       });
     }

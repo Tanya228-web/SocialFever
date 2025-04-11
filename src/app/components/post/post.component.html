@@ -1,38 +1,34 @@
 <mat-card *ngFor="let post of postData" class="post-card">
-  <div class="carousel-container" *ngIf="post.photos?.length">
+  <div class="carousel-container" *ngIf="post?.photos?.length">
     <img [src]="post.photos[post.currentIndex || 0]" class="carousel-image" />
     <button class="carousel-btn left" (click)="prevImage(post)">&#8249;</button>
-    <button class="carousel-btn right" (click)="nextImage(post)">
-      &#8250;
-    </button>
+    <button class="carousel-btn right" (click)="nextImage(post)">&#8250;</button>
   </div>
 
   <mat-card-actions class="post-actions">
-   
-  
-
     <mat-icon class="action-item" color="warn" (click)="openDialog(post.id)">chat_bubble_outline</mat-icon>
-    <ng-container *ngIf="post.likes.includes(userId); else notLiked">
+
+    <ng-container *ngIf="post?.likes?.includes(userId); else notLiked">
       <mat-icon class="action-item" color="warn" (click)="unlike(post.id)">favorite</mat-icon>
     </ng-container>
     <ng-template #notLiked>
       <mat-icon class="action-item" color="warn" (click)="like(post.id)">favorite_border</mat-icon>
     </ng-template>
+
     <mat-icon class="action-item" color="warn">save</mat-icon>
   </mat-card-actions>
-  
-  <div class="like-counter">
-    {{  post.likes.length}}
-    {{post.likes.length>1? 'likes' : 'like'}}
-   </div>
 
-<mat-card-header>
-    <mat-card-title class="post-author">{{ post.username }}</mat-card-title>
+  <div class="like-counter">
+    {{ post?.likes?.length || 0 }} {{ (post?.likes?.length || 0) > 1 ? 'likes' : 'like' }}
+  </div>
+
+  <mat-card-header>
+    <mat-card-title class="post-author">{{ post?.username }}</mat-card-title>
   </mat-card-header>
 
   <mat-card-content class="post-content">
-    {{ post.description }}
+    {{ post?.description }}
   </mat-card-content>
-  <p>Total comments {{post.comments.length}}</p>
 
+  <p>Total comments {{ post?.comments?.length || 0 }}</p>
 </mat-card>
