@@ -195,3 +195,12 @@ body {
   color: #444;
   overflow-wrap: break-word;
 }
+
+.edit-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  background: none;
+  
+}

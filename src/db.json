@@ -274,18 +274,12 @@
       "id": "6783"
     },
     {
-      "id": "2964",
-      "email": "test@test.com",
-      "password": "abc123",
-      "username": "abc123",
       "name": "",
-      "avatar": "https://picsum.photos/seed/2964/640/480",
+      "username": "abc132",
       "bio": "",
+      "avatar": "https://picsum.photos/seed/2964/640/480",
       "location": "",
-      "followers": [],
-      "following": [
-        "u5"
-      ]
+      "id": "2964"
     }
   ],
   "posts": [

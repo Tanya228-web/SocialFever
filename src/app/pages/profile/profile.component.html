@@ -1,8 +1,10 @@
 <div class="profile-container">
-  
   <div class="profile-card">
     <img [src]="userData.avatar" alt="Profile" class="profile-avatar" />
-    <button (click)="openDialog()">edit</button>
+
+    <button mat-icon-button (click)="openEditDialog()" class="edit-icon">
+      <mat-icon>edit</mat-icon>
+    </button>
 
     <div class="profile-info">
       <div>
@@ -16,27 +18,25 @@
     </div>
 
     <div class="stats-row">
-      <div><span>{{ userData.followers?.length }}</span> Followers</div>
-      <div><span>{{ userData.following?.length }}</span> Following</div>
-      <!-- <div><span>{{ postData?.length }}</span> Posts</div> -->
-
+      <div><span>{{ userData.followers?.length || 0 }}</span> Followers</div>
+      <div><span>{{ userData.following?.length || 0 }}</span> Following</div>
+      <div><span>{{ postData?.length || 0 }}</span> Posts</div>
     </div>
   </div>
 
-  
   <div class="posts-grid">
     <div *ngFor="let post of postData" class="post-tile">
       <img *ngIf="post.photos?.length" [src]="post.photos[0]" alt="Post" />
-
       <div class="post-meta">
         <div class="post-stats">
-          <span>{{ post.likes?.length }} ❤️</span>
-          <span>{{ post.comments?.length }} 💬</span>
+          <span>{{ post.likes?.length || 0 }} ❤️</span>
+          <span>{{ post.comments?.length || 0 }} 💬</span>
         </div>
         <div class="post-author">{{ post?.username }}</div>
         <div class="post-description">
           {{ post?.description || 'No description provided.' }}
         </div>
+      </div>
     </div>
   </div>
 </div>
