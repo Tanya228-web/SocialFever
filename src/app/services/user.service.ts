@@ -45,6 +45,12 @@ export class UserService {
     return this.http.put(url,data)
     
   }
+  updateEdit(id:any,data:any){
+    let url=`http://localhost:3000/users/${id}`
+    return this.http.put(url,data)
+
+
+  }
   
 
 

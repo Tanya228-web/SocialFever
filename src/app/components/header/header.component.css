@@ -93,3 +93,7 @@
   background-color: #fafafa;
   min-height: calc(100vh - 64px);
 }
+.mat-icon.profile-icon {
+  color: #000;
+}
+

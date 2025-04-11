@@ -14,6 +14,14 @@
         <mat-icon class="nav-icon">home</mat-icon>
         Home
       </a>
+      <a mat-list-item routerLink="/profile" (click)="closeIfMobile(sidenav)">
+        <mat-icon style="color: black;">person</mat-icon>
+        <span>Profile</span>
+      </a>
+      
+      
+      
+
       <ng-container *ngIf="(service.isLogin$ | async); else guest">
         <a mat-list-item (click)="logout(); closeIfMobile(sidenav)">
           <mat-icon class="nav-icon">logout</mat-icon>
@@ -29,6 +37,7 @@
           <mat-icon class="nav-icon">login</mat-icon>
           Login
         </a>
+      
       </ng-template>
     </mat-nav-list>
   </mat-sidenav>

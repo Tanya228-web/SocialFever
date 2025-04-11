@@ -1,0 +1,21 @@
+<button >Edit Profile</button>
+
+<div class="popup-backdrop" >
+  <div class="popup">
+    <h2>Edit Profile</h2>
+
+    <form [formGroup]="editForm" (ngSubmit)="edit()">
+      <input formControlName="name" placeholder="Name" />
+      <input formControlName="username" placeholder="Username" />
+      <input formControlName="bio" placeholder="Bio" />
+      <input formControlName="avatar" placeholder="Avatar URL" />
+      <input formControlName="location" placeholder="Location" />
+     
+
+      <div class="popup-buttons">
+        <button>Save</button>
+        <button (click)="close()" >Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>

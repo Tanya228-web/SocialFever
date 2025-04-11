@@ -38,11 +38,13 @@ export class PostFormComponent {
         "description": this.postForm.value.caption,
         "photos": [this.postForm.value.imageUrl],
         "userId": user.id,
-        "userName": user.name,
+        "username": user.username,
         "likes": [],
+        "comments":[],
+
     }
       this.postService.createPost(obj).subscribe((data: any) => {
-        console.log(data);
+      
         this.dialogRef.close(true); 
       }, (error: any) => {
         console.error('Error creating post:', error);

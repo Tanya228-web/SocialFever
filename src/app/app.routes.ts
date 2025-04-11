@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { PostFormComponent } from './components/post-form/post-form.component';
 import { CommentComponent } from './components/comment/comment.component';
 import { ProfileComponent } from './profile/profile.component';
+import { EditComponent } from './edit/edit.component';
 export const routes: Routes = [
   {
     path: '',
@@ -32,5 +33,10 @@ export const routes: Routes = [
   {
   path:'profile',
   component:ProfileComponent,
+  },
+  {
+    path:'edit',
+    component:EditComponent,
+
   }
 ];

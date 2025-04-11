@@ -1,58 +1,42 @@
-<div class="max-w-4xl mx-auto mt-10">
-    <!-- Profile Card -->
-    <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
-      <!-- Cover Photo with Blur -->
-      <div class="relative">
-        <img
-          class="w-full h-56 object-cover"
-          [src]="userData.coverPhoto"
-          alt="Cover"
-        />
-        <div class="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
+<div class="profile-container">
   
-        <!-- Profile Picture -->
-        <div class="absolute -bottom-16 left-8">
-          <img
-            class="w-32 h-32 rounded-full border-4 border-white shadow-md"
-            [src]="userData.avatar"
-            alt="Profile"
-          />
-        </div>
+  <div class="profile-card">
+    <img [src]="userData.avatar" alt="Profile" class="profile-avatar" />
+    <button (click)="openDialog()">edit</button>
+
+    <div class="profile-info">
+      <div>
+        <h1>{{ userData.name }}</h1>
+        <p>{{ userData.username }}</p>
       </div>
-  
-      <!-- Info -->
-      <div class="px-8 pt-20 pb-8">
-        <div class="flex justify-between items-center">
-          <div>
-            <h1 class="text-2xl font-bold text-gray-800">{{ userData.name }}</h1>
-            <p class="text-gray-500 text-sm">{{ userData.username }}</p>
-          </div>
-          <button class="px-4 py-2 text-sm bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow">
-            Follow
-          </button>
-        </div>
-  
-        <p class="mt-4 text-gray-700">{{ userData.bio }}</p>
-  
-        <!-- Stats -->
-        <div class="mt-6 flex gap-8 text-gray-600 text-sm">
-          <div><span class="font-semibold">{{ userData.followers }}</span> Followers</div>
-          <div><span class="font-semibold">{{ userData.following }}</span> Following</div>
-          <div><span class="font-semibold">{{ userData.posts }}</span> Posts</div>
-        </div>
+      <div>
+        <h1>{{ userData.location }}</h1>
+        <p>{{ userData.bio }}</p>
       </div>
     </div>
-  
-    <!-- Posts Grid -->
-    <div class="mt-8 grid grid-cols-2 md:grid-cols-3 gap-4">
-      <div
-        *ngFor="let post of postData"
-        class="aspect-square rounded-xl overflow-hidden shadow hover:scale-105 transition"
-      >
-      <div   *ngFor="let photo of post.photos">
-        <img [src]="photo" alt="Post" class="w-full h-full object-cover" /> 
-    </div>
-      </div>
+
+    <div class="stats-row">
+      <div><span>{{ userData.followers?.length }}</span> Followers</div>
+      <div><span>{{ userData.following?.length }}</span> Following</div>
+      <!-- <div><span>{{ postData?.length }}</span> Posts</div> -->
+
     </div>
   </div>
+
   
+  <div class="posts-grid">
+    <div *ngFor="let post of postData" class="post-tile">
+      <img *ngIf="post.photos?.length" [src]="post.photos[0]" alt="Post" />
+
+      <div class="post-meta">
+        <div class="post-stats">
+          <span>{{ post.likes?.length }} ❤️</span>
+          <span>{{ post.comments?.length }} 💬</span>
+        </div>
+        <div class="post-author">{{ post?.username }}</div>
+        <div class="post-description">
+          {{ post?.description || 'No description provided.' }}
+        </div>
+    </div>
+  </div>
+</div>

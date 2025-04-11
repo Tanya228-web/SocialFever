@@ -5,7 +5,7 @@
       "name": "Tanya Singh",
       "username": "tanya.codes",
       "email": "tanya@example.com",
-      "avatar": "https://example.com/avatars/u1.jpg",
+      "avatar": "https://picsum.photos/seed/u1/640/480",
       "bio": "Builder of cool things ✨",
       "location": "Gwalior, India",
       "password": "password123",
@@ -24,7 +24,7 @@
       "name": "Rohan Kapoor",
       "username": "rohan_k",
       "email": "rohan.kapoor@example.com",
-      "avatar": "https://example.com/avatars/u2.jpg",
+      "avatar": "https://picsum.photos/seed/u2/640/480",
       "bio": "Tech geek 💻 | Gamer 🎮",
       "location": "Bangalore, India",
       "password": "password123",
@@ -42,7 +42,7 @@
       "name": "Priya Sharma",
       "username": "priya.s",
       "email": "priya.sharma@example.com",
-      "avatar": "https://example.com/avatars/u3.jpg",
+      "avatar": "https://picsum.photos/seed/u3/640/480",
       "bio": "Nature lover 🌿 | Photographer 📸",
       "location": "Dehradun, India",
       "password": "password123",
@@ -60,7 +60,7 @@
       "name": "Amit Verma",
       "username": "amitv",
       "email": "amit.verma@example.com",
-      "avatar": "https://example.com/avatars/u4.jpg",
+      "avatar": "https://picsum.photos/seed/u4/640/480",
       "bio": "Coffee ☕ and code 💻",
       "location": "Delhi, India",
       "password": "password123",
@@ -78,7 +78,7 @@
       "name": "Neha Rao",
       "username": "neha_rao",
       "email": "neha.rao@example.com",
-      "avatar": "https://example.com/avatars/u5.jpg",
+      "avatar": "https://picsum.photos/seed/u5/640/480",
       "bio": "Traveler 🌍 | Blogger ✍️",
       "location": "Mumbai, India",
       "password": "password123",
@@ -96,7 +96,7 @@
       "name": "Ishaan Joshi",
       "username": "ishaanj",
       "email": "ishaan.joshi@example.com",
-      "avatar": "https://example.com/avatars/u6.jpg",
+      "avatar": "https://picsum.photos/seed/u6/640/480",
       "bio": "Full Stack Dev 🛠️ | Cat dad 🐈",
       "location": "Hyderabad, India",
       "password": "password123",
@@ -113,7 +113,7 @@
       "name": "Sara Ali",
       "username": "sara.a",
       "email": "sara.ali@example.com",
-      "avatar": "https://example.com/avatars/u7.jpg",
+      "avatar": "https://picsum.photos/seed/u7/640/480",
       "bio": "Fitness 🏋️ & Coding 💻",
       "location": "Pune, India",
       "password": "password123",
@@ -132,7 +132,7 @@
       "name": "Aditya Mehta",
       "username": "adimehta",
       "email": "aditya.mehta@example.com",
-      "avatar": "https://example.com/avatars/u8.jpg",
+      "avatar": "https://picsum.photos/seed/u8/640/480",
       "bio": "Books 📚 and Backend 🔧",
       "location": "Kolkata, India",
       "password": "password123",
@@ -149,7 +149,7 @@
       "name": "Meera Das",
       "username": "meerad",
       "email": "meera.das@example.com",
-      "avatar": "https://example.com/avatars/u9.jpg",
+      "avatar": "https://picsum.photos/seed/u9/640/480",
       "bio": "Designer 🎨 | Minimalist ✨",
       "location": "Ahmedabad, India",
       "password": "password123",
@@ -165,7 +165,7 @@
       "name": "Ankit Singh",
       "username": "ankits",
       "email": "ankit.singh@example.com",
-      "avatar": "https://example.com/avatars/u10.jpg",
+      "avatar": "https://picsum.photos/seed/u10/640/480",
       "bio": "Cyclist 🚴‍♂️ | Dev by day 🌞",
       "location": "Lucknow, India",
       "password": "password123",
@@ -183,7 +183,7 @@
       "name": "Nidhi Yadav",
       "username": "nidhi_y",
       "email": "nidhi.yadav@example.com",
-      "avatar": "https://example.com/avatars/u11.jpg",
+      "avatar": "https://picsum.photos/seed/u11/640/480",
       "bio": "Web3 explorer 🔗 | Speaker 🎤",
       "location": "Indore, India",
       "password": "password123",
@@ -200,7 +200,7 @@
       "name": "Manav Jha",
       "username": "manavj",
       "email": "manav.jha@example.com",
-      "avatar": "https://example.com/avatars/u12.jpg",
+      "avatar": "https://picsum.photos/seed/u12/640/480",
       "bio": "Poetry ✍️ and Pixels 💾",
       "location": "Chandigarh, India",
       "password": "password123",
@@ -218,7 +218,7 @@
       "name": "Sneha Kulkarni",
       "username": "sneha.codes",
       "email": "sneha.k@example.com",
-      "avatar": "https://example.com/avatars/u13.jpg",
+      "avatar": "https://picsum.photos/seed/u13/640/480",
       "bio": "DevOps Ninja 🛡️ | Open Source 💡",
       "location": "Nagpur, India",
       "password": "password123",
@@ -235,7 +235,7 @@
       "name": "Varun Bhatt",
       "username": "varun.b",
       "email": "varun.bhatt@example.com",
-      "avatar": "https://example.com/avatars/u14.jpg",
+      "avatar": "https://picsum.photos/seed/u14/640/480",
       "bio": "Freelancer ⚡ | Startup dreamer 🚀",
       "location": "Jaipur, India",
       "password": "password123",
@@ -253,7 +253,7 @@
       "name": "Kriti Sen",
       "username": "kriti.s",
       "email": "kriti.sen@example.com",
-      "avatar": "https://example.com/avatars/u15.jpg",
+      "avatar": "https://picsum.photos/seed/u15/640/480",
       "bio": "Frontend fanatic 💅 | Anime lover 🎌",
       "location": "Surat, India",
       "password": "password123",
@@ -266,20 +266,12 @@
       ]
     },
     {
-      "id": "6783",
-      "email": "pupu1@g.com",
-      "password": "123456",
-      "username": "pupukipupi",
-      "name": "",
-      "avatar": "",
-      "bio": "",
-      "location": "",
-      "followers": [],
-      "following": [
-        "u1",
-        "u2",
-        "u3"
-      ]
+      "name": "Tanya",
+      "username": "tannu.s",
+      "bio": "Frontend fanatic 💅 | Anime lover 🎌",
+      "avatar": "https://picsum.photos/seed/6783/640/480",
+      "location": "Gwalior",
+      "id": "6783"
     },
     {
       "id": "2964",
@@ -287,7 +279,7 @@
       "password": "abc123",
       "username": "abc123",
       "name": "",
-      "avatar": "",
+      "avatar": "https://picsum.photos/seed/2964/640/480",
       "bio": "",
       "location": "",
       "followers": [],
@@ -652,8 +644,9 @@
         "https://picsum.photos/seed/p1b/640/480"
       ],
       "userId": "6783",
-      "userName": "",
-      "likes": []
+      "username": "pupukipupi",
+      "likes": [],
+      "comments": []
     },
     {
       "id": "a572",
@@ -662,8 +655,68 @@
         "https://picsum.photos/seed/p14/640/480"
       ],
       "userId": "6783",
-      "userName": "",
-      "likes": []
+      "username": "pupukipupi",
+      "likes": [
+        "6783"
+      ],
+      "comments": [
+        {
+          "userId": "6783",
+          "username": "pupukipupi",
+          "name": "",
+          "comment": "nice view"
+        }
+      ]
+    },
+    {
+      "id": "2482",
+      "description": "wow",
+      "photos": [
+        "https://picsum.photos/seed/2964/640/480"
+      ],
+      "userId": "6783",
+      "username": "pupukipupi",
+      "likes": [],
+      "comments": [
+        {
+          "userId": "6783",
+          "username": "pupukipupi",
+          "name": "",
+          "comment": "wow"
+        }
+      ]
+    },
+    {
+      "id": "8b8e",
+      "description": "great",
+      "photos": [
+        "https://picsum.photos/seed/p1b/640/480"
+      ],
+      "userId": "6783",
+      "username": "pupukipupi",
+      "likes": [
+        "6783"
+      ],
+      "comments": [
+        {
+          "userId": "6783",
+          "username": "pupukipupi",
+          "name": "pupi",
+          "comment": "amazing what a view"
+        },
+        {
+          "userId": "6783",
+          "username": "pupukipupi",
+          "name": "",
+          "comment": "wow"
+        },
+        {
+          "userId": "6783",
+          "username": "pupukipupi",
+          "name": "",
+          "comment": "nice view"
+        }
+      ]
     }
   ]
 }
