@@ -5,7 +5,7 @@
       <div class="relative">
         <img
           class="w-full h-56 object-cover"
-          [src]="user.coverPhoto"
+          [src]="userData.coverPhoto"
           alt="Cover"
         />
         <div class="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
@@ -14,7 +14,7 @@
         <div class="absolute -bottom-16 left-8">
           <img
             class="w-32 h-32 rounded-full border-4 border-white shadow-md"
-            [src]="user.profilePicture"
+            [src]="userData.avatar"
             alt="Profile"
           />
         </div>
@@ -24,21 +24,21 @@
       <div class="px-8 pt-20 pb-8">
         <div class="flex justify-between items-center">
           <div>
-            <h1 class="text-2xl font-bold text-gray-800">{{ user.name }}</h1>
-            <p class="text-gray-500 text-sm">{{ user.username }}</p>
+            <h1 class="text-2xl font-bold text-gray-800">{{ userData.name }}</h1>
+            <p class="text-gray-500 text-sm">{{ userData.username }}</p>
           </div>
           <button class="px-4 py-2 text-sm bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow">
             Follow
           </button>
         </div>
   
-        <p class="mt-4 text-gray-700">{{ user.bio }}</p>
+        <p class="mt-4 text-gray-700">{{ userData.bio }}</p>
   
         <!-- Stats -->
         <div class="mt-6 flex gap-8 text-gray-600 text-sm">
-          <div><span class="font-semibold">{{ user.followers }}</span> Followers</div>
-          <div><span class="font-semibold">{{ user.following }}</span> Following</div>
-          <div><span class="font-semibold">{{ user.posts }}</span> Posts</div>
+          <div><span class="font-semibold">{{ userData.followers }}</span> Followers</div>
+          <div><span class="font-semibold">{{ userData.following }}</span> Following</div>
+          <div><span class="font-semibold">{{ userData.posts }}</span> Posts</div>
         </div>
       </div>
     </div>
@@ -46,10 +46,10 @@
     <!-- Posts Grid -->
     <div class="mt-8 grid grid-cols-2 md:grid-cols-3 gap-4">
       <div
-        *ngFor="let post of postImages"
+        *ngFor="let post of postData"
         class="aspect-square rounded-xl overflow-hidden shadow hover:scale-105 transition"
       >
-        <img [src]="post" alt="Post" class="w-full h-full object-cover" />
+        <!-- <img [src]="postData.photos" alt="Post" class="w-full h-full object-cover" /> -->
       </div>
     </div>
   </div>

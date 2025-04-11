@@ -25,6 +25,10 @@ export class UserService {
     let url = 'https://api.freeapi.app/api/v1/users/logout';
     return this.http.post(url, {})
   }
+  getSingleUser(id:any){
+    let url=`http://localhost:3000/users?id=${id}`
+    return this.http.get(url)
+  }
   setLocalStorage(key: any, data: any) {
     if (data) {
       localStorage.setItem(key, JSON.stringify(data));
@@ -41,5 +45,7 @@ export class UserService {
     return this.http.put(url,data)
     
   }
+  
+
 
 }

@@ -7,6 +7,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PostFormComponent } from './components/post-form/post-form.component';
 import { CommentComponent } from './components/comment/comment.component';
+import { ProfileComponent } from './profile/profile.component';
 export const routes: Routes = [
   {
     path: '',
@@ -27,5 +28,9 @@ export const routes: Routes = [
   {
   path:'comment',
   component:CommentComponent,
+  },
+  {
+  path:'profile',
+  component:ProfileComponent,
   }
 ];

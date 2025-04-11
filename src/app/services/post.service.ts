@@ -27,5 +27,12 @@ export class PostService {
     return this.http.put(url,data)
     
   }
+  getUserPosts(userId:any){
+    console.log(userId)
+    let url = `http://localhost:3000/posts?userId=${userId}`;
+    return this.http.get(url)
+
+
+  }
 
 }
