@@ -1,176 +1,211 @@
 {
-  "users": [
-    {
-      "id": "u1",
-      "name": "Tanya Singh",
-      "username": "tanya.codes",
-      "email": "tanya@example.com",
-      "avatar": "https://example.com/avatars/u1.jpg",
-      "bio": "Builder of cool things ✨",
-      "location": "Gwalior, India",
-      "password": "password123"
-    },
-    {
-      "id": "u2",
-      "name": "Rohan Kapoor",
-      "username": "rohan_k",
-      "email": "rohan.kapoor@example.com",
-      "avatar": "https://example.com/avatars/u2.jpg",
-      "bio": "Tech geek 💻 | Gamer 🎮",
-      "location": "Bangalore, India",
-      "password": "password123"
-    },
-    {
-      "id": "u3",
-      "name": "Priya Sharma",
-      "username": "priya.s",
-      "email": "priya.sharma@example.com",
-      "avatar": "https://example.com/avatars/u3.jpg",
-      "bio": "Nature lover 🌿 | Photographer 📸",
-      "location": "Dehradun, India",
-      "password": "password123"
-    },
-    {
-      "id": "u4",
-      "name": "Amit Verma",
-      "username": "amitv",
-      "email": "amit.verma@example.com",
-      "avatar": "https://example.com/avatars/u4.jpg",
-      "bio": "Coffee ☕ and code 💻",
-      "location": "Delhi, India",
-      "password": "password123"
-    },
-    {
-      "id": "u5",
-      "name": "Neha Rao",
-      "username": "neha_rao",
-      "email": "neha.rao@example.com",
-      "avatar": "https://example.com/avatars/u5.jpg",
-      "bio": "Traveler 🌍 | Blogger ✍️",
-      "location": "Mumbai, India",
-      "password": "password123"
-    },
-    {
-      "id": "u6",
-      "name": "Ishaan Joshi",
-      "username": "ishaanj",
-      "email": "ishaan.joshi@example.com",
-      "avatar": "https://example.com/avatars/u6.jpg",
-      "bio": "Full Stack Dev 🛠️ | Cat dad 🐈",
-      "location": "Hyderabad, India",
-      "password": "password123"
-    },
-    {
-      "id": "u7",
-      "name": "Sara Ali",
-      "username": "sara.a",
-      "email": "sara.ali@example.com",
-      "avatar": "https://example.com/avatars/u7.jpg",
-      "bio": "Fitness 🏋️ & Coding 💻",
-      "location": "Pune, India",
-      "password": "password123"
-    },
-    {
-      "id": "u8",
-      "name": "Aditya Mehta",
-      "username": "adimehta",
-      "email": "aditya.mehta@example.com",
-      "avatar": "https://example.com/avatars/u8.jpg",
-      "bio": "Books 📚 and Backend 🔧",
-      "location": "Kolkata, India",
-      "password": "password123"
-    },
-    {
-      "id": "u9",
-      "name": "Meera Das",
-      "username": "meerad",
-      "email": "meera.das@example.com",
-      "avatar": "https://example.com/avatars/u9.jpg",
-      "bio": "Designer 🎨 | Minimalist ✨",
-      "location": "Ahmedabad, India",
-      "password": "password123"
-    },
-    {
-      "id": "u10",
-      "name": "Ankit Singh",
-      "username": "ankits",
-      "email": "ankit.singh@example.com",
-      "avatar": "https://example.com/avatars/u10.jpg",
-      "bio": "Cyclist 🚴‍♂️ | Dev by day 🌞",
-      "location": "Lucknow, India",
-      "password": "password123"
-    },
-    {
-      "id": "u11",
-      "name": "Nidhi Yadav",
-      "username": "nidhi_y",
-      "email": "nidhi.yadav@example.com",
-      "avatar": "https://example.com/avatars/u11.jpg",
-      "bio": "Web3 explorer 🔗 | Speaker 🎤",
-      "location": "Indore, India",
-      "password": "password123"
-    },
-    {
-      "id": "u12",
-      "name": "Manav Jha",
-      "username": "manavj",
-      "email": "manav.jha@example.com",
-      "avatar": "https://example.com/avatars/u12.jpg",
-      "bio": "Poetry ✍️ and Pixels 💾",
-      "location": "Chandigarh, India",
-      "password": "password123"
-    },
-    {
-      "id": "u13",
-      "name": "Sneha Kulkarni",
-      "username": "sneha.codes",
-      "email": "sneha.k@example.com",
-      "avatar": "https://example.com/avatars/u13.jpg",
-      "bio": "DevOps Ninja 🛡️ | Open Source 💡",
-      "location": "Nagpur, India",
-      "password": "password123"
-    },
-    {
-      "id": "u14",
-      "name": "Varun Bhatt",
-      "username": "varun.b",
-      "email": "varun.bhatt@example.com",
-      "avatar": "https://example.com/avatars/u14.jpg",
-      "bio": "Freelancer ⚡ | Startup dreamer 🚀",
-      "location": "Jaipur, India",
-      "password": "password123"
-    },
-    {
-      "id": "u15",
-      "name": "Kriti Sen",
-      "username": "kriti.s",
-      "email": "kriti.sen@example.com",
-      "avatar": "https://example.com/avatars/u15.jpg",
-      "bio": "Frontend fanatic 💅 | Anime lover 🎌",
-      "location": "Surat, India",
-      "password": "password123"
-    },
-    {
-      "id": "6783",
-      "email": "pupu1@g.com",
-      "password": "123456",
-      "username": "pupukipupi",
-      "name": "",
-      "avatar": "",
-      "bio": "",
-      "location": ""
-    },
-    {
-      "id": "2964",
-      "email": "test@test.com",
-      "password": "abc123",
-      "username": "abc123",
-      "name": "",
-      "avatar": "",
-      "bio": "",
-      "location": ""
-    }
-  ],
+ "users": [
+  {
+    "id": "u1",
+    "name": "Tanya Singh",
+    "username": "tanya.codes",
+    "email": "tanya@example.com",
+    "avatar": "https://example.com/avatars/u1.jpg",
+    "bio": "Builder of cool things ✨",
+    "location": "Gwalior, India",
+    "password": "password123",
+    "followers": ["u2", "u3", "u4"],
+    "following": ["u2", "u5"]
+  },
+  {
+    "id": "u2",
+    "name": "Rohan Kapoor",
+    "username": "rohan_k",
+    "email": "rohan.kapoor@example.com",
+    "avatar": "https://example.com/avatars/u2.jpg",
+    "bio": "Tech geek 💻 | Gamer 🎮",
+    "location": "Bangalore, India",
+    "password": "password123",
+    "followers": ["u3", "u5"],
+    "following": ["u1", "u4"]
+  },
+  {
+    "id": "u3",
+    "name": "Priya Sharma",
+    "username": "priya.s",
+    "email": "priya.sharma@example.com",
+    "avatar": "https://example.com/avatars/u3.jpg",
+    "bio": "Nature lover 🌿 | Photographer 📸",
+    "location": "Dehradun, India",
+    "password": "password123",
+    "followers": ["u1", "u2"],
+    "following": ["u4", "u5"]
+  },
+  {
+    "id": "u4",
+    "name": "Amit Verma",
+    "username": "amitv",
+    "email": "amit.verma@example.com",
+    "avatar": "https://example.com/avatars/u4.jpg",
+    "bio": "Coffee ☕ and code 💻",
+    "location": "Delhi, India",
+    "password": "password123",
+    "followers": ["u1", "u5"],
+    "following": ["u2", "u3"]
+  },
+  {
+    "id": "u5",
+    "name": "Neha Rao",
+    "username": "neha_rao",
+    "email": "neha.rao@example.com",
+    "avatar": "https://example.com/avatars/u5.jpg",
+    "bio": "Traveler 🌍 | Blogger ✍️",
+    "location": "Mumbai, India",
+    "password": "password123",
+    "followers": ["u1", "u3"],
+    "following": ["u2", "u4"]
+  },
+  {
+    "id": "u6",
+    "name": "Ishaan Joshi",
+    "username": "ishaanj",
+    "email": "ishaan.joshi@example.com",
+    "avatar": "https://example.com/avatars/u6.jpg",
+    "bio": "Full Stack Dev 🛠️ | Cat dad 🐈",
+    "location": "Hyderabad, India",
+    "password": "password123",
+    "followers": ["u7"],
+    "following": ["u8", "u9"]
+  },
+  {
+    "id": "u7",
+    "name": "Sara Ali",
+    "username": "sara.a",
+    "email": "sara.ali@example.com",
+    "avatar": "https://example.com/avatars/u7.jpg",
+    "bio": "Fitness 🏋️ & Coding 💻",
+    "location": "Pune, India",
+    "password": "password123",
+    "followers": ["u6", "u8"],
+    "following": ["u1", "u2", "u3"]
+  },
+  {
+    "id": "u8",
+    "name": "Aditya Mehta",
+    "username": "adimehta",
+    "email": "aditya.mehta@example.com",
+    "avatar": "https://example.com/avatars/u8.jpg",
+    "bio": "Books 📚 and Backend 🔧",
+    "location": "Kolkata, India",
+    "password": "password123",
+    "followers": ["u9", "u7"],
+    "following": ["u6"]
+  },
+  {
+    "id": "u9",
+    "name": "Meera Das",
+    "username": "meerad",
+    "email": "meera.das@example.com",
+    "avatar": "https://example.com/avatars/u9.jpg",
+    "bio": "Designer 🎨 | Minimalist ✨",
+    "location": "Ahmedabad, India",
+    "password": "password123",
+    "followers": ["u10"],
+    "following": ["u8"]
+  },
+  {
+    "id": "u10",
+    "name": "Ankit Singh",
+    "username": "ankits",
+    "email": "ankit.singh@example.com",
+    "avatar": "https://example.com/avatars/u10.jpg",
+    "bio": "Cyclist 🚴‍♂️ | Dev by day 🌞",
+    "location": "Lucknow, India",
+    "password": "password123",
+    "followers": ["u11", "u12"],
+    "following": ["u9", "u13"]
+  },
+  {
+    "id": "u11",
+    "name": "Nidhi Yadav",
+    "username": "nidhi_y",
+    "email": "nidhi.yadav@example.com",
+    "avatar": "https://example.com/avatars/u11.jpg",
+    "bio": "Web3 explorer 🔗 | Speaker 🎤",
+    "location": "Indore, India",
+    "password": "password123",
+    "followers": ["u10"],
+    "following": ["u12", "u13"]
+  },
+  {
+    "id": "u12",
+    "name": "Manav Jha",
+    "username": "manavj",
+    "email": "manav.jha@example.com",
+    "avatar": "https://example.com/avatars/u12.jpg",
+    "bio": "Poetry ✍️ and Pixels 💾",
+    "location": "Chandigarh, India",
+    "password": "password123",
+    "followers": ["u13", "u14"],
+    "following": ["u10", "u11"]
+  },
+  {
+    "id": "u13",
+    "name": "Sneha Kulkarni",
+    "username": "sneha.codes",
+    "email": "sneha.k@example.com",
+    "avatar": "https://example.com/avatars/u13.jpg",
+    "bio": "DevOps Ninja 🛡️ | Open Source 💡",
+    "location": "Nagpur, India",
+    "password": "password123",
+    "followers": ["u11"],
+    "following": ["u12", "u14"]
+  },
+  {
+    "id": "u14",
+    "name": "Varun Bhatt",
+    "username": "varun.b",
+    "email": "varun.bhatt@example.com",
+    "avatar": "https://example.com/avatars/u14.jpg",
+    "bio": "Freelancer ⚡ | Startup dreamer 🚀",
+    "location": "Jaipur, India",
+    "password": "password123",
+    "followers": ["u12", "u13"],
+    "following": ["u15", "u1"]
+  },
+  {
+    "id": "u15",
+    "name": "Kriti Sen",
+    "username": "kriti.s",
+    "email": "kriti.sen@example.com",
+    "avatar": "https://example.com/avatars/u15.jpg",
+    "bio": "Frontend fanatic 💅 | Anime lover 🎌",
+    "location": "Surat, India",
+    "password": "password123",
+    "followers": ["u14"],
+    "following": ["u1", "u3"]
+  },
+  {
+    "id": "6783",
+    "email": "pupu1@g.com",
+    "password": "123456",
+    "username": "pupukipupi",
+    "name": "",
+    "avatar": "",
+    "bio": "",
+    "location": "",
+    "followers": [],
+    "following": ["u1", "u2", "u3"]
+  },
+  {
+    "id": "2964",
+    "email": "test@test.com",
+    "password": "abc123",
+    "username": "abc123",
+    "name": "",
+    "avatar": "",
+    "bio": "",
+    "location": "",
+    "followers": [],
+    "following": ["u5"]
+  }
+],
+
   "posts": [
     {
       "id": "p1",
