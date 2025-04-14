@@ -22,13 +22,19 @@
     {{ post?.likes?.length || 0 }} {{ (post?.likes?.length || 0) > 1 ? 'likes' : 'like' }}
   </div>
 
+
   <mat-card-header>
     <mat-card-title class="post-author">{{ post?.username }}</mat-card-title>
   </mat-card-header>
 
+
   <mat-card-content class="post-content">
     {{ post?.description }}
   </mat-card-content>
+  <button (click)="follow(post.userId)">Follow</button>
+  <button (click)="unfollow(post.userId)">UnFollow</button> 
+
+
 
   <p>Total comments {{ post?.comments?.length || 0 }}</p>
 </mat-card>

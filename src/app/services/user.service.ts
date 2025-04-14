@@ -12,20 +12,36 @@ export class UserService {
 
   constructor(private http: HttpClient) {}
   userRegister(data: any) {
-    const obj = { ...data, name: '', avatar: '', bio: '', location: '' };
+    
 
     let url = 'http://localhost:3000/users';
-    return this.http.post(url, obj);
+    return this.http.post(url,data);
   }
   userLogin(data: any) {
+    console.log("userlogin",data)
     let url = `http://localhost:3000/users?username=${data.username}`;
-    return this.http.get(url);
+    return this.http.get<any>(url).pipe(
+      tap((res) => {
+        if (res.length > 0) {
+  
+          this.loginStatus.next(true);
+        } else {
+          
+          this.loginStatus.next(false);
+        }
+      })
+    );
   }
+  
+  
   userLogout() {
-    let url = 'https://api.freeapi.app/api/v1/users/logout';
-    return this.http.post(url, {})
+    localStorage.removeItem('user')
+    this.loginStatus.next(false)
+
+    
   }
   getSingleUser(id:any){
+    console.log("id",id)
     let url=`http://localhost:3000/users?id=${id}`
     return this.http.get(url)
   }
@@ -49,6 +65,32 @@ export class UserService {
     let url=`http://localhost:3000/users/${id}`
     return this.http.put(url,data)
 
+
+  }
+  userFollowerUpdate(id:any,data:any){
+    let url=`http://localhost:3000/users/${id}`
+    return this.http.put(url,data)
+    
+
+  }
+  
+  
+  unfollowpost(id:any,data:any){
+   
+
+    let url=`http://localhost:3000/users/${id}`
+    return this.http.put(url,data)
+
+
+  }
+  unfollowing(id:any,data:any){
+    let url=`http://localhost:3000/users/${id}`
+    return this.http.put(url,data)
+
+  }
+  userfollowingupdate(id:any,data:any){
+    let url=`http://localhost:3000/users/${id}`
+    return this.http.put(url,data)
 
   }
   

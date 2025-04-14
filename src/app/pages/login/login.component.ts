@@ -31,12 +31,16 @@ export class LoginComponent {
   });
   onLogin() {
     if (this.loginform.valid) {
+
+  
       this.service.userLogin(this.loginform.value).subscribe({
         next: (data: any) => {
-          console.log(data);
+          console.log("data",data)
+        
           if(data.length==1){
-          this.service.setLocalStorage('user',data)}
+          this.service.setLocalStorage('user',data)
           this.router.navigate(['']);
+        }
         },
         error: (error) => {
           console.log('error', error);

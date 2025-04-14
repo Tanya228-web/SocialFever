@@ -37,11 +37,11 @@ export class HeaderComponent {
       sidenav.close();
     }
   }
+  
 
   logout() {
-    this.service.userLogout().subscribe((data: any) => {
-      console.log(data);
-      this.router.navigate(['login']);
-    });
+    this.service.userLogout()
+    this.router.navigate(['login']);
+    
   }
 }
