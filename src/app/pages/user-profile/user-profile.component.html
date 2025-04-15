@@ -1,0 +1,45 @@
+<div class="profile-container">
+    <div class="profile-card">
+      <img [src]="userProfile.avatar" alt="Profile" class="profile-avatar" />
+  
+     
+  
+      <div class="profile-info">
+        <div>
+          <h1>{{ userProfile.name }}</h1>
+          <p>{{ userProfile.username }}</p>
+        </div>
+        <div>
+          <h1>{{ userProfile.location }}</h1>
+          <p>{{ userProfile.bio }}</p>
+        </div>
+      </div>
+  
+      <div class="stats-row">
+        <div><span>{{ userProfile.followers?.length || 0 }}</span> Followers</div>
+        <div><span>{{ userProfile.following?.length || 0 }}</span> Following</div>
+        <div><span>{{ postData?.length || 0 }}</span> Posts</div> 
+      </div>
+    </div>
+    <button (click)="follow()">follow</button>
+    <button>unfollow</button>
+    
+    <div class="posts-grid">
+      <div *ngFor="let post of postData" class="post-tile">
+       
+       
+        <img *ngIf="post.photos?.length" [src]="post.photos[0]" alt="Post" />
+        <div class="post-meta">
+          <div class="post-stats">
+            <span>{{ post.likes?.length || 0 }} ❤️</span>
+            <span>{{ post.comments?.length || 0 }} 💬</span>
+          </div>
+          <div class="post-author">{{ post?.username }}</div>
+          <div class="post-description">
+            {{ post?.description || 'No description provided.' }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+   
