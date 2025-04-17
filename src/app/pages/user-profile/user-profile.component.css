@@ -204,4 +204,35 @@ body {
     background: none;
     
   }
+  .follow-container {
+    margin-top: 20px;
+  }
+  
+  .follow-btn,
+  .unfollow-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .follow-btn {
+    background-color: #1da1f2;
+    color: white;
+  }
+  
+  .follow-btn:hover {
+    background-color: #0d8ddb;
+  }
+  
+  .unfollow-btn {
+    background-color: #e0e0e0;
+    color: #333;
+  }
+  
+  .unfollow-btn:hover {
+    background-color: #c6c6c6;
+  }
   

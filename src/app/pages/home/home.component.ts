@@ -1,3 +1,4 @@
+import { FriendListComponent } from './../../components/friend-list/friend-list.component';
 import { Component, OnInit } from '@angular/core';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
@@ -7,6 +8,7 @@ import { PostComponent } from '../../components/post/post.component';
 import { PostFormComponent } from '../../components/post-form/post-form.component';
 import { PostService } from '../../services/post.service';
 
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -14,7 +16,8 @@ import { PostService } from '../../services/post.service';
     CommonModule,
     MatDialogModule,
     MatIconModule,
-    PostComponent
+    PostComponent,
+    FriendListComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',

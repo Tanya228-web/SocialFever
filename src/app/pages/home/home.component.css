@@ -1,4 +1,20 @@
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+
+.friend-container {
+  max-width: 300px;
+  width: 100%;
+}
+
+
 .post {
+  flex: 1;
   background-color: rgb(234, 219, 222);
   padding: 20px 0;
   position: relative;
@@ -10,6 +26,7 @@
   max-width: 500px;
   margin: 0 auto;
 }
+
 
 #post-button {
   position: fixed;
@@ -23,5 +40,3 @@
 #post-button:hover {
   transform: scale(1.1);
 }
-
-

@@ -18,12 +18,27 @@
       <div class="stats-row">
         <div><span>{{ userProfile.followers?.length || 0 }}</span> Followers</div>
         <div><span>{{ userProfile.following?.length || 0 }}</span> Following</div>
-        <div><span>{{ postData?.length || 0 }}</span> Posts</div> 
+        <!-- <div><span>{{ postData?.length || 0 }}</span> Posts</div>  -->
       </div>
     </div>
-    <button (click)="follow()">follow</button>
-    <button>unfollow</button>
-    
+    <div class="follow-container">
+        <button
+         
+          (click)="follow()"
+          class="follow-btn"
+        >
+          Follow
+        </button>
+      
+        <button
+        
+          (click)="unfollow()"
+          class="unfollow-btn"
+        >
+          Unfollow
+        </button>
+      </div>
+      
     <div class="posts-grid">
       <div *ngFor="let post of postData" class="post-tile">
        
