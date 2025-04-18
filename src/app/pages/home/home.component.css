@@ -15,7 +15,7 @@
 
 .post {
   flex: 1;
-  background-color: rgb(234, 219, 222);
+  /* background-color: rgb(234, 219, 222); */
   padding: 20px 0;
   position: relative;
   min-height: 100vh;
@@ -39,4 +39,49 @@
 
 #post-button:hover {
   transform: scale(1.1);
+}
+
+.user-card,
+.suggestion {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info {
+  flex-grow: 1;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.name,
+.followed-by {
+  font-size: 12px;
+  color: gray;
+}
+
+.switch,
+.follow {
+  font-size: 12px;
+  color: #0095f6;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.suggestions-header {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  font-size: 12px;
+  margin: 15px 0 5px;
 }

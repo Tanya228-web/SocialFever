@@ -22,6 +22,7 @@
       </div>
     </div>
     <div class="follow-container">
+      @if(!userProfile.followers.includes(currentUser.id)){
         <button
          
           (click)="follow()"
@@ -29,7 +30,8 @@
         >
           Follow
         </button>
-      
+      }
+      @else{
         <button
         
           (click)="unfollow()"
@@ -37,7 +39,9 @@
         >
           Unfollow
         </button>
+      }
       </div>
+
       
     <div class="posts-grid">
       <div *ngFor="let post of postData" class="post-tile">

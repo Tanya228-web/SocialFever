@@ -5,7 +5,6 @@
       <app-post [postData]="postList"></app-post>
     </div>
 
-    
     <button
       mat-fab
       color="primary"
@@ -18,8 +17,33 @@
     </button>
   </div>
 
-
+  
   <div class="friend-container">
-    <app-friend-list></app-friend-list>
+    
+    <div class="user-card">
+      <img
+        [src]="userDetail[0]?.avatar || 0"
+        routerLink="/profile"
+
+        alt="User"
+        class="avatar"
+      />
+      <div class="user-info">
+        <div class="username" routerLink="/profile">{{ userDetail[0]?.username }}</div>
+        <div class="name" >{{ userDetail[0]?.name }}</div>
+      </div>
+    </div>
+
+    
+    <div class="suggestions-header">
+      <span>Suggested for you</span>
+    </div>
+
+    @for (user of userData; track user) {
+      <app-friend-list
+        [userList]="user"
+        [userDetail]="userDetail[0]"
+      ></app-friend-list>
+    }
   </div>
 </div>

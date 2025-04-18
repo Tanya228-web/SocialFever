@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="card">
+      <h2>Reset Password</h2>
+  
+      <form [formGroup]="forgotPasswordForm" (ngSubmit)="onSubmit()">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          formControlName="username"
+          placeholder="Enter your username"
+        />
+        <div *ngIf="forgotPasswordForm.get('username')?.touched && forgotPasswordForm.get('username')?.invalid" class="error">
+          <small *ngIf="forgotPasswordForm.get('username')?.errors?.['required']">username is required.</small>
+          <small *ngIf="forgotPasswordForm.get('username')?.errors?.['username']">Enter a valid username.</small>
+        </div>
+  
+        <label for="currentPassword">Current Password</label>
+        <input
+          type="password"
+          id="currentPassword"
+          formControlName="currentPassword"
+          placeholder="Enter current password"
+        />
+        <div *ngIf="forgotPasswordForm.get('currentPassword')?.touched && forgotPasswordForm.get('currentPassword')?.invalid" class="error">
+          <small>Password is required.</small>
+        </div>
+  
+        <label for="newPassword">New Password</label>
+        <input
+          type="password"
+          id="newPassword"
+          formControlName="newPassword"
+          placeholder="Enter new password"
+        />
+        <div *ngIf="forgotPasswordForm.get('newPassword')?.touched && forgotPasswordForm.get('newPassword')?.invalid" class="error">
+          <small *ngIf="forgotPasswordForm.get('newPassword')?.errors?.['required']">New password is required.</small>
+          <small *ngIf="forgotPasswordForm.get('newPassword')?.errors?.['minlength']">Password must be at least 6 characters.</small>
+        </div>
+  
+        <button type="submit" [disabled]="forgotPasswordForm.invalid">Update Password</button>
+      </form>
+    </div>
+  </div>
+  

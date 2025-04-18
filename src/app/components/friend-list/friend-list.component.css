@@ -1,50 +1,77 @@
 .container {
-    width: 300px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .user-card,
-  .suggestion {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-  }
-  
-  .avatar {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .user-info {
-    flex-grow: 1;
-  }
-  
-  .username {
-    font-weight: bold;
-    font-size: 14px;
-  }
-  
-  .name,
-  .followed-by {
-    font-size: 12px;
-    color: gray;
-  }
-  
-  .switch,
-  .follow {
-    font-size: 12px;
-    color: #0095f6;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  
-  .suggestions-header {
-    display: flex;
-    justify-content: space-between;
-    color: gray;
-    font-size: 12px;
-    margin: 15px 0 5px;
-  }
-  
+  width: 300px;
+  font-family: Arial, sans-serif;
+}
+
+.user-card,
+.suggestion {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+}
+
+.name,
+.followed-by {
+  font-size: 12px;
+  color: #777;
+}
+
+.switch,
+.follow-link {
+  font-size: 12px;
+  font-weight: 600;
+  color: #0095f6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.suggestions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #888;
+  margin: 15px 0 5px;
+}
+
+.follow {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 4px 4px 0 0;
+  background-color: rgb(232, 136, 152);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.follow:hover {
+  background-color: rgb(202, 89, 202);
+}
+
+

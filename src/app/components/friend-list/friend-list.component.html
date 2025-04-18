@@ -1,27 +1,20 @@
 <div class="container">
-    <div class="user-card">
-      <img [src]="" alt="User" class="avatar" />
-      <div class="user-info">
-        <div class="username">tanya</div>
-        <div class="name">gugu</div>
-      </div>
-      <a href="#" class="switch">Switch</a>
-    </div>
-  
-    
-    <div class="suggestions-header">
-      <span>Suggested for you</span>
-      <a href="#">See All</a>
-    </div>
-  
+   
 
     <div class="suggestion">
-      <img [src]="" alt="Suggestion" class="avatar" />
+      <img [src]="userList.avatar" alt="Suggestion" class="avatar"   routerLink="user/{{userList.id}}/profile"/>
       <div class="user-info">
-        <div class="username">tanua</div>
-        <div class="followed-by">Followed by gugu</div>
+
+        <div class="username"  routerLink="user/{{userList.id}}/profile">{{userList.username}}</div>
+        <div class="followed-by">{{userList.name}}</div>
       </div>
-      <a href="#" class="follow">Follow</a>
+      @if (!userDetail.following.includes(userList.id)){
+        <p class="follow follow-btn" (click)="follow(userList.id)">Follow</p>
+      }
+      @else{
+        <p class="follow unfollow-btn" (click)="unFollow(userList.id)">Unfollow</p>
+        
+      }
     </div>
   </div>
   

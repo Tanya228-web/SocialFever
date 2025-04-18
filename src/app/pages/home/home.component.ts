@@ -7,6 +7,8 @@ import { CommonModule } from '@angular/common';
 import { PostComponent } from '../../components/post/post.component';
 import { PostFormComponent } from '../../components/post-form/post-form.component';
 import { PostService } from '../../services/post.service';
+import { UserService } from '../../services/user.service';
+import { RouterLink } from '@angular/router';
 
 
 @Component({
@@ -17,7 +19,8 @@ import { PostService } from '../../services/post.service';
     MatDialogModule,
     MatIconModule,
     PostComponent,
-    FriendListComponent
+    FriendListComponent,
+    RouterLink
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
@@ -27,17 +30,34 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private postService: PostService,
+    private userService:UserService,
     private dialog: MatDialog
   ) {}
+  userData:any=[]
+  userDetail:any=[]
 
   ngOnInit(): void {
     this.fetchPosts();
+    this.fetchUsers();
+    let userId =this.userService.getLocalStorage('user')[0].id
+    this.userService.getSingleUser(userId).subscribe((data:any)=>{
+      this.userDetail=data
+
+    })
+
+  }
+  fetchUsers(){
+    this.userService.getAllUsers().subscribe((Data:any)=>{
+      this.userData=Data
+      
+    })
+
   }
 
   fetchPosts(): void {
     this.postService.getData().subscribe((data: any) => {
       this.postList = data;
-      console.log('Fetched Posts:', this.postList);
+      
     });
   }
 

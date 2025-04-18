@@ -1,3 +1,4 @@
+import { ForgotComponent } from './components/forgot/forgot.component';
 import { authGuard } from './guard/auth.guard';
 import { Component } from '@angular/core';
 import { Routes } from '@angular/router';
@@ -15,7 +16,7 @@ export const routes: Routes = [
     path: '',
     
     component: HomeComponent,
-    // canActivate:[authGuard]
+    canActivate:[authGuard]
     
   },
 
@@ -27,21 +28,19 @@ export const routes: Routes = [
     path: 'login',
     component: LoginComponent,
   },
-  {
-  path:'comment',
-  component:CommentComponent,
-  },
+ 
   {
   path:'profile',
   component:ProfileComponent,
   canActivate: [authGuard]
   },
-  {
-    path:'edit',
-    component:EditComponent,
-
-  },{
+ {
   path:'user/:id/profile',
-  component:UserProfileComponent
+  component:UserProfileComponent,
+  canActivate: [authGuard]
+  },
+  {
+    path:'forgot-password',
+    component:ForgotComponent
   }
 ];

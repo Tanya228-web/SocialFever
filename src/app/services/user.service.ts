@@ -10,7 +10,14 @@ export class UserService {
   loginStatus = new BehaviorSubject<boolean>(false);
   isLogin$ = this.loginStatus.asObservable();
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {
+    let user=this.getLocalStorage('user')
+    if(user ){
+      this.loginStatus.next(true)
+
+    }
+  }
+  
   userRegister(data: any) {
     
 
@@ -93,7 +100,21 @@ export class UserService {
     return this.http.put(url,data)
 
   }
-  
+  getAllUsers(){
+    let url='http://localhost:3000/users'
+    return this.http.get(url)
+  }
+  getSingleUserByUsername(username:any){
+    let url=`http://localhost:3000/users/?username=${username}`
+    return this.http.get(url)
+
+  }
+  updatePassword(id:string,userData:any){
+    let url=`http://localhost:3000/users/${id}`
+    return this.http.put(url,userData)
+
+    
+  }
 
 
 }

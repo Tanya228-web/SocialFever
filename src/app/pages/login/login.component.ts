@@ -1,4 +1,6 @@
+import { ForgotComponent } from './../../components/forgot/forgot.component';
 import { Router, RouterLink } from '@angular/router';
+
 import { Component } from '@angular/core';
 import {
   ReactiveFormsModule,
@@ -53,4 +55,5 @@ export class LoginComponent {
       this.loginform.markAllAsTouched();
     }
   }
-}
+  
+  }
